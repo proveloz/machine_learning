@@ -1,0 +1,2185 @@
+[     9.485] (--) Log file renamed from "/var/log/Xorg.pid-1197.log" to "/var/log/Xorg.0.log"
+[     9.487] 
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+[     9.487] Build Operating System: Linux 4.4.0-143-generic x86_64 Ubuntu
+[     9.487] Current Operating System: Linux proveloz-z40 5.0.0-31-generic #33-Ubuntu SMP Mon Sep 30 18:51:59 UTC 2019 x86_64
+[     9.487] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.0.0-31-generic root=UUID=d9690e65-40c9-4e64-89ca-9ad20828ebac ro quiet splash vt.handoff=1
+[     9.487] Build Date: 03 April 2019  09:03:57AM
+[     9.487] xorg-server 2:1.20.4-1ubuntu3 (For technical support please see http://www.ubuntu.com/support) 
+[     9.487] Current version of pixman: 0.36.0
+[     9.487] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[     9.487] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[     9.488] (==) Log file: "/var/log/Xorg.0.log", Time: Mon Oct 21 23:36:26 2019
+[     9.488] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[     9.490] (==) No Layout section.  Using the first Screen section.
+[     9.490] (==) No screen section available. Using defaults.
+[     9.490] (**) |-->Screen "Default Screen Section" (0)
+[     9.490] (**) |   |-->Monitor "<default monitor>"
+[     9.491] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[     9.491] (==) Automatically adding devices
+[     9.491] (==) Automatically enabling devices
+[     9.491] (==) Automatically adding GPU devices
+[     9.491] (==) Automatically binding GPU devices
+[     9.491] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[     9.491] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[     9.491] 	Entry deleted from font path.
+[     9.491] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[     9.491] 	Entry deleted from font path.
+[     9.491] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[     9.491] 	Entry deleted from font path.
+[     9.491] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[     9.491] 	Entry deleted from font path.
+[     9.491] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[     9.491] 	Entry deleted from font path.
+[     9.492] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[     9.492] (==) ModulePath set to "/usr/lib/xorg/modules"
+[     9.492] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[     9.492] (II) Loader magic: 0x55fb48a3c020
+[     9.492] (II) Module ABI versions:
+[     9.492] 	X.Org ANSI C Emulation: 0.4
+[     9.492] 	X.Org Video Driver: 24.0
+[     9.492] 	X.Org XInput driver : 24.1
+[     9.492] 	X.Org Server Extension : 10.0
+[     9.493] (++) using VT number 2
+
+[     9.496] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
+[     9.498] (II) xfree86: Adding drm device (/dev/dri/card1)
+[     9.499] (II) systemd-logind: got fd for /dev/dri/card1 226:1 fd 12 paused 0
+[     9.500] (II) xfree86: Adding drm device (/dev/dri/card0)
+[     9.501] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 13 paused 0
+[     9.503] (**) OutputClass "Nvidia Prime" ModulePath extended to "/x86_64-linux-gnu/nvidia/xorg,/usr/lib/xorg/modules"
+[     9.503] (**) OutputClass "nvidia" ModulePath extended to "/usr/lib/nvidia-340/xorg,/x86_64-linux-gnu/nvidia/xorg,/usr/lib/xorg/modules"
+[     9.503] (**) OutputClass "Nvidia Prime" setting /dev/dri/card0 as PrimaryGPU
+[     9.504] (--) PCI: (0@0:2:0) 8086:0a16:17aa:380d rev 11, Mem @ 0xc3000000/4194304, 0xd0000000/268435456, I/O @ 0x00005000/64, BIOS @ 0x????????/131072
+[     9.504] (--) PCI:*(3@0:0:0) 10de:1140:17aa:380d rev 161, Mem @ 0xc2000000/16777216, 0xb0000000/268435456, 0xc0000000/33554432, I/O @ 0x00003000/128
+[     9.505] (II) LoadModule: "glx"
+[     9.505] (II) Loading /usr/lib/nvidia-340/xorg/libglx.so
+[     9.608] (II) Module glx: vendor="NVIDIA Corporation"
+[     9.608] 	compiled for 4.0.2, module version = 1.0.0
+[     9.608] 	Module class: X.Org Server Extension
+[     9.609] (II) NVIDIA GLX Module  340.107  Thu May 24 21:40:32 PDT 2018
+[     9.610] (II) Applying OutputClass "Nvidia Prime" to /dev/dri/card0
+[     9.610] 	loading driver: nvidia
+[     9.610] (II) Applying OutputClass "nvidia" to /dev/dri/card0
+[     9.610] 	loading driver: nvidia
+[     9.875] (==) Matched nvidia as autoconfigured driver 0
+[     9.875] (==) Matched nouveau as autoconfigured driver 1
+[     9.875] (==) Matched modesetting as autoconfigured driver 2
+[     9.875] (==) Matched fbdev as autoconfigured driver 3
+[     9.875] (==) Matched vesa as autoconfigured driver 4
+[     9.875] (==) Assigned the driver to the xf86ConfigLayout
+[     9.875] (II) LoadModule: "nvidia"
+[     9.875] (II) Loading /usr/lib/nvidia-340/xorg/nvidia_drv.so
+[     9.886] (II) Module nvidia: vendor="NVIDIA Corporation"
+[     9.886] 	compiled for 4.0.2, module version = 1.0.0
+[     9.886] 	Module class: X.Org Video Driver
+[     9.888] (II) LoadModule: "nouveau"
+[     9.894] (II) Loading /usr/lib/xorg/modules/drivers/nouveau_drv.so
+[     9.896] (II) Module nouveau: vendor="X.Org Foundation"
+[     9.896] 	compiled for 1.20.3, module version = 1.0.16
+[     9.896] 	Module class: X.Org Video Driver
+[     9.896] 	ABI class: X.Org Video Driver, version 24.0
+[     9.896] (II) LoadModule: "modesetting"
+[     9.896] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[     9.898] (II) Module modesetting: vendor="X.Org Foundation"
+[     9.898] 	compiled for 1.20.4, module version = 1.20.4
+[     9.898] 	Module class: X.Org Video Driver
+[     9.898] 	ABI class: X.Org Video Driver, version 24.0
+[     9.898] (II) LoadModule: "fbdev"
+[     9.898] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[     9.898] (II) Module fbdev: vendor="X.Org Foundation"
+[     9.899] 	compiled for 1.20.1, module version = 0.5.0
+[     9.899] 	Module class: X.Org Video Driver
+[     9.899] 	ABI class: X.Org Video Driver, version 24.0
+[     9.899] (II) LoadModule: "vesa"
+[     9.899] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[     9.900] (II) Module vesa: vendor="X.Org Foundation"
+[     9.900] 	compiled for 1.20.4, module version = 2.4.0
+[     9.900] 	Module class: X.Org Video Driver
+[     9.900] 	ABI class: X.Org Video Driver, version 24.0
+[     9.900] (II) NVIDIA dlloader X Driver  340.107  Thu May 24 21:18:05 PDT 2018
+[     9.900] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[     9.900] (II) NOUVEAU driver Date:   Mon Jan 28 23:25:58 2019 -0500
+[     9.900] (II) NOUVEAU driver for NVIDIA chipset families :
+[     9.900] 	RIVA TNT            (NV04)
+[     9.900] 	RIVA TNT2           (NV05)
+[     9.900] 	GeForce 256         (NV10)
+[     9.900] 	GeForce 2           (NV11, NV15)
+[     9.901] 	GeForce 4MX         (NV17, NV18)
+[     9.901] 	GeForce 3           (NV20)
+[     9.901] 	GeForce 4Ti         (NV25, NV28)
+[     9.901] 	GeForce FX          (NV3x)
+[     9.901] 	GeForce 6           (NV4x)
+[     9.901] 	GeForce 7           (G7x)
+[     9.901] 	GeForce 8           (G8x)
+[     9.901] 	GeForce 9           (G9x)
+[     9.901] 	GeForce GTX 2xx/3xx (GT2xx)
+[     9.901] 	GeForce GTX 4xx/5xx (GFxxx)
+[     9.901] 	GeForce GTX 6xx/7xx (GKxxx)
+[     9.901] 	GeForce GTX 9xx     (GMxxx)
+[     9.902] 	GeForce GTX 10xx    (GPxxx)
+[     9.902] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[     9.902] (II) FBDEV: driver for framebuffer: fbdev
+[     9.902] (II) VESA: driver for VESA chipsets: vesa
+[     9.903] (II) Loading sub module "fb"
+[     9.903] (II) LoadModule: "fb"
+[     9.903] (II) Loading /usr/lib/xorg/modules/libfb.so
+[     9.904] (II) Module fb: vendor="X.Org Foundation"
+[     9.904] 	compiled for 1.20.4, module version = 1.0.0
+[     9.904] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     9.904] (WW) Unresolved symbol: fbGetGCPrivateKey
+[     9.904] (II) Loading sub module "wfb"
+[     9.904] (II) LoadModule: "wfb"
+[     9.905] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[     9.906] (II) Module wfb: vendor="X.Org Foundation"
+[     9.906] 	compiled for 1.20.4, module version = 1.0.0
+[     9.906] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     9.906] (II) Loading sub module "ramdac"
+[     9.906] (II) LoadModule: "ramdac"
+[     9.906] (II) Module "ramdac" already built-in
+[     9.908] (WW) Falling back to old probe method for modesetting
+[     9.908] (WW) Falling back to old probe method for fbdev
+[     9.908] (II) Loading sub module "fbdevhw"
+[     9.909] (II) LoadModule: "fbdevhw"
+[     9.909] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[     9.909] (II) Module fbdevhw: vendor="X.Org Foundation"
+[     9.909] 	compiled for 1.20.4, module version = 0.0.2
+[     9.909] 	ABI class: X.Org Video Driver, version 24.0
+[     9.910] (II) modeset(G0): using drv /dev/dri/card1
+[     9.910] (II) NVIDIA(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[     9.910] (==) NVIDIA(0): Depth 24, (==) framebuffer bpp 32
+[     9.910] (==) NVIDIA(0): RGB weight 888
+[     9.910] (==) NVIDIA(0): Default visual is TrueColor
+[     9.910] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[     9.910] (II) Applying OutputClass "Nvidia Prime" options to /dev/dri/card0
+[     9.910] (**) NVIDIA(0): Option "AllowEmptyInitialConfiguration"
+[     9.910] (**) NVIDIA(0): Option "IgnoreDisplayDevices" "CRT"
+[     9.911] (**) NVIDIA(0): Enabling 2D acceleration
+[    10.043] (II) NVIDIA(GPU-0): Found DRM driver nvidia-drm (20150116)
+[    10.045] (II) NVIDIA(0): NVIDIA GPU GeForce 820M (GF117) at PCI:3:0:0 (GPU-0)
+[    10.045] (--) NVIDIA(0): Memory: 2097152 kBytes
+[    10.045] (--) NVIDIA(0): VideoBIOS: 75.17.79.00.0f
+[    10.045] (II) NVIDIA(0): Detected PCI Express Link width: 8X
+[    10.045] (--) NVIDIA(0): Valid display device(s) on GeForce 820M at PCI:3:0:0
+[    10.045] (--) NVIDIA(0):     none
+[    10.045] (II) NVIDIA(0): Validated MetaModes:
+[    10.045] (II) NVIDIA(0):     "NULL"
+[    10.045] (II) NVIDIA(0): Virtual screen size determined to be 640 x 480
+[    10.045] (WW) NVIDIA(0): Unable to get display device for DPI computation.
+[    10.045] (==) NVIDIA(0): DPI set to (75, 75); computed from built-in default
+[    10.045] (==) modeset(G0): Depth 24, (==) framebuffer bpp 32
+[    10.045] (==) modeset(G0): RGB weight 888
+[    10.045] (==) modeset(G0): Default visual is TrueColor
+[    10.045] (II) Loading sub module "glamoregl"
+[    10.045] (II) LoadModule: "glamoregl"
+[    10.045] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[    10.056] (II) Module glamoregl: vendor="X.Org Foundation"
+[    10.056] 	compiled for 1.20.4, module version = 1.0.1
+[    10.056] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    10.111] (EE) modeset(G0): eglGetDisplay() failed
+[    10.113] (EE) modeset(G0): glamor initialization failed
+[    10.113] (II) modeset(G0): ShadowFB: preferred YES, enabled YES
+[    10.113] (II) modeset(G0): Double-buffered shadow updates: off
+[    10.114] (II) modeset(G0): Output eDP-1-1 has no monitor section
+[    10.116] (II) modeset(G0): Output HDMI-1-1 has no monitor section
+[    10.116] (II) modeset(G0): Output DP-1-1 has no monitor section
+[    10.118] (II) modeset(G0): Output HDMI-1-2 has no monitor section
+[    10.119] (II) modeset(G0): EDID for output eDP-1-1
+[    10.119] (II) modeset(G0): Manufacturer: LGD  Model: 44c  Serial#: 0
+[    10.119] (II) modeset(G0): Year: 2013  Week: 0
+[    10.119] (II) modeset(G0): EDID Version: 1.4
+[    10.119] (II) modeset(G0): Digital Display Input
+[    10.119] (II) modeset(G0): 6 bits per channel
+[    10.119] (II) modeset(G0): Digital interface is DisplayPort
+[    10.119] (II) modeset(G0): Max Image Size [cm]: horiz.: 31  vert.: 17
+[    10.119] (II) modeset(G0): Gamma: 2.20
+[    10.119] (II) modeset(G0): DPMS capabilities: StandBy Suspend Off
+[    10.119] (II) modeset(G0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 
+[    10.119] (II) modeset(G0): First detailed timing is preferred mode
+[    10.119] (II) modeset(G0): Preferred mode is native pixel format and refresh rate
+[    10.119] (II) modeset(G0): redX: 0.579 redY: 0.344   greenX: 0.338 greenY: 0.569
+[    10.119] (II) modeset(G0): blueX: 0.158 blueY: 0.124   whiteX: 0.313 whiteY: 0.329
+[    10.120] (II) modeset(G0): Manufacturer's mask: 0
+[    10.120] (II) modeset(G0): Supported detailed timing:
+[    10.120] (II) modeset(G0): clock: 76.3 MHz   Image Size:  310 x 174 mm
+[    10.120] (II) modeset(G0): h_active: 1366  h_sync: 1414  h_sync_end 1446 h_blank_end 1610 h_border: 0
+[    10.120] (II) modeset(G0): v_active: 768  v_sync: 771  v_sync_end 776 v_blanking: 790 v_border: 0
+[    10.120] (II) modeset(G0):  LG Display
+[    10.120] (II) modeset(G0):  LP140WH2-TPSH
+[    10.120] (II) modeset(G0): EDID (in hex):
+[    10.120] (II) modeset(G0): 	00ffffffffffff0030e44c0400000000
+[    10.120] (II) modeset(G0): 	00170104951f1178ea4bb59458569128
+[    10.120] (II) modeset(G0): 	1f505400000001010101010101010101
+[    10.120] (II) modeset(G0): 	010101010101ce1d56f4500016303020
+[    10.120] (II) modeset(G0): 	350036ae100000190000000000000000
+[    10.120] (II) modeset(G0): 	00000000000000000000000000fe004c
+[    10.120] (II) modeset(G0): 	4720446973706c61790a2020000000fe
+[    10.120] (II) modeset(G0): 	004c503134305748322d5450534800f7
+[    10.120] (II) modeset(G0): Printing probed modes for output eDP-1-1
+[    10.120] (II) modeset(G0): Modeline "1366x768"x60.0   76.30  1366 1414 1446 1610  768 771 776 790 -hsync -vsync (47.4 kHz eP)
+[    10.120] (II) modeset(G0): Modeline "1360x768"x59.8   84.75  1360 1432 1568 1776  768 771 781 798 -hsync +vsync (47.7 kHz d)
+[    10.120] (II) modeset(G0): Modeline "1360x768"x60.0   72.00  1360 1408 1440 1520  768 771 781 790 +hsync -vsync (47.4 kHz d)
+[    10.120] (II) modeset(G0): Modeline "1280x720"x120.0  156.12  1280 1376 1512 1744  720 721 724 746 doublescan -hsync +vsync (89.5 kHz d)
+[    10.120] (II) modeset(G0): Modeline "1280x720"x120.0  120.75  1280 1304 1320 1360  720 721 724 740 doublescan +hsync -vsync (88.8 kHz d)
+[    10.120] (II) modeset(G0): Modeline "1280x720"x59.9   74.50  1280 1344 1472 1664  720 723 728 748 -hsync +vsync (44.8 kHz d)
+[    10.120] (II) modeset(G0): Modeline "1280x720"x59.7   63.75  1280 1328 1360 1440  720 723 728 741 +hsync -vsync (44.3 kHz d)
+[    10.120] (II) modeset(G0): Modeline "1024x768"x120.1  133.47  1024 1100 1212 1400  768 768 770 794 doublescan -hsync +vsync (95.3 kHz d)
+[    10.120] (II) modeset(G0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz d)
+[    10.120] (II) modeset(G0): Modeline "960x720"x120.0  117.00  960 1024 1128 1300  720 720 722 750 doublescan -hsync +vsync (90.0 kHz d)
+[    10.120] (II) modeset(G0): Modeline "928x696"x120.1  109.15  928 976 1088 1264  696 696 698 719 doublescan -hsync +vsync (86.4 kHz d)
+[    10.120] (II) modeset(G0): Modeline "896x672"x120.0  102.40  896 960 1060 1224  672 672 674 697 doublescan -hsync +vsync (83.7 kHz d)
+[    10.120] (II) modeset(G0): Modeline "1024x576"x119.9   98.50  1024 1092 1200 1376  576 577 580 597 doublescan -hsync +vsync (71.6 kHz d)
+[    10.120] (II) modeset(G0): Modeline "1024x576"x119.9   78.38  1024 1048 1064 1104  576 577 580 592 doublescan +hsync -vsync (71.0 kHz d)
+[    10.120] (II) modeset(G0): Modeline "1024x576"x59.9   46.50  1024 1064 1160 1296  576 579 584 599 -hsync +vsync (35.9 kHz d)
+[    10.120] (II) modeset(G0): Modeline "1024x576"x59.8   42.00  1024 1072 1104 1184  576 579 584 593 +hsync -vsync (35.5 kHz d)
+[    10.120] (II) modeset(G0): Modeline "960x600"x119.9   96.62  960 1028 1128 1296  600 601 604 622 doublescan -hsync +vsync (74.6 kHz d)
+[    10.120] (II) modeset(G0): Modeline "960x600"x120.0   77.00  960 984 1000 1040  600 601 604 617 doublescan +hsync -vsync (74.0 kHz d)
+[    10.120] (II) modeset(G0): Modeline "960x540"x119.9   86.50  960 1024 1124 1288  540 541 544 560 doublescan -hsync +vsync (67.2 kHz d)
+[    10.120] (II) modeset(G0): Modeline "960x540"x120.0   69.25  960 984 1000 1040  540 541 544 555 doublescan +hsync -vsync (66.6 kHz d)
+[    10.120] (II) modeset(G0): Modeline "960x540"x59.6   40.75  960 992 1088 1216  540 543 548 562 -hsync +vsync (33.5 kHz d)
+[    10.120] (II) modeset(G0): Modeline "960x540"x59.8   37.25  960 1008 1040 1120  540 543 548 556 +hsync -vsync (33.3 kHz d)
+[    10.121] (II) modeset(G0): Modeline "800x600"x120.0   81.00  800 832 928 1080  600 600 602 625 doublescan +hsync +vsync (75.0 kHz d)
+[    10.121] (II) modeset(G0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz d)
+[    10.121] (II) modeset(G0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz d)
+[    10.121] (II) modeset(G0): Modeline "840x525"x120.0   73.12  840 892 980 1120  525 526 529 544 doublescan -hsync +vsync (65.3 kHz d)
+[    10.121] (II) modeset(G0): Modeline "840x525"x119.8   59.50  840 864 880 920  525 526 529 540 doublescan +hsync -vsync (64.7 kHz d)
+[    10.121] (II) modeset(G0): Modeline "864x486"x59.9   32.50  864 888 968 1072  486 489 494 506 -hsync +vsync (30.3 kHz d)
+[    10.121] (II) modeset(G0): Modeline "864x486"x59.6   30.50  864 912 944 1024  486 489 494 500 +hsync -vsync (29.8 kHz d)
+[    10.121] (II) modeset(G0): Modeline "800x512"x120.3   51.56  800 800 828 832  512 512 514 515 doublescan +hsync +vsync (62.0 kHz d)
+[    10.121] (II) modeset(G0): Modeline "700x525"x120.0   61.00  700 744 820 940  525 526 532 541 doublescan +hsync +vsync (64.9 kHz d)
+[    10.121] (II) modeset(G0): Modeline "800x450"x119.9   59.12  800 848 928 1056  450 451 454 467 doublescan -hsync +vsync (56.0 kHz d)
+[    10.121] (II) modeset(G0): Modeline "800x450"x119.6   48.75  800 824 840 880  450 451 454 463 doublescan +hsync -vsync (55.4 kHz d)
+[    10.121] (II) modeset(G0): Modeline "640x512"x120.0   54.00  640 664 720 844  512 512 514 533 doublescan +hsync +vsync (64.0 kHz d)
+[    10.121] (II) modeset(G0): Modeline "720x450"x119.8   53.25  720 760 836 952  450 451 454 467 doublescan -hsync +vsync (55.9 kHz d)
+[    10.121] (II) modeset(G0): Modeline "700x450"x119.9   51.75  700 740 812 924  450 451 456 467 doublescan -hsync +vsync (56.0 kHz d)
+[    10.121] (II) modeset(G0): Modeline "700x450"x119.8   43.25  700 724 740 780  450 451 456 463 doublescan +hsync -vsync (55.4 kHz d)
+[    10.121] (II) modeset(G0): Modeline "640x480"x120.0   54.00  640 688 744 900  480 480 482 500 doublescan +hsync +vsync (60.0 kHz d)
+[    10.121] (II) modeset(G0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz d)
+[    10.121] (II) modeset(G0): Modeline "720x405"x59.5   22.50  720 744 808 896  405 408 413 422 -hsync +vsync (25.1 kHz d)
+[    10.121] (II) modeset(G0): Modeline "720x405"x59.0   21.75  720 768 800 880  405 408 413 419 +hsync -vsync (24.7 kHz d)
+[    10.121] (II) modeset(G0): Modeline "684x384"x119.8   42.62  684 720 788 892  384 385 390 399 doublescan -hsync +vsync (47.8 kHz d)
+[    10.121] (II) modeset(G0): Modeline "684x384"x119.7   36.12  684 708 724 764  384 385 390 395 doublescan +hsync -vsync (47.3 kHz d)
+[    10.121] (II) modeset(G0): Modeline "680x384"x119.6   42.38  680 716 784 888  384 385 390 399 doublescan -hsync +vsync (47.7 kHz d)
+[    10.121] (II) modeset(G0): Modeline "680x384"x119.9   36.00  680 704 720 760  384 385 390 395 doublescan +hsync -vsync (47.4 kHz d)
+[    10.121] (II) modeset(G0): Modeline "640x400"x119.8   41.75  640 676 740 840  400 401 404 415 doublescan -hsync +vsync (49.7 kHz d)
+[    10.121] (II) modeset(G0): Modeline "640x400"x120.0   35.50  640 664 680 720  400 401 404 411 doublescan +hsync -vsync (49.3 kHz d)
+[    10.121] (II) modeset(G0): Modeline "576x432"x120.1   40.81  576 608 668 760  432 432 434 447 doublescan -hsync +vsync (53.7 kHz d)
+[    10.121] (II) modeset(G0): Modeline "640x360"x119.7   37.25  640 672 736 832  360 361 364 374 doublescan -hsync +vsync (44.8 kHz d)
+[    10.121] (II) modeset(G0): Modeline "640x360"x119.7   31.88  640 664 680 720  360 361 364 370 doublescan +hsync -vsync (44.3 kHz d)
+[    10.121] (II) modeset(G0): Modeline "640x360"x59.8   18.00  640 664 720 800  360 363 368 376 -hsync +vsync (22.5 kHz d)
+[    10.121] (II) modeset(G0): Modeline "640x360"x59.3   17.75  640 688 720 800  360 363 368 374 +hsync -vsync (22.2 kHz d)
+[    10.121] (II) modeset(G0): Modeline "512x384"x120.0   32.50  512 524 592 672  384 385 388 403 doublescan -hsync -vsync (48.4 kHz d)
+[    10.121] (II) modeset(G0): Modeline "512x288"x120.0   23.25  512 532 580 648  288 289 292 299 doublescan -hsync +vsync (35.9 kHz d)
+[    10.121] (II) modeset(G0): Modeline "512x288"x119.8   21.00  512 536 552 592  288 289 292 296 doublescan +hsync -vsync (35.5 kHz d)
+[    10.121] (II) modeset(G0): Modeline "480x270"x119.3   20.38  480 496 544 608  270 271 274 281 doublescan -hsync +vsync (33.5 kHz d)
+[    10.121] (II) modeset(G0): Modeline "480x270"x119.6   18.62  480 504 520 560  270 271 274 278 doublescan +hsync -vsync (33.3 kHz d)
+[    10.121] (II) modeset(G0): Modeline "400x300"x120.6   20.00  400 420 484 528  300 300 302 314 doublescan +hsync +vsync (37.9 kHz d)
+[    10.121] (II) modeset(G0): Modeline "400x300"x112.7   18.00  400 412 448 512  300 300 301 312 doublescan +hsync +vsync (35.2 kHz d)
+[    10.121] (II) modeset(G0): Modeline "432x243"x119.8   16.25  432 444 484 536  243 244 247 253 doublescan -hsync +vsync (30.3 kHz d)
+[    10.121] (II) modeset(G0): Modeline "432x243"x119.1   15.25  432 456 472 512  243 244 247 250 doublescan +hsync -vsync (29.8 kHz d)
+[    10.121] (II) modeset(G0): Modeline "320x240"x120.1   12.59  320 328 376 400  240 245 246 262 doublescan -hsync -vsync (31.5 kHz d)
+[    10.121] (II) modeset(G0): Modeline "360x202"x119.0   11.25  360 372 404 448  202 204 206 211 doublescan -hsync +vsync (25.1 kHz d)
+[    10.121] (II) modeset(G0): Modeline "360x202"x118.3   10.88  360 384 400 440  202 204 206 209 doublescan +hsync -vsync (24.7 kHz d)
+[    10.121] (II) modeset(G0): Modeline "320x180"x119.7    9.00  320 332 360 400  180 181 184 188 doublescan -hsync +vsync (22.5 kHz d)
+[    10.121] (II) modeset(G0): Modeline "320x180"x118.6    8.88  320 344 360 400  180 181 184 187 doublescan +hsync -vsync (22.2 kHz d)
+[    10.122] (II) modeset(G0): EDID for output HDMI-1-1
+[    10.123] (II) modeset(G0): EDID for output DP-1-1
+[    10.124] (II) modeset(G0): EDID for output HDMI-1-2
+[    10.124] (==) modeset(G0): Using gamma correction (1.0, 1.0, 1.0)
+[    10.124] (==) modeset(G0): DPI set to (96, 96)
+[    10.124] (II) Loading sub module "fb"
+[    10.124] (II) LoadModule: "fb"
+[    10.124] (II) Loading /usr/lib/xorg/modules/libfb.so
+[    10.124] (II) Module fb: vendor="X.Org Foundation"
+[    10.124] 	compiled for 1.20.4, module version = 1.0.0
+[    10.124] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    10.124] (II) Loading sub module "shadow"
+[    10.124] (II) LoadModule: "shadow"
+[    10.125] (II) Loading /usr/lib/xorg/modules/libshadow.so
+[    10.126] (II) Module shadow: vendor="X.Org Foundation"
+[    10.126] 	compiled for 1.20.4, module version = 1.1.0
+[    10.126] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    10.126] (II) UnloadModule: "nouveau"
+[    10.126] (II) Unloading nouveau
+[    10.126] (II) UnloadModule: "fbdev"
+[    10.126] (II) Unloading fbdev
+[    10.126] (II) UnloadSubModule: "fbdevhw"
+[    10.126] (II) Unloading fbdevhw
+[    10.126] (II) UnloadModule: "vesa"
+[    10.126] (II) Unloading vesa
+[    10.128] (==) modeset(G0): Backing store enabled
+[    10.128] (==) modeset(G0): Silken mouse enabled
+[    10.189] (II) modeset(G0): Initializing kms color map for depth 24, 8 bpc.
+[    10.189] (==) modeset(G0): DPMS enabled
+[    10.190] (II) NVIDIA: Using 3072.00 MB of virtual memory for indirect memory
+[    10.190] (II) NVIDIA:     access.
+[    10.195] (II) NVIDIA(0): Setting mode "NULL"
+[    10.195] (EE) NVIDIA(0): Failed to initiate mode change.
+[    10.195] (EE) NVIDIA(0): Failed to complete mode change
+[    10.213] (II) NVIDIA(0): Built-in logo is bigger than the screen.
+[    10.219] (==) NVIDIA(0): Disabling shared memory pixmaps
+[    10.219] (==) NVIDIA(0): Backing store enabled
+[    10.219] (==) NVIDIA(0): Silken mouse enabled
+[    10.219] (==) NVIDIA(0): DPMS enabled
+[    10.220] (WW) NVIDIA(0): Option "PrimaryGPU" is not used
+[    10.220] (II) Loading sub module "dri2"
+[    10.220] (II) LoadModule: "dri2"
+[    10.220] (II) Module "dri2" already built-in
+[    10.220] (II) NVIDIA(0): [DRI2] Setup complete
+[    10.220] (II) NVIDIA(0): [DRI2]   VDPAU driver: nvidia
+[    10.220] (II) Initializing extension Generic Event Extension
+[    10.221] (II) Initializing extension SHAPE
+[    10.221] (II) Initializing extension MIT-SHM
+[    10.221] (II) Initializing extension XInputExtension
+[    10.222] (II) Initializing extension XTEST
+[    10.222] (II) Initializing extension BIG-REQUESTS
+[    10.223] (II) Initializing extension SYNC
+[    10.223] (II) Initializing extension XKEYBOARD
+[    10.223] (II) Initializing extension XC-MISC
+[    10.224] (II) Initializing extension SECURITY
+[    10.224] (II) Initializing extension XFIXES
+[    10.224] (II) Initializing extension RENDER
+[    10.225] (II) Initializing extension RANDR
+[    10.225] (II) Initializing extension COMPOSITE
+[    10.225] (II) Initializing extension DAMAGE
+[    10.226] (II) Initializing extension MIT-SCREEN-SAVER
+[    10.226] (II) Initializing extension DOUBLE-BUFFER
+[    10.226] (II) Initializing extension RECORD
+[    10.227] (II) Initializing extension DPMS
+[    10.227] (II) Initializing extension Present
+[    10.227] (II) Initializing extension DRI3
+[    10.227] (II) Initializing extension X-Resource
+[    10.228] (II) Initializing extension XVideo
+[    10.228] (II) Initializing extension XVideo-MotionCompensation
+[    10.228] (II) Initializing extension SELinux
+[    10.228] (II) SELinux: Disabled on system
+[    10.228] (II) Initializing extension XFree86-VidModeExtension
+[    10.228] (II) Initializing extension XFree86-DGA
+[    10.229] (II) Initializing extension XFree86-DRI
+[    10.229] (II) Initializing extension DRI2
+[    10.230] (II) Initializing extension GLX
+[    10.230] (II) Initializing extension GLX
+[    10.230] (II) Indirect GLX disabled.(II) Initializing extension NV-GLX
+[    10.230] (II) Initializing extension NV-CONTROL
+[    10.508] (II) modeset(G0): Damage tracking initialized
+[    10.652] (II) config/udev: Adding input device Power Button (/dev/input/event2)
+[    10.652] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    10.652] (II) LoadModule: "libinput"
+[    10.652] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    10.657] (II) Module libinput: vendor="X.Org Foundation"
+[    10.657] 	compiled for 1.20.4, module version = 0.28.2
+[    10.657] 	Module class: X.Org XInput Driver
+[    10.657] 	ABI class: X.Org XInput driver, version 24.1
+[    10.657] (II) Using input driver 'libinput' for 'Power Button'
+[    10.658] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 39 paused 0
+[    10.658] (**) Power Button: always reports core events
+[    10.658] (**) Option "Device" "/dev/input/event2"
+[    10.658] (**) Option "_source" "server/udev"
+[    10.666] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[    10.666] (II) event2  - Power Button: device is a keyboard
+[    10.666] (II) event2  - Power Button: device removed
+[    10.667] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input2/event2"
+[    10.667] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    10.667] (**) Option "xkb_layout" "latam"
+[    10.704] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[    10.704] (II) event2  - Power Button: device is a keyboard
+[    10.705] (II) config/udev: Adding input device Video Bus (/dev/input/event10)
+[    10.705] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    10.705] (II) Using input driver 'libinput' for 'Video Bus'
+[    10.711] (II) systemd-logind: got fd for /dev/input/event10 13:74 fd 42 paused 0
+[    10.712] (**) Video Bus: always reports core events
+[    10.712] (**) Option "Device" "/dev/input/event10"
+[    10.712] (**) Option "_source" "server/udev"
+[    10.713] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[    10.713] (II) event10 - Video Bus: device is a keyboard
+[    10.713] (II) event10 - Video Bus: device removed
+[    10.713] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:01/input/input11/event10"
+[    10.713] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[    10.713] (**) Option "xkb_layout" "latam"
+[    10.715] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[    10.715] (II) event10 - Video Bus: device is a keyboard
+[    10.716] (II) config/udev: Adding input device Video Bus (/dev/input/event7)
+[    10.716] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    10.717] (II) Using input driver 'libinput' for 'Video Bus'
+[    10.718] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 43 paused 0
+[    10.719] (**) Video Bus: always reports core events
+[    10.719] (**) Option "Device" "/dev/input/event7"
+[    10.719] (**) Option "_source" "server/udev"
+[    10.721] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[    10.721] (II) event7  - Video Bus: device is a keyboard
+[    10.721] (II) event7  - Video Bus: device removed
+[    10.721] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:31/LNXVIDEO:00/input/input8/event7"
+[    10.721] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+[    10.721] (**) Option "xkb_layout" "latam"
+[    10.723] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[    10.724] (II) event7  - Video Bus: device is a keyboard
+[    10.724] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[    10.724] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    10.724] (II) Using input driver 'libinput' for 'Power Button'
+[    10.725] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 44 paused 0
+[    10.725] (**) Power Button: always reports core events
+[    10.725] (**) Option "Device" "/dev/input/event1"
+[    10.725] (**) Option "_source" "server/udev"
+[    10.727] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[    10.727] (II) event1  - Power Button: device is a keyboard
+[    10.727] (II) event1  - Power Button: device removed
+[    10.727] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1/event1"
+[    10.727] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 9)
+[    10.727] (**) Option "xkb_layout" "latam"
+[    10.728] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[    10.728] (II) event1  - Power Button: device is a keyboard
+[    10.729] (II) config/udev: Adding input device Lid Switch (/dev/input/event0)
+[    10.729] (II) No input driver specified, ignoring this device.
+[    10.729] (II) This device may have been added with another device file.
+[    10.730] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=3 (/dev/input/event11)
+[    10.730] (II) No input driver specified, ignoring this device.
+[    10.730] (II) This device may have been added with another device file.
+[    10.731] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=7 (/dev/input/event12)
+[    10.731] (II) No input driver specified, ignoring this device.
+[    10.731] (II) This device may have been added with another device file.
+[    10.732] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=8 (/dev/input/event13)
+[    10.732] (II) No input driver specified, ignoring this device.
+[    10.732] (II) This device may have been added with another device file.
+[    10.732] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=9 (/dev/input/event14)
+[    10.732] (II) No input driver specified, ignoring this device.
+[    10.732] (II) This device may have been added with another device file.
+[    10.733] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=10 (/dev/input/event15)
+[    10.733] (II) No input driver specified, ignoring this device.
+[    10.733] (II) This device may have been added with another device file.
+[    10.734] (II) config/udev: Adding input device Lenovo EasyCamera: Lenovo EasyC (/dev/input/event6)
+[    10.734] (**) Lenovo EasyCamera: Lenovo EasyC: Applying InputClass "libinput keyboard catchall"
+[    10.734] (II) Using input driver 'libinput' for 'Lenovo EasyCamera: Lenovo EasyC'
+[    10.735] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 45 paused 0
+[    10.735] (**) Lenovo EasyCamera: Lenovo EasyC: always reports core events
+[    10.735] (**) Option "Device" "/dev/input/event6"
+[    10.735] (**) Option "_source" "server/udev"
+[    10.737] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: is tagged by udev as: Keyboard
+[    10.737] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device is a keyboard
+[    10.737] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device removed
+[    10.737] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-6/2-6:1.0/input/input7/event6"
+[    10.737] (II) XINPUT: Adding extended input device "Lenovo EasyCamera: Lenovo EasyC" (type: KEYBOARD, id 10)
+[    10.737] (**) Option "xkb_layout" "latam"
+[    10.739] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: is tagged by udev as: Keyboard
+[    10.739] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device is a keyboard
+[    10.740] (II) config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event9)
+[    10.740] (II) No input driver specified, ignoring this device.
+[    10.740] (II) This device may have been added with another device file.
+[    10.740] (II) config/udev: Adding input device HDA Intel PCH Mic (/dev/input/event8)
+[    10.740] (II) No input driver specified, ignoring this device.
+[    10.740] (II) This device may have been added with another device file.
+[    10.741] (II) config/udev: Adding input device Ideapad extra buttons (/dev/input/event5)
+[    10.741] (**) Ideapad extra buttons: Applying InputClass "libinput keyboard catchall"
+[    10.741] (II) Using input driver 'libinput' for 'Ideapad extra buttons'
+[    10.743] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 46 paused 0
+[    10.743] (**) Ideapad extra buttons: always reports core events
+[    10.743] (**) Option "Device" "/dev/input/event5"
+[    10.743] (**) Option "_source" "server/udev"
+[    10.745] (II) event5  - Ideapad extra buttons: is tagged by udev as: Keyboard
+[    10.745] (II) event5  - Ideapad extra buttons: device is a keyboard
+[    10.745] (II) event5  - Ideapad extra buttons: device removed
+[    10.745] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1f.0/PNP0C09:00/VPC2004:00/input/input6/event5"
+[    10.745] (II) XINPUT: Adding extended input device "Ideapad extra buttons" (type: KEYBOARD, id 11)
+[    10.745] (**) Option "xkb_layout" "latam"
+[    10.746] (II) event5  - Ideapad extra buttons: is tagged by udev as: Keyboard
+[    10.746] (II) event5  - Ideapad extra buttons: device is a keyboard
+[    10.747] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event3)
+[    10.747] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[    10.747] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    10.748] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 47 paused 0
+[    10.748] (**) AT Translated Set 2 keyboard: always reports core events
+[    10.748] (**) Option "Device" "/dev/input/event3"
+[    10.748] (**) Option "_source" "server/udev"
+[    10.750] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    10.750] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[    10.751] (II) event3  - AT Translated Set 2 keyboard: device removed
+[    10.751] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input3/event3"
+[    10.751] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 12)
+[    10.751] (**) Option "xkb_layout" "latam"
+[    10.753] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    10.753] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[    10.754] (II) config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/event4)
+[    10.754] (**) ETPS/2 Elantech Touchpad: Applying InputClass "libinput touchpad catchall"
+[    10.754] (II) Using input driver 'libinput' for 'ETPS/2 Elantech Touchpad'
+[    10.755] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 48 paused 0
+[    10.755] (**) ETPS/2 Elantech Touchpad: always reports core events
+[    10.755] (**) Option "Device" "/dev/input/event4"
+[    10.755] (**) Option "_source" "server/udev"
+[    10.757] (II) event4  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[    10.759] (II) event4  - ETPS/2 Elantech Touchpad: device is a touchpad
+[    10.759] (II) event4  - ETPS/2 Elantech Touchpad: device removed
+[    10.759] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input5/event4"
+[    10.759] (II) XINPUT: Adding extended input device "ETPS/2 Elantech Touchpad" (type: TOUCHPAD, id 13)
+[    10.760] (**) Option "AccelerationScheme" "none"
+[    10.760] (**) ETPS/2 Elantech Touchpad: (accel) selected scheme none/0
+[    10.760] (**) ETPS/2 Elantech Touchpad: (accel) acceleration factor: 2.000
+[    10.760] (**) ETPS/2 Elantech Touchpad: (accel) acceleration threshold: 4
+[    10.761] (II) event4  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[    10.763] (II) event4  - ETPS/2 Elantech Touchpad: device is a touchpad
+[    10.763] (II) config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/mouse0)
+[    10.763] (II) No input driver specified, ignoring this device.
+[    10.763] (II) This device may have been added with another device file.
+[    15.255] randr: falling back to unsynchronized pixmap sharing
+[  5879.830] (EE) event4  - ETPS/2 Elantech Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.6/touchpad-jumping-cursors.html for details
+[  6009.912] (**) Option "fd" "39"
+[  6009.912] (II) event2  - Power Button: device removed
+[  6009.914] (**) Option "fd" "42"
+[  6009.914] (II) event10 - Video Bus: device removed
+[  6009.915] (**) Option "fd" "43"
+[  6009.915] (II) event7  - Video Bus: device removed
+[  6009.916] (**) Option "fd" "44"
+[  6009.916] (II) event1  - Power Button: device removed
+[  6009.917] (**) Option "fd" "45"
+[  6009.917] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device removed
+[  6009.919] (**) Option "fd" "46"
+[  6009.919] (II) event5  - Ideapad extra buttons: device removed
+[  6009.920] (**) Option "fd" "47"
+[  6009.920] (II) event3  - AT Translated Set 2 keyboard: device removed
+[  6009.921] (**) Option "fd" "48"
+[  6009.921] (II) event4  - ETPS/2 Elantech Touchpad: device removed
+[  6009.974] (II) systemd-logind: got pause for 13:70
+[  6011.612] (II) systemd-logind: got pause for 13:69
+[  6011.612] (II) systemd-logind: got pause for 226:1
+[  6011.612] (II) systemd-logind: got pause for 13:67
+[  6011.612] (II) systemd-logind: got pause for 13:66
+[  6011.612] (II) systemd-logind: got pause for 13:74
+[  6011.612] (II) systemd-logind: got pause for 13:71
+[  6011.612] (II) systemd-logind: got pause for 226:0
+[  6011.612] (II) systemd-logind: got pause for 13:65
+[  6011.612] (II) systemd-logind: got pause for 13:68
+[  6011.840] (II) systemd-logind: got resume for 13:70
+[  6011.840] (II) systemd-logind: got resume for 13:69
+[  6011.846] (II) systemd-logind: got resume for 226:1
+[  6011.846] (II) systemd-logind: got resume for 13:67
+[  6011.847] (II) systemd-logind: got resume for 13:66
+[  6011.875] (II) systemd-logind: got resume for 13:74
+[  6011.901] (II) systemd-logind: got resume for 13:71
+[  6011.902] (II) systemd-logind: got resume for 226:0
+[  6011.902] (II) NVIDIA(0): Setting mode "NULL"
+[  6011.902] (EE) NVIDIA(0): Failed to initiate mode change.
+[  6011.902] (EE) NVIDIA(0): Failed to complete mode change
+[  6012.069] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[  6012.069] (II) event2  - Power Button: device is a keyboard
+[  6012.074] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[  6012.074] (II) event10 - Video Bus: device is a keyboard
+[  6012.082] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[  6012.082] (II) event7  - Video Bus: device is a keyboard
+[  6012.092] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: is tagged by udev as: Keyboard
+[  6012.092] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device is a keyboard
+[  6012.096] (II) event5  - Ideapad extra buttons: is tagged by udev as: Keyboard
+[  6012.096] (II) event5  - Ideapad extra buttons: device is a keyboard
+[  6012.099] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[  6012.099] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[  6012.102] (II) systemd-logind: got resume for 13:65
+[  6012.104] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[  6012.104] (II) event1  - Power Button: device is a keyboard
+[  6012.106] (II) systemd-logind: got resume for 13:68
+[  6012.110] (II) event4  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[  6012.112] (II) event4  - ETPS/2 Elantech Touchpad: device is a touchpad
+[  6018.287] (II) config/udev: Adding input device Logitech Gaming Mouse G502 (/dev/input/mouse1)
+[  6018.287] (II) No input driver specified, ignoring this device.
+[  6018.287] (II) This device may have been added with another device file.
+[  6018.348] (II) config/udev: Adding input device Logitech Gaming Mouse G502 System Control (/dev/input/event19)
+[  6018.348] (**) Logitech Gaming Mouse G502 System Control: Applying InputClass "libinput keyboard catchall"
+[  6018.348] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502 System Control'
+[  6018.350] (II) systemd-logind: got fd for /dev/input/event19 13:83 fd 82 paused 0
+[  6018.350] (**) Logitech Gaming Mouse G502 System Control: always reports core events
+[  6018.350] (**) Option "Device" "/dev/input/event19"
+[  6018.350] (**) Option "_source" "server/udev"
+[  6018.356] (II) event19 - Logitech Gaming Mouse G502 System Control: is tagged by udev as: Keyboard
+[  6018.356] (II) event19 - Logitech Gaming Mouse G502 System Control: device is a keyboard
+[  6018.357] (II) event19 - Logitech Gaming Mouse G502 System Control: device removed
+[  6018.357] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.1/0003:046D:C07D.0002/input/input20/event19"
+[  6018.357] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502 System Control" (type: KEYBOARD, id 14)
+[  6018.357] (**) Option "xkb_layout" "latam"
+[  6018.363] (II) event19 - Logitech Gaming Mouse G502 System Control: is tagged by udev as: Keyboard
+[  6018.363] (II) event19 - Logitech Gaming Mouse G502 System Control: device is a keyboard
+[  6018.368] (II) config/udev: Adding input device Logitech Gaming Mouse G502 Keyboard (/dev/input/event17)
+[  6018.368] (**) Logitech Gaming Mouse G502 Keyboard: Applying InputClass "libinput keyboard catchall"
+[  6018.368] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502 Keyboard'
+[  6018.369] (II) systemd-logind: got fd for /dev/input/event17 13:81 fd 83 paused 0
+[  6018.370] (**) Logitech Gaming Mouse G502 Keyboard: always reports core events
+[  6018.370] (**) Option "Device" "/dev/input/event17"
+[  6018.370] (**) Option "_source" "server/udev"
+[  6018.373] (II) event17 - Logitech Gaming Mouse G502 Keyboard: is tagged by udev as: Keyboard
+[  6018.378] (II) event17 - Logitech Gaming Mouse G502 Keyboard: device is a keyboard
+[  6018.379] (II) event17 - Logitech Gaming Mouse G502 Keyboard: device removed
+[  6018.380] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.1/0003:046D:C07D.0002/input/input18/event17"
+[  6018.381] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502 Keyboard" (type: KEYBOARD, id 15)
+[  6018.381] (**) Option "xkb_layout" "latam"
+[  6018.390] (II) event17 - Logitech Gaming Mouse G502 Keyboard: is tagged by udev as: Keyboard
+[  6018.390] (II) event17 - Logitech Gaming Mouse G502 Keyboard: device is a keyboard
+[  6018.396] (II) config/udev: Adding input device Logitech Gaming Mouse G502 (/dev/input/event16)
+[  6018.396] (**) Logitech Gaming Mouse G502: Applying InputClass "libinput pointer catchall"
+[  6018.396] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502'
+[  6018.454] (II) systemd-logind: got fd for /dev/input/event16 13:80 fd 84 paused 0
+[  6018.454] (**) Logitech Gaming Mouse G502: always reports core events
+[  6018.454] (**) Option "Device" "/dev/input/event16"
+[  6018.454] (**) Option "_source" "server/udev"
+[  6018.458] (II) event16 - Logitech Gaming Mouse G502: is tagged by udev as: Mouse
+[  6018.458] (II) event16 - Logitech Gaming Mouse G502: device is a pointer
+[  6018.459] (II) event16 - Logitech Gaming Mouse G502: device removed
+[  6018.459] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.0/0003:046D:C07D.0001/input/input17/event16"
+[  6018.459] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502" (type: MOUSE, id 16)
+[  6018.461] (**) Option "AccelerationScheme" "none"
+[  6018.463] (**) Logitech Gaming Mouse G502: (accel) selected scheme none/0
+[  6018.463] (**) Logitech Gaming Mouse G502: (accel) acceleration factor: 2.000
+[  6018.463] (**) Logitech Gaming Mouse G502: (accel) acceleration threshold: 4
+[  6018.466] (II) event16 - Logitech Gaming Mouse G502: is tagged by udev as: Mouse
+[  6018.466] (II) event16 - Logitech Gaming Mouse G502: device is a pointer
+[  6018.470] (II) config/udev: Adding input device Logitech Gaming Mouse G502 Consumer Control (/dev/input/event18)
+[  6018.470] (**) Logitech Gaming Mouse G502 Consumer Control: Applying InputClass "libinput keyboard catchall"
+[  6018.470] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502 Consumer Control'
+[  6018.472] (II) systemd-logind: got fd for /dev/input/event18 13:82 fd 85 paused 0
+[  6018.472] (**) Logitech Gaming Mouse G502 Consumer Control: always reports core events
+[  6018.472] (**) Option "Device" "/dev/input/event18"
+[  6018.472] (**) Option "_source" "server/udev"
+[  6018.477] (II) event18 - Logitech Gaming Mouse G502 Consumer Control: is tagged by udev as: Keyboard
+[  6018.477] (II) event18 - Logitech Gaming Mouse G502 Consumer Control: device is a keyboard
+[  6018.478] (II) event18 - Logitech Gaming Mouse G502 Consumer Control: device removed
+[  6018.478] (II) libinput: Logitech Gaming Mouse G502 Consumer Control: needs a virtual subdevice
+[  6018.478] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.1/0003:046D:C07D.0002/input/input19/event18"
+[  6018.478] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502 Consumer Control" (type: MOUSE, id 17)
+[  6018.480] (**) Option "AccelerationScheme" "none"
+[  6018.482] (**) Logitech Gaming Mouse G502 Consumer Control: (accel) selected scheme none/0
+[  6018.482] (**) Logitech Gaming Mouse G502 Consumer Control: (accel) acceleration factor: 2.000
+[  6018.482] (**) Logitech Gaming Mouse G502 Consumer Control: (accel) acceleration threshold: 4
+[  6018.485] (II) event18 - Logitech Gaming Mouse G502 Consumer Control: is tagged by udev as: Keyboard
+[  6018.485] (II) event18 - Logitech Gaming Mouse G502 Consumer Control: device is a keyboard
+[  6018.487] (**) Logitech Gaming Mouse G502 Consumer Control: Applying InputClass "libinput keyboard catchall"
+[  6018.487] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502 Consumer Control'
+[  6018.487] (II) systemd-logind: returning pre-existing fd for /dev/input/event18 13:82
+[  6018.487] (**) Logitech Gaming Mouse G502 Consumer Control: always reports core events
+[  6018.487] (**) Option "Device" "/dev/input/event18"
+[  6018.487] (**) Option "_source" "_driver/libinput"
+[  6018.487] (II) libinput: Logitech Gaming Mouse G502 Consumer Control: is a virtual subdevice
+[  6018.487] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.1/0003:046D:C07D.0002/input/input19/event18"
+[  6018.487] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502 Consumer Control" (type: KEYBOARD, id 18)
+[  6018.487] (**) Option "xkb_layout" "latam"
+[  6338.555] randr: falling back to unsynchronized pixmap sharing
+[ 10720.411] (II) event16 - Logitech Gaming Mouse G502: SYN_DROPPED event - some input events have been lost.
+[ 11545.091] (II) event16 - Logitech Gaming Mouse G502: SYN_DROPPED event - some input events have been lost.
+[ 15496.489] (EE) client bug: timer event16 debounce short: offset negative (-0ms)
+[ 32471.260] (II) config/udev: removing device Logitech Gaming Mouse G502
+[ 32471.260] (**) Option "fd" "84"
+[ 32471.260] (II) event16 - Logitech Gaming Mouse G502: device removed
+[ 32471.289] (II) UnloadModule: "libinput"
+[ 32471.289] (II) systemd-logind: releasing fd for 13:80
+[ 32471.292] (EE) systemd-logind: failed to release device: Device not taken
+[ 32471.321] (II) config/udev: removing device Logitech Gaming Mouse G502 Keyboard
+[ 32471.322] (**) Option "fd" "83"
+[ 32471.322] (II) event17 - Logitech Gaming Mouse G502 Keyboard: device removed
+[ 32471.343] (II) UnloadModule: "libinput"
+[ 32471.343] (II) systemd-logind: releasing fd for 13:81
+[ 32471.350] (EE) systemd-logind: failed to release device: Device not taken
+[ 32471.382] (II) config/udev: removing device Logitech Gaming Mouse G502 Consumer Control
+[ 32471.382] (**) Option "fd" "85"
+[ 32471.409] (II) UnloadModule: "libinput"
+[ 32471.414] (II) systemd-logind: not releasing fd for 13:82, still in use
+[ 32471.414] (II) config/udev: removing device Logitech Gaming Mouse G502 Consumer Control
+[ 32471.414] (**) Option "fd" "85"
+[ 32471.414] (II) event18 - Logitech Gaming Mouse G502 Consumer Control: device removed
+[ 32471.431] (II) UnloadModule: "libinput"
+[ 32471.431] (II) systemd-logind: releasing fd for 13:82
+[ 32471.443] (EE) systemd-logind: failed to release device: Device not taken
+[ 32471.474] (II) config/udev: removing device Logitech Gaming Mouse G502 System Control
+[ 32471.474] (**) Option "fd" "82"
+[ 32471.474] (II) event19 - Logitech Gaming Mouse G502 System Control: device removed
+[ 32471.490] (II) UnloadModule: "libinput"
+[ 32471.490] (II) systemd-logind: releasing fd for 13:83
+[ 32471.493] (EE) systemd-logind: failed to release device: Device not taken
+[ 32481.937] (**) Option "fd" "43"
+[ 32481.937] (II) event2  - Power Button: device removed
+[ 32481.939] (**) Option "fd" "44"
+[ 32481.939] (II) event10 - Video Bus: device removed
+[ 32481.940] (**) Option "fd" "46"
+[ 32481.941] (II) event7  - Video Bus: device removed
+[ 32481.943] (**) Option "fd" "81"
+[ 32481.943] (II) event1  - Power Button: device removed
+[ 32481.946] (**) Option "fd" "42"
+[ 32481.946] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device removed
+[ 32481.948] (**) Option "fd" "24"
+[ 32481.948] (II) event5  - Ideapad extra buttons: device removed
+[ 32481.950] (**) Option "fd" "27"
+[ 32481.950] (II) event3  - AT Translated Set 2 keyboard: device removed
+[ 32481.952] (**) Option "fd" "45"
+[ 32481.952] (II) event4  - ETPS/2 Elantech Touchpad: device removed
+[ 32482.030] (II) systemd-logind: got pause for 13:66
+[ 32483.708] (II) systemd-logind: got pause for 13:65
+[ 32483.710] (II) systemd-logind: got pause for 226:1
+[ 32483.711] (II) systemd-logind: got pause for 13:74
+[ 32483.712] (II) systemd-logind: got pause for 226:0
+[ 32483.712] (II) systemd-logind: got pause for 13:67
+[ 32483.712] (II) systemd-logind: got pause for 13:70
+[ 32483.712] (II) systemd-logind: got pause for 13:69
+[ 32483.712] (II) systemd-logind: got pause for 13:71
+[ 32483.712] (II) systemd-logind: got pause for 13:68
+[ 32483.968] (II) systemd-logind: got resume for 13:66
+[ 32483.968] (II) systemd-logind: got resume for 13:65
+[ 32483.969] (II) systemd-logind: got resume for 226:1
+[ 32483.973] (II) systemd-logind: got resume for 13:74
+[ 32484.022] (II) systemd-logind: got resume for 226:0
+[ 32484.023] (II) NVIDIA(0): Setting mode "NULL"
+[ 32484.023] (EE) NVIDIA(0): Failed to initiate mode change.
+[ 32484.023] (EE) NVIDIA(0): Failed to complete mode change
+[ 32484.170] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[ 32484.170] (II) event2  - Power Button: device is a keyboard
+[ 32484.175] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[ 32484.175] (II) event10 - Video Bus: device is a keyboard
+[ 32484.177] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[ 32484.177] (II) event1  - Power Button: device is a keyboard
+[ 32484.178] (II) systemd-logind: got resume for 13:67
+[ 32484.181] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[ 32484.181] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[ 32484.183] (II) systemd-logind: got resume for 13:70
+[ 32484.185] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: is tagged by udev as: Keyboard
+[ 32484.185] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device is a keyboard
+[ 32484.186] (II) systemd-logind: got resume for 13:69
+[ 32484.192] (II) event5  - Ideapad extra buttons: is tagged by udev as: Keyboard
+[ 32484.192] (II) event5  - Ideapad extra buttons: device is a keyboard
+[ 32484.201] (II) systemd-logind: got resume for 13:71
+[ 32484.202] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[ 32484.202] (II) event7  - Video Bus: device is a keyboard
+[ 32484.204] (II) systemd-logind: got resume for 13:68
+[ 32484.206] (II) event4  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[ 32484.208] (II) event4  - ETPS/2 Elantech Touchpad: device is a touchpad
+[ 33823.620] (EE) event4  - ETPS/2 Elantech Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.6/touchpad-jumping-cursors.html for details
+[ 35423.947] (EE) event4  - ETPS/2 Elantech Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.6/touchpad-jumping-cursors.html for details
+[ 35499.588] (EE) event4  - ETPS/2 Elantech Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.6/touchpad-jumping-cursors.html for details
+[ 35790.080] (EE) event4  - ETPS/2 Elantech Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.6/touchpad-jumping-cursors.html for details
+[ 56399.182] (EE) event4  - ETPS/2 Elantech Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.6/touchpad-jumping-cursors.html for details
+[ 64545.581] (EE) event4  - ETPS/2 Elantech Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.6/touchpad-jumping-cursors.html for details
+[ 65265.430] (EE) event4  - ETPS/2 Elantech Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.6/touchpad-jumping-cursors.html for details
+[ 65678.689] (II) config/udev: Adding input device Telink Wireless Receiver Mouse (/dev/input/mouse1)
+[ 65678.689] (II) No input driver specified, ignoring this device.
+[ 65678.689] (II) This device may have been added with another device file.
+[ 65678.739] (II) config/udev: Adding input device Telink Wireless Receiver Consumer Control (/dev/input/event17)
+[ 65678.739] (**) Telink Wireless Receiver Consumer Control: Applying InputClass "libinput keyboard catchall"
+[ 65678.739] (II) Using input driver 'libinput' for 'Telink Wireless Receiver Consumer Control'
+[ 65678.745] (II) systemd-logind: got fd for /dev/input/event17 13:81 fd 89 paused 0
+[ 65678.745] (**) Telink Wireless Receiver Consumer Control: always reports core events
+[ 65678.745] (**) Option "Device" "/dev/input/event17"
+[ 65678.745] (**) Option "_source" "server/udev"
+[ 65678.753] (II) event17 - Telink Wireless Receiver Consumer Control: is tagged by udev as: Keyboard
+[ 65678.754] (II) event17 - Telink Wireless Receiver Consumer Control: device is a keyboard
+[ 65678.754] (II) event17 - Telink Wireless Receiver Consumer Control: device removed
+[ 65678.754] (II) libinput: Telink Wireless Receiver Consumer Control: needs a virtual subdevice
+[ 65678.754] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/0003:248A:8367.0003/input/input24/event17"
+[ 65678.754] (II) XINPUT: Adding extended input device "Telink Wireless Receiver Consumer Control" (type: MOUSE, id 14)
+[ 65678.760] (**) Option "AccelerationScheme" "none"
+[ 65678.769] (**) Telink Wireless Receiver Consumer Control: (accel) selected scheme none/0
+[ 65678.769] (**) Telink Wireless Receiver Consumer Control: (accel) acceleration factor: 2.000
+[ 65678.769] (**) Telink Wireless Receiver Consumer Control: (accel) acceleration threshold: 4
+[ 65678.772] (II) event17 - Telink Wireless Receiver Consumer Control: is tagged by udev as: Keyboard
+[ 65678.772] (II) event17 - Telink Wireless Receiver Consumer Control: device is a keyboard
+[ 65678.778] (**) Telink Wireless Receiver Consumer Control: Applying InputClass "libinput keyboard catchall"
+[ 65678.778] (II) Using input driver 'libinput' for 'Telink Wireless Receiver Consumer Control'
+[ 65678.778] (II) systemd-logind: returning pre-existing fd for /dev/input/event17 13:81
+[ 65678.778] (**) Telink Wireless Receiver Consumer Control: always reports core events
+[ 65678.778] (**) Option "Device" "/dev/input/event17"
+[ 65678.778] (**) Option "_source" "_driver/libinput"
+[ 65678.778] (II) libinput: Telink Wireless Receiver Consumer Control: is a virtual subdevice
+[ 65678.778] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/0003:248A:8367.0003/input/input24/event17"
+[ 65678.778] (II) XINPUT: Adding extended input device "Telink Wireless Receiver Consumer Control" (type: KEYBOARD, id 15)
+[ 65678.778] (**) Option "xkb_layout" "latam"
+[ 65678.783] (II) config/udev: Adding input device Telink Wireless Receiver (/dev/input/event19)
+[ 65678.783] (**) Telink Wireless Receiver: Applying InputClass "libinput keyboard catchall"
+[ 65678.783] (II) Using input driver 'libinput' for 'Telink Wireless Receiver'
+[ 65678.784] (II) systemd-logind: got fd for /dev/input/event19 13:83 fd 90 paused 0
+[ 65678.784] (**) Telink Wireless Receiver: always reports core events
+[ 65678.784] (**) Option "Device" "/dev/input/event19"
+[ 65678.784] (**) Option "_source" "server/udev"
+[ 65678.787] (II) event19 - Telink Wireless Receiver: is tagged by udev as: Keyboard
+[ 65678.787] (II) event19 - Telink Wireless Receiver: device is a keyboard
+[ 65678.788] (II) event19 - Telink Wireless Receiver: device removed
+[ 65678.788] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.1/0003:248A:8367.0004/input/input26/event19"
+[ 65678.788] (II) XINPUT: Adding extended input device "Telink Wireless Receiver" (type: KEYBOARD, id 16)
+[ 65678.788] (**) Option "xkb_layout" "latam"
+[ 65678.792] (II) event19 - Telink Wireless Receiver: is tagged by udev as: Keyboard
+[ 65678.792] (II) event19 - Telink Wireless Receiver: device is a keyboard
+[ 65678.796] (II) config/udev: Adding input device Telink Wireless Receiver System Control (/dev/input/event18)
+[ 65678.796] (**) Telink Wireless Receiver System Control: Applying InputClass "libinput keyboard catchall"
+[ 65678.796] (II) Using input driver 'libinput' for 'Telink Wireless Receiver System Control'
+[ 65678.798] (II) systemd-logind: got fd for /dev/input/event18 13:82 fd 91 paused 0
+[ 65678.798] (**) Telink Wireless Receiver System Control: always reports core events
+[ 65678.798] (**) Option "Device" "/dev/input/event18"
+[ 65678.798] (**) Option "_source" "server/udev"
+[ 65678.804] (II) event18 - Telink Wireless Receiver System Control: is tagged by udev as: Keyboard
+[ 65678.804] (II) event18 - Telink Wireless Receiver System Control: device is a keyboard
+[ 65678.804] (II) event18 - Telink Wireless Receiver System Control: device removed
+[ 65678.806] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/0003:248A:8367.0003/input/input25/event18"
+[ 65678.806] (II) XINPUT: Adding extended input device "Telink Wireless Receiver System Control" (type: KEYBOARD, id 17)
+[ 65678.806] (**) Option "xkb_layout" "latam"
+[ 65678.810] (II) event18 - Telink Wireless Receiver System Control: is tagged by udev as: Keyboard
+[ 65678.810] (II) event18 - Telink Wireless Receiver System Control: device is a keyboard
+[ 65678.813] (II) config/udev: Adding input device Telink Wireless Receiver Mouse (/dev/input/event16)
+[ 65678.813] (**) Telink Wireless Receiver Mouse: Applying InputClass "libinput pointer catchall"
+[ 65678.813] (II) Using input driver 'libinput' for 'Telink Wireless Receiver Mouse'
+[ 65678.815] (II) systemd-logind: got fd for /dev/input/event16 13:80 fd 92 paused 0
+[ 65678.815] (**) Telink Wireless Receiver Mouse: always reports core events
+[ 65678.815] (**) Option "Device" "/dev/input/event16"
+[ 65678.815] (**) Option "_source" "server/udev"
+[ 65678.818] (II) event16 - Telink Wireless Receiver Mouse: is tagged by udev as: Mouse
+[ 65678.818] (II) event16 - Telink Wireless Receiver Mouse: device is a pointer
+[ 65678.819] (II) event16 - Telink Wireless Receiver Mouse: device removed
+[ 65678.819] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/0003:248A:8367.0003/input/input23/event16"
+[ 65678.819] (II) XINPUT: Adding extended input device "Telink Wireless Receiver Mouse" (type: MOUSE, id 18)
+[ 65678.822] (**) Option "AccelerationScheme" "none"
+[ 65678.824] (**) Telink Wireless Receiver Mouse: (accel) selected scheme none/0
+[ 65678.824] (**) Telink Wireless Receiver Mouse: (accel) acceleration factor: 2.000
+[ 65678.824] (**) Telink Wireless Receiver Mouse: (accel) acceleration threshold: 4
+[ 65678.826] (II) event16 - Telink Wireless Receiver Mouse: is tagged by udev as: Mouse
+[ 65678.827] (II) event16 - Telink Wireless Receiver Mouse: device is a pointer
+[ 70231.456] (**) Option "fd" "44"
+[ 70231.456] (II) event2  - Power Button: device removed
+[ 70231.460] (**) Option "fd" "42"
+[ 70231.460] (II) event10 - Video Bus: device removed
+[ 70231.463] (**) Option "fd" "47"
+[ 70231.463] (II) event7  - Video Bus: device removed
+[ 70231.465] (**) Option "fd" "24"
+[ 70231.465] (II) event1  - Power Button: device removed
+[ 70231.467] (**) Option "fd" "45"
+[ 70231.467] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device removed
+[ 70231.470] (**) Option "fd" "46"
+[ 70231.470] (II) event5  - Ideapad extra buttons: device removed
+[ 70231.472] (**) Option "fd" "43"
+[ 70231.472] (II) event3  - AT Translated Set 2 keyboard: device removed
+[ 70231.475] (**) Option "fd" "84"
+[ 70231.475] (II) event4  - ETPS/2 Elantech Touchpad: device removed
+[ 70231.477] (**) Option "fd" "89"
+[ 70231.479] (**) Option "fd" "89"
+[ 70231.479] (II) event17 - Telink Wireless Receiver Consumer Control: device removed
+[ 70231.480] (**) Option "fd" "90"
+[ 70231.481] (II) event19 - Telink Wireless Receiver: device removed
+[ 70231.482] (**) Option "fd" "91"
+[ 70231.482] (II) event18 - Telink Wireless Receiver System Control: device removed
+[ 70231.484] (**) Option "fd" "92"
+[ 70231.484] (II) event16 - Telink Wireless Receiver Mouse: device removed
+[ 70231.533] (II) systemd-logind: got pause for 13:66
+[ 70231.533] (II) systemd-logind: got pause for 13:65
+[ 70231.533] (II) systemd-logind: got pause for 226:1
+[ 70231.533] (II) systemd-logind: got pause for 13:74
+[ 70231.533] (II) systemd-logind: got pause for 13:81
+[ 70231.533] (II) systemd-logind: got pause for 13:80
+[ 70231.533] (II) systemd-logind: got pause for 226:0
+[ 70231.533] (II) systemd-logind: got pause for 13:83
+[ 70231.533] (II) systemd-logind: got pause for 13:67
+[ 70231.533] (II) systemd-logind: got pause for 13:70
+[ 70231.533] (II) systemd-logind: got pause for 13:69
+[ 70231.533] (II) systemd-logind: got pause for 13:82
+[ 70231.533] (II) systemd-logind: got pause for 13:71
+[ 70231.533] (II) systemd-logind: got pause for 13:68
+[ 70235.310] (II) config/udev: removing device Telink Wireless Receiver Consumer Control
+[ 70235.344] (II) UnloadModule: "libinput"
+[ 70235.344] (II) systemd-logind: not releasing fd for 13:81, still in use
+[ 70235.344] (II) config/udev: removing device Telink Wireless Receiver Consumer Control
+[ 70235.361] (II) UnloadModule: "libinput"
+[ 70235.361] (II) systemd-logind: releasing fd for 13:81
+[ 70235.515] (EE) systemd-logind: failed to release device: Device not taken
+[ 70235.527] (II) systemd-logind: got resume for 13:66
+[ 70235.528] (II) systemd-logind: got resume for 13:65
+[ 70235.528] (II) systemd-logind: got resume for 226:1
+[ 70235.528] (II) systemd-logind: got resume for 13:74
+[ 70235.529] (II) systemd-logind: got resume for 226:0
+[ 70235.529] (II) NVIDIA(0): Setting mode "NULL"
+[ 70235.529] (EE) NVIDIA(0): Failed to initiate mode change.
+[ 70235.529] (EE) NVIDIA(0): Failed to complete mode change
+[ 70235.718] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[ 70235.718] (II) event2  - Power Button: device is a keyboard
+[ 70235.722] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[ 70235.722] (II) event10 - Video Bus: device is a keyboard
+[ 70235.724] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[ 70235.724] (II) event1  - Power Button: device is a keyboard
+[ 70235.726] (II) systemd-logind: got resume for 13:67
+[ 70235.728] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[ 70235.728] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[ 70235.729] (II) systemd-logind: got resume for 13:70
+[ 70235.732] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: is tagged by udev as: Keyboard
+[ 70235.732] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device is a keyboard
+[ 70235.733] (II) systemd-logind: got resume for 13:69
+[ 70235.735] (II) event5  - Ideapad extra buttons: is tagged by udev as: Keyboard
+[ 70235.735] (II) event5  - Ideapad extra buttons: device is a keyboard
+[ 70235.736] (II) systemd-logind: got resume for 13:71
+[ 70235.738] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[ 70235.738] (II) event7  - Video Bus: device is a keyboard
+[ 70235.739] (II) systemd-logind: got resume for 13:68
+[ 70235.740] (II) event4  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[ 70235.742] (II) event4  - ETPS/2 Elantech Touchpad: device is a touchpad
+[ 70235.744] (II) config/udev: removing device Telink Wireless Receiver Mouse
+[ 70235.752] (II) UnloadModule: "libinput"
+[ 70235.752] (II) systemd-logind: releasing fd for 13:80
+[ 70235.752] (EE) systemd-logind: failed to release device: Device not taken
+[ 70235.794] (II) config/udev: removing device Telink Wireless Receiver System Control
+[ 70235.801] (II) UnloadModule: "libinput"
+[ 70235.801] (II) systemd-logind: releasing fd for 13:82
+[ 70235.802] (EE) systemd-logind: failed to release device: Device not taken
+[ 70235.803] (II) config/udev: removing device Telink Wireless Receiver
+[ 70235.808] (II) UnloadModule: "libinput"
+[ 70235.808] (II) systemd-logind: releasing fd for 13:83
+[ 70235.810] (EE) systemd-logind: failed to release device: Device not taken
+[ 77692.143] (EE) event4  - ETPS/2 Elantech Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.6/touchpad-jumping-cursors.html for details
+[ 77802.438] (**) Option "fd" "88"
+[ 77802.438] (II) event2  - Power Button: device removed
+[ 77802.442] (**) Option "fd" "43"
+[ 77802.442] (II) event10 - Video Bus: device removed
+[ 77802.445] (**) Option "fd" "82"
+[ 77802.445] (II) event7  - Video Bus: device removed
+[ 77802.448] (**) Option "fd" "24"
+[ 77802.448] (II) event1  - Power Button: device removed
+[ 77802.450] (**) Option "fd" "46"
+[ 77802.450] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device removed
+[ 77802.453] (**) Option "fd" "47"
+[ 77802.453] (II) event5  - Ideapad extra buttons: device removed
+[ 77802.455] (**) Option "fd" "45"
+[ 77802.456] (II) event3  - AT Translated Set 2 keyboard: device removed
+[ 77802.458] (**) Option "fd" "83"
+[ 77802.458] (II) event4  - ETPS/2 Elantech Touchpad: device removed
+[ 77802.508] (II) systemd-logind: got pause for 13:66
+[ 77802.508] (II) systemd-logind: got pause for 13:65
+[ 77802.508] (II) systemd-logind: got pause for 226:1
+[ 77802.508] (II) systemd-logind: got pause for 13:74
+[ 77804.009] (II) systemd-logind: got pause for 226:0
+[ 77804.068] (II) systemd-logind: got pause for 13:67
+[ 77804.069] (II) systemd-logind: got pause for 13:70
+[ 77804.096] (II) systemd-logind: got pause for 13:69
+[ 77804.096] (II) systemd-logind: got pause for 13:71
+[ 77804.096] (II) systemd-logind: got pause for 13:68
+[ 77804.178] (II) systemd-logind: got resume for 13:66
+[ 77804.312] (II) systemd-logind: got resume for 13:65
+[ 77804.313] (II) systemd-logind: got resume for 226:1
+[ 77804.313] (II) systemd-logind: got resume for 13:74
+[ 77804.313] (II) systemd-logind: got resume for 226:0
+[ 77804.313] (II) NVIDIA(0): Setting mode "NULL"
+[ 77804.314] (EE) NVIDIA(0): Failed to initiate mode change.
+[ 77804.314] (EE) NVIDIA(0): Failed to complete mode change
+[ 77804.500] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[ 77804.500] (II) event2  - Power Button: device is a keyboard
+[ 77804.510] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[ 77804.510] (II) event10 - Video Bus: device is a keyboard
+[ 77804.519] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[ 77804.519] (II) event1  - Power Button: device is a keyboard
+[ 77804.521] (II) systemd-logind: got resume for 13:67
+[ 77804.524] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[ 77804.525] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[ 77804.530] (II) systemd-logind: got resume for 13:70
+[ 77804.533] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: is tagged by udev as: Keyboard
+[ 77804.533] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device is a keyboard
+[ 77804.599] (II) systemd-logind: got resume for 13:69
+[ 77804.602] (II) event5  - Ideapad extra buttons: is tagged by udev as: Keyboard
+[ 77804.602] (II) event5  - Ideapad extra buttons: device is a keyboard
+[ 77804.605] (II) systemd-logind: got resume for 13:71
+[ 77804.607] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[ 77804.607] (II) event7  - Video Bus: device is a keyboard
+[ 77804.610] (II) systemd-logind: got resume for 13:68
+[ 77804.612] (II) event4  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[ 77804.613] (II) event4  - ETPS/2 Elantech Touchpad: device is a touchpad
+[ 77933.386] (EE) event4  - ETPS/2 Elantech Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.6/touchpad-jumping-cursors.html for details
+[ 78807.121] (II) config/udev: Adding input device Telink Wireless Receiver Mouse (/dev/input/mouse1)
+[ 78807.121] (II) No input driver specified, ignoring this device.
+[ 78807.121] (II) This device may have been added with another device file.
+[ 78807.122] (II) config/udev: Adding input device Telink Wireless Receiver System Control (/dev/input/event18)
+[ 78807.122] (**) Telink Wireless Receiver System Control: Applying InputClass "libinput keyboard catchall"
+[ 78807.122] (II) Using input driver 'libinput' for 'Telink Wireless Receiver System Control'
+[ 78807.124] (II) systemd-logind: got fd for /dev/input/event18 13:82 fd 95 paused 0
+[ 78807.124] (**) Telink Wireless Receiver System Control: always reports core events
+[ 78807.124] (**) Option "Device" "/dev/input/event18"
+[ 78807.124] (**) Option "_source" "server/udev"
+[ 78807.127] (II) event18 - Telink Wireless Receiver System Control: is tagged by udev as: Keyboard
+[ 78807.127] (II) event18 - Telink Wireless Receiver System Control: device is a keyboard
+[ 78807.127] (II) event18 - Telink Wireless Receiver System Control: device removed
+[ 78807.128] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/0003:248A:8367.0005/input/input29/event18"
+[ 78807.128] (II) XINPUT: Adding extended input device "Telink Wireless Receiver System Control" (type: KEYBOARD, id 14)
+[ 78807.128] (**) Option "xkb_layout" "latam"
+[ 78807.134] (II) event18 - Telink Wireless Receiver System Control: is tagged by udev as: Keyboard
+[ 78807.134] (II) event18 - Telink Wireless Receiver System Control: device is a keyboard
+[ 78807.142] (II) config/udev: Adding input device Telink Wireless Receiver (/dev/input/event19)
+[ 78807.143] (**) Telink Wireless Receiver: Applying InputClass "libinput keyboard catchall"
+[ 78807.143] (II) Using input driver 'libinput' for 'Telink Wireless Receiver'
+[ 78807.149] (II) systemd-logind: got fd for /dev/input/event19 13:83 fd 96 paused 0
+[ 78807.149] (**) Telink Wireless Receiver: always reports core events
+[ 78807.149] (**) Option "Device" "/dev/input/event19"
+[ 78807.150] (**) Option "_source" "server/udev"
+[ 78807.152] (II) event19 - Telink Wireless Receiver: is tagged by udev as: Keyboard
+[ 78807.152] (II) event19 - Telink Wireless Receiver: device is a keyboard
+[ 78807.153] (II) event19 - Telink Wireless Receiver: device removed
+[ 78807.153] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.1/0003:248A:8367.0006/input/input30/event19"
+[ 78807.153] (II) XINPUT: Adding extended input device "Telink Wireless Receiver" (type: KEYBOARD, id 15)
+[ 78807.153] (**) Option "xkb_layout" "latam"
+[ 78807.157] (II) event19 - Telink Wireless Receiver: is tagged by udev as: Keyboard
+[ 78807.157] (II) event19 - Telink Wireless Receiver: device is a keyboard
+[ 78807.169] (II) config/udev: Adding input device Telink Wireless Receiver Consumer Control (/dev/input/event17)
+[ 78807.169] (**) Telink Wireless Receiver Consumer Control: Applying InputClass "libinput keyboard catchall"
+[ 78807.169] (II) Using input driver 'libinput' for 'Telink Wireless Receiver Consumer Control'
+[ 78807.172] (II) systemd-logind: got fd for /dev/input/event17 13:81 fd 97 paused 0
+[ 78807.172] (**) Telink Wireless Receiver Consumer Control: always reports core events
+[ 78807.172] (**) Option "Device" "/dev/input/event17"
+[ 78807.172] (**) Option "_source" "server/udev"
+[ 78807.175] (II) event17 - Telink Wireless Receiver Consumer Control: is tagged by udev as: Keyboard
+[ 78807.175] (II) event17 - Telink Wireless Receiver Consumer Control: device is a keyboard
+[ 78807.176] (II) event17 - Telink Wireless Receiver Consumer Control: device removed
+[ 78807.176] (II) libinput: Telink Wireless Receiver Consumer Control: needs a virtual subdevice
+[ 78807.176] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/0003:248A:8367.0005/input/input28/event17"
+[ 78807.176] (II) XINPUT: Adding extended input device "Telink Wireless Receiver Consumer Control" (type: MOUSE, id 16)
+[ 78807.179] (**) Option "AccelerationScheme" "none"
+[ 78807.182] (**) Telink Wireless Receiver Consumer Control: (accel) selected scheme none/0
+[ 78807.182] (**) Telink Wireless Receiver Consumer Control: (accel) acceleration factor: 2.000
+[ 78807.182] (**) Telink Wireless Receiver Consumer Control: (accel) acceleration threshold: 4
+[ 78807.185] (II) event17 - Telink Wireless Receiver Consumer Control: is tagged by udev as: Keyboard
+[ 78807.186] (II) event17 - Telink Wireless Receiver Consumer Control: device is a keyboard
+[ 78807.189] (**) Telink Wireless Receiver Consumer Control: Applying InputClass "libinput keyboard catchall"
+[ 78807.189] (II) Using input driver 'libinput' for 'Telink Wireless Receiver Consumer Control'
+[ 78807.189] (II) systemd-logind: returning pre-existing fd for /dev/input/event17 13:81
+[ 78807.189] (**) Telink Wireless Receiver Consumer Control: always reports core events
+[ 78807.189] (**) Option "Device" "/dev/input/event17"
+[ 78807.189] (**) Option "_source" "_driver/libinput"
+[ 78807.189] (II) libinput: Telink Wireless Receiver Consumer Control: is a virtual subdevice
+[ 78807.189] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/0003:248A:8367.0005/input/input28/event17"
+[ 78807.189] (II) XINPUT: Adding extended input device "Telink Wireless Receiver Consumer Control" (type: KEYBOARD, id 17)
+[ 78807.189] (**) Option "xkb_layout" "latam"
+[ 78807.201] (II) config/udev: Adding input device Telink Wireless Receiver Mouse (/dev/input/event16)
+[ 78807.201] (**) Telink Wireless Receiver Mouse: Applying InputClass "libinput pointer catchall"
+[ 78807.201] (II) Using input driver 'libinput' for 'Telink Wireless Receiver Mouse'
+[ 78807.203] (II) systemd-logind: got fd for /dev/input/event16 13:80 fd 98 paused 0
+[ 78807.203] (**) Telink Wireless Receiver Mouse: always reports core events
+[ 78807.203] (**) Option "Device" "/dev/input/event16"
+[ 78807.203] (**) Option "_source" "server/udev"
+[ 78807.206] (II) event16 - Telink Wireless Receiver Mouse: is tagged by udev as: Mouse
+[ 78807.206] (II) event16 - Telink Wireless Receiver Mouse: device is a pointer
+[ 78807.206] (II) event16 - Telink Wireless Receiver Mouse: device removed
+[ 78807.206] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/0003:248A:8367.0005/input/input27/event16"
+[ 78807.206] (II) XINPUT: Adding extended input device "Telink Wireless Receiver Mouse" (type: MOUSE, id 18)
+[ 78807.213] (**) Option "AccelerationScheme" "none"
+[ 78807.215] (**) Telink Wireless Receiver Mouse: (accel) selected scheme none/0
+[ 78807.215] (**) Telink Wireless Receiver Mouse: (accel) acceleration factor: 2.000
+[ 78807.216] (**) Telink Wireless Receiver Mouse: (accel) acceleration threshold: 4
+[ 78807.218] (II) event16 - Telink Wireless Receiver Mouse: is tagged by udev as: Mouse
+[ 78807.218] (II) event16 - Telink Wireless Receiver Mouse: device is a pointer
+[ 79815.056] (**) Option "fd" "43"
+[ 79815.057] (II) event2  - Power Button: device removed
+[ 79815.062] (**) Option "fd" "45"
+[ 79815.062] (II) event10 - Video Bus: device removed
+[ 79815.065] (**) Option "fd" "83"
+[ 79815.065] (II) event7  - Video Bus: device removed
+[ 79815.068] (**) Option "fd" "47"
+[ 79815.068] (II) event1  - Power Button: device removed
+[ 79815.070] (**) Option "fd" "82"
+[ 79815.070] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device removed
+[ 79815.072] (**) Option "fd" "94"
+[ 79815.072] (II) event5  - Ideapad extra buttons: device removed
+[ 79815.074] (**) Option "fd" "46"
+[ 79815.074] (II) event3  - AT Translated Set 2 keyboard: device removed
+[ 79815.076] (**) Option "fd" "92"
+[ 79815.076] (II) event4  - ETPS/2 Elantech Touchpad: device removed
+[ 79815.078] (**) Option "fd" "95"
+[ 79815.078] (II) event18 - Telink Wireless Receiver System Control: device removed
+[ 79815.080] (**) Option "fd" "96"
+[ 79815.080] (II) event19 - Telink Wireless Receiver: device removed
+[ 79815.082] (**) Option "fd" "97"
+[ 79815.084] (**) Option "fd" "97"
+[ 79815.084] (II) event17 - Telink Wireless Receiver Consumer Control: device removed
+[ 79815.086] (**) Option "fd" "98"
+[ 79815.086] (II) event16 - Telink Wireless Receiver Mouse: device removed
+[ 79815.145] (II) systemd-logind: got pause for 13:66
+[ 79815.145] (II) systemd-logind: got pause for 13:65
+[ 79815.145] (II) systemd-logind: got pause for 226:1
+[ 79815.145] (II) systemd-logind: got pause for 13:74
+[ 79815.145] (II) systemd-logind: got pause for 13:81
+[ 79816.798] (II) systemd-logind: got pause for 13:80
+[ 79816.798] (II) systemd-logind: got pause for 226:0
+[ 79816.798] (II) systemd-logind: got pause for 13:83
+[ 79816.798] (II) systemd-logind: got pause for 13:67
+[ 79816.798] (II) systemd-logind: got pause for 13:70
+[ 79816.798] (II) systemd-logind: got pause for 13:69
+[ 79816.798] (II) systemd-logind: got pause for 13:82
+[ 79816.798] (II) systemd-logind: got pause for 13:71
+[ 79816.798] (II) systemd-logind: got pause for 13:68
+[ 79817.046] (II) systemd-logind: got resume for 13:66
+[ 79817.046] (II) systemd-logind: got resume for 13:65
+[ 79817.046] (II) systemd-logind: got resume for 226:1
+[ 79817.046] (II) systemd-logind: got resume for 13:74
+[ 79817.101] (II) systemd-logind: got resume for 13:81
+[ 79817.101] (II) systemd-logind: got resume for 13:80
+[ 79817.101] (II) systemd-logind: got resume for 226:0
+[ 79817.101] (II) NVIDIA(0): Setting mode "NULL"
+[ 79817.102] (EE) NVIDIA(0): Failed to initiate mode change.
+[ 79817.102] (EE) NVIDIA(0): Failed to complete mode change
+[ 79817.221] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[ 79817.221] (II) event2  - Power Button: device is a keyboard
+[ 79817.227] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[ 79817.227] (II) event10 - Video Bus: device is a keyboard
+[ 79817.233] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[ 79817.233] (II) event1  - Power Button: device is a keyboard
+[ 79817.237] (II) event17 - Telink Wireless Receiver Consumer Control: is tagged by udev as: Keyboard
+[ 79817.237] (II) event17 - Telink Wireless Receiver Consumer Control: device is a keyboard
+[ 79817.242] (II) event16 - Telink Wireless Receiver Mouse: is tagged by udev as: Mouse
+[ 79817.242] (II) event16 - Telink Wireless Receiver Mouse: device is a pointer
+[ 79817.243] (II) systemd-logind: got resume for 13:83
+[ 79817.246] (II) event19 - Telink Wireless Receiver: is tagged by udev as: Keyboard
+[ 79817.246] (II) event19 - Telink Wireless Receiver: device is a keyboard
+[ 79817.247] (II) systemd-logind: got resume for 13:67
+[ 79817.249] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[ 79817.249] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[ 79817.254] (II) systemd-logind: got resume for 13:70
+[ 79817.256] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: is tagged by udev as: Keyboard
+[ 79817.256] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device is a keyboard
+[ 79817.258] (II) systemd-logind: got resume for 13:69
+[ 79817.260] (II) event5  - Ideapad extra buttons: is tagged by udev as: Keyboard
+[ 79817.260] (II) event5  - Ideapad extra buttons: device is a keyboard
+[ 79817.262] (II) systemd-logind: got resume for 13:82
+[ 79817.264] (II) event18 - Telink Wireless Receiver System Control: is tagged by udev as: Keyboard
+[ 79817.264] (II) event18 - Telink Wireless Receiver System Control: device is a keyboard
+[ 79817.266] (II) systemd-logind: got resume for 13:71
+[ 79817.268] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[ 79817.268] (II) event7  - Video Bus: device is a keyboard
+[ 79817.270] (II) systemd-logind: got resume for 13:68
+[ 79817.272] (II) event4  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[ 79817.273] (II) event4  - ETPS/2 Elantech Touchpad: device is a touchpad
+[ 80208.281] (II) config/udev: Adding input device Logitech Gaming Mouse G502 (/dev/input/mouse2)
+[ 80208.281] (II) No input driver specified, ignoring this device.
+[ 80208.281] (II) This device may have been added with another device file.
+[ 80208.313] (II) config/udev: Adding input device Logitech Gaming Mouse G502 System Control (/dev/input/event23)
+[ 80208.314] (**) Logitech Gaming Mouse G502 System Control: Applying InputClass "libinput keyboard catchall"
+[ 80208.314] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502 System Control'
+[ 80208.318] (II) systemd-logind: got fd for /dev/input/event23 13:87 fd 102 paused 0
+[ 80208.319] (**) Logitech Gaming Mouse G502 System Control: always reports core events
+[ 80208.319] (**) Option "Device" "/dev/input/event23"
+[ 80208.319] (**) Option "_source" "server/udev"
+[ 80208.321] (II) event23 - Logitech Gaming Mouse G502 System Control: is tagged by udev as: Keyboard
+[ 80208.321] (II) event23 - Logitech Gaming Mouse G502 System Control: device is a keyboard
+[ 80208.323] (II) event23 - Logitech Gaming Mouse G502 System Control: device removed
+[ 80208.323] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.1/0003:046D:C07D.0008/input/input34/event23"
+[ 80208.324] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502 System Control" (type: KEYBOARD, id 19)
+[ 80208.325] (**) Option "xkb_layout" "latam"
+[ 80208.332] (II) event23 - Logitech Gaming Mouse G502 System Control: is tagged by udev as: Keyboard
+[ 80208.332] (II) event23 - Logitech Gaming Mouse G502 System Control: device is a keyboard
+[ 80208.339] (II) config/udev: Adding input device Logitech Gaming Mouse G502 Keyboard (/dev/input/event21)
+[ 80208.340] (**) Logitech Gaming Mouse G502 Keyboard: Applying InputClass "libinput keyboard catchall"
+[ 80208.340] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502 Keyboard'
+[ 80208.343] (II) systemd-logind: got fd for /dev/input/event21 13:85 fd 103 paused 0
+[ 80208.343] (**) Logitech Gaming Mouse G502 Keyboard: always reports core events
+[ 80208.343] (**) Option "Device" "/dev/input/event21"
+[ 80208.344] (**) Option "_source" "server/udev"
+[ 80208.348] (II) event21 - Logitech Gaming Mouse G502 Keyboard: is tagged by udev as: Keyboard
+[ 80208.348] (II) event21 - Logitech Gaming Mouse G502 Keyboard: device is a keyboard
+[ 80208.348] (II) event21 - Logitech Gaming Mouse G502 Keyboard: device removed
+[ 80208.348] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.1/0003:046D:C07D.0008/input/input32/event21"
+[ 80208.348] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502 Keyboard" (type: KEYBOARD, id 20)
+[ 80208.348] (**) Option "xkb_layout" "latam"
+[ 80208.352] (II) event21 - Logitech Gaming Mouse G502 Keyboard: is tagged by udev as: Keyboard
+[ 80208.352] (II) event21 - Logitech Gaming Mouse G502 Keyboard: device is a keyboard
+[ 80208.371] (II) config/udev: Adding input device Logitech Gaming Mouse G502 Consumer Control (/dev/input/event22)
+[ 80208.371] (**) Logitech Gaming Mouse G502 Consumer Control: Applying InputClass "libinput keyboard catchall"
+[ 80208.371] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502 Consumer Control'
+[ 80208.385] (II) systemd-logind: got fd for /dev/input/event22 13:86 fd 104 paused 0
+[ 80208.385] (**) Logitech Gaming Mouse G502 Consumer Control: always reports core events
+[ 80208.385] (**) Option "Device" "/dev/input/event22"
+[ 80208.385] (**) Option "_source" "server/udev"
+[ 80208.387] (II) event22 - Logitech Gaming Mouse G502 Consumer Control: is tagged by udev as: Keyboard
+[ 80208.387] (II) event22 - Logitech Gaming Mouse G502 Consumer Control: device is a keyboard
+[ 80208.388] (II) event22 - Logitech Gaming Mouse G502 Consumer Control: device removed
+[ 80208.388] (II) libinput: Logitech Gaming Mouse G502 Consumer Control: needs a virtual subdevice
+[ 80208.388] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.1/0003:046D:C07D.0008/input/input33/event22"
+[ 80208.388] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502 Consumer Control" (type: MOUSE, id 21)
+[ 80208.402] (**) Option "AccelerationScheme" "none"
+[ 80208.408] (**) Logitech Gaming Mouse G502 Consumer Control: (accel) selected scheme none/0
+[ 80208.408] (**) Logitech Gaming Mouse G502 Consumer Control: (accel) acceleration factor: 2.000
+[ 80208.408] (**) Logitech Gaming Mouse G502 Consumer Control: (accel) acceleration threshold: 4
+[ 80208.410] (II) event22 - Logitech Gaming Mouse G502 Consumer Control: is tagged by udev as: Keyboard
+[ 80208.410] (II) event22 - Logitech Gaming Mouse G502 Consumer Control: device is a keyboard
+[ 80208.414] (**) Logitech Gaming Mouse G502 Consumer Control: Applying InputClass "libinput keyboard catchall"
+[ 80208.414] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502 Consumer Control'
+[ 80208.414] (II) systemd-logind: returning pre-existing fd for /dev/input/event22 13:86
+[ 80208.414] (**) Logitech Gaming Mouse G502 Consumer Control: always reports core events
+[ 80208.414] (**) Option "Device" "/dev/input/event22"
+[ 80208.414] (**) Option "_source" "_driver/libinput"
+[ 80208.414] (II) libinput: Logitech Gaming Mouse G502 Consumer Control: is a virtual subdevice
+[ 80208.414] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.1/0003:046D:C07D.0008/input/input33/event22"
+[ 80208.414] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502 Consumer Control" (type: KEYBOARD, id 22)
+[ 80208.414] (**) Option "xkb_layout" "latam"
+[ 80208.418] (II) config/udev: Adding input device Logitech Gaming Mouse G502 (/dev/input/event20)
+[ 80208.418] (**) Logitech Gaming Mouse G502: Applying InputClass "libinput pointer catchall"
+[ 80208.418] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502'
+[ 80208.478] (II) systemd-logind: got fd for /dev/input/event20 13:84 fd 105 paused 0
+[ 80208.478] (**) Logitech Gaming Mouse G502: always reports core events
+[ 80208.478] (**) Option "Device" "/dev/input/event20"
+[ 80208.478] (**) Option "_source" "server/udev"
+[ 80208.480] (II) event20 - Logitech Gaming Mouse G502: is tagged by udev as: Mouse
+[ 80208.481] (II) event20 - Logitech Gaming Mouse G502: device is a pointer
+[ 80208.481] (II) event20 - Logitech Gaming Mouse G502: device removed
+[ 80208.481] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.0/0003:046D:C07D.0007/input/input31/event20"
+[ 80208.481] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502" (type: MOUSE, id 23)
+[ 80208.483] (**) Option "AccelerationScheme" "none"
+[ 80208.488] (**) Logitech Gaming Mouse G502: (accel) selected scheme none/0
+[ 80208.488] (**) Logitech Gaming Mouse G502: (accel) acceleration factor: 2.000
+[ 80208.488] (**) Logitech Gaming Mouse G502: (accel) acceleration threshold: 4
+[ 80208.490] (II) event20 - Logitech Gaming Mouse G502: is tagged by udev as: Mouse
+[ 80208.490] (II) event20 - Logitech Gaming Mouse G502: device is a pointer
+[ 87604.001] (II) config/udev: removing device Logitech Gaming Mouse G502
+[ 87604.001] (**) Option "fd" "105"
+[ 87604.002] (II) event20 - Logitech Gaming Mouse G502: device removed
+[ 87604.048] (II) UnloadModule: "libinput"
+[ 87604.048] (II) systemd-logind: releasing fd for 13:84
+[ 87604.048] (EE) systemd-logind: failed to release device: Device not taken
+[ 87604.065] (II) config/udev: removing device Logitech Gaming Mouse G502 Keyboard
+[ 87604.065] (**) Option "fd" "103"
+[ 87604.065] (II) event21 - Logitech Gaming Mouse G502 Keyboard: device removed
+[ 87604.077] (II) UnloadModule: "libinput"
+[ 87604.077] (II) systemd-logind: releasing fd for 13:85
+[ 87604.120] (II) config/udev: removing device Logitech Gaming Mouse G502 Consumer Control
+[ 87604.120] (**) Option "fd" "104"
+[ 87604.142] (II) UnloadModule: "libinput"
+[ 87604.142] (II) systemd-logind: not releasing fd for 13:86, still in use
+[ 87604.142] (II) config/udev: removing device Logitech Gaming Mouse G502 Consumer Control
+[ 87604.142] (**) Option "fd" "104"
+[ 87604.142] (II) event22 - Logitech Gaming Mouse G502 Consumer Control: device removed
+[ 87604.159] (II) UnloadModule: "libinput"
+[ 87604.159] (II) systemd-logind: releasing fd for 13:86
+[ 87604.175] (EE) systemd-logind: failed to release device: Device not taken
+[ 87604.212] (II) config/udev: removing device Logitech Gaming Mouse G502 System Control
+[ 87604.214] (**) Option "fd" "102"
+[ 87604.214] (II) event23 - Logitech Gaming Mouse G502 System Control: device removed
+[ 87604.225] (II) UnloadModule: "libinput"
+[ 87604.226] (II) systemd-logind: releasing fd for 13:87
+[ 87604.226] (EE) systemd-logind: failed to release device: Device not taken
+[ 89729.377] (II) config/udev: removing device Telink Wireless Receiver Mouse
+[ 89729.377] (**) Option "fd" "47"
+[ 89729.377] (II) event16 - Telink Wireless Receiver Mouse: device removed
+[ 89729.401] (II) UnloadModule: "libinput"
+[ 89729.401] (II) systemd-logind: releasing fd for 13:80
+[ 89729.401] (EE) systemd-logind: failed to release device: Device not taken
+[ 89729.418] (II) config/udev: removing device Telink Wireless Receiver Consumer Control
+[ 89729.418] (**) Option "fd" "89"
+[ 89729.431] (II) UnloadModule: "libinput"
+[ 89729.431] (II) systemd-logind: not releasing fd for 13:81, still in use
+[ 89729.431] (II) config/udev: removing device Telink Wireless Receiver Consumer Control
+[ 89729.431] (**) Option "fd" "89"
+[ 89729.431] (II) event17 - Telink Wireless Receiver Consumer Control: device removed
+[ 89729.437] (II) UnloadModule: "libinput"
+[ 89729.437] (II) systemd-logind: releasing fd for 13:81
+[ 89729.482] (II) config/udev: removing device Telink Wireless Receiver System Control
+[ 89729.482] (**) Option "fd" "96"
+[ 89729.482] (II) event18 - Telink Wireless Receiver System Control: device removed
+[ 89729.493] (II) UnloadModule: "libinput"
+[ 89729.493] (II) systemd-logind: releasing fd for 13:82
+[ 89729.557] (II) config/udev: removing device Telink Wireless Receiver
+[ 89729.557] (**) Option "fd" "83"
+[ 89729.557] (II) event19 - Telink Wireless Receiver: device removed
+[ 89729.574] (II) UnloadModule: "libinput"
+[ 89729.574] (II) systemd-logind: releasing fd for 13:83
+[ 89730.214] (II) config/udev: Adding input device Telink Wireless Receiver Mouse (/dev/input/mouse1)
+[ 89730.214] (II) No input driver specified, ignoring this device.
+[ 89730.214] (II) This device may have been added with another device file.
+[ 89730.232] (II) config/udev: Adding input device Telink Wireless Receiver (/dev/input/event19)
+[ 89730.232] (**) Telink Wireless Receiver: Applying InputClass "libinput keyboard catchall"
+[ 89730.232] (II) Using input driver 'libinput' for 'Telink Wireless Receiver'
+[ 89730.234] (II) systemd-logind: got fd for /dev/input/event19 13:83 fd 83 paused 0
+[ 89730.234] (**) Telink Wireless Receiver: always reports core events
+[ 89730.234] (**) Option "Device" "/dev/input/event19"
+[ 89730.234] (**) Option "_source" "server/udev"
+[ 89730.244] (II) event19 - Telink Wireless Receiver: is tagged by udev as: Keyboard
+[ 89730.245] (II) event19 - Telink Wireless Receiver: device is a keyboard
+[ 89730.270] (II) event19 - Telink Wireless Receiver: device removed
+[ 89730.270] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.1/0003:248A:8367.000A/input/input40/event19"
+[ 89730.271] (II) XINPUT: Adding extended input device "Telink Wireless Receiver" (type: KEYBOARD, id 14)
+[ 89730.272] (**) Option "xkb_layout" "latam"
+[ 89730.282] (II) event19 - Telink Wireless Receiver: is tagged by udev as: Keyboard
+[ 89730.282] (II) event19 - Telink Wireless Receiver: device is a keyboard
+[ 89730.287] (II) config/udev: Adding input device Telink Wireless Receiver System Control (/dev/input/event18)
+[ 89730.287] (**) Telink Wireless Receiver System Control: Applying InputClass "libinput keyboard catchall"
+[ 89730.287] (II) Using input driver 'libinput' for 'Telink Wireless Receiver System Control'
+[ 89730.289] (II) systemd-logind: got fd for /dev/input/event18 13:82 fd 87 paused 0
+[ 89730.289] (**) Telink Wireless Receiver System Control: always reports core events
+[ 89730.289] (**) Option "Device" "/dev/input/event18"
+[ 89730.289] (**) Option "_source" "server/udev"
+[ 89730.291] (II) event18 - Telink Wireless Receiver System Control: is tagged by udev as: Keyboard
+[ 89730.291] (II) event18 - Telink Wireless Receiver System Control: device is a keyboard
+[ 89730.292] (II) event18 - Telink Wireless Receiver System Control: device removed
+[ 89730.292] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/0003:248A:8367.0009/input/input39/event18"
+[ 89730.292] (II) XINPUT: Adding extended input device "Telink Wireless Receiver System Control" (type: KEYBOARD, id 15)
+[ 89730.292] (**) Option "xkb_layout" "latam"
+[ 89730.295] (II) event18 - Telink Wireless Receiver System Control: is tagged by udev as: Keyboard
+[ 89730.295] (II) event18 - Telink Wireless Receiver System Control: device is a keyboard
+[ 89730.298] (II) config/udev: Adding input device Telink Wireless Receiver Mouse (/dev/input/event16)
+[ 89730.298] (**) Telink Wireless Receiver Mouse: Applying InputClass "libinput pointer catchall"
+[ 89730.298] (II) Using input driver 'libinput' for 'Telink Wireless Receiver Mouse'
+[ 89730.300] (II) systemd-logind: got fd for /dev/input/event16 13:80 fd 89 paused 0
+[ 89730.300] (**) Telink Wireless Receiver Mouse: always reports core events
+[ 89730.300] (**) Option "Device" "/dev/input/event16"
+[ 89730.300] (**) Option "_source" "server/udev"
+[ 89730.302] (II) event16 - Telink Wireless Receiver Mouse: is tagged by udev as: Mouse
+[ 89730.303] (II) event16 - Telink Wireless Receiver Mouse: device is a pointer
+[ 89730.303] (II) event16 - Telink Wireless Receiver Mouse: device removed
+[ 89730.303] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/0003:248A:8367.0009/input/input37/event16"
+[ 89730.303] (II) XINPUT: Adding extended input device "Telink Wireless Receiver Mouse" (type: MOUSE, id 16)
+[ 89730.305] (**) Option "AccelerationScheme" "none"
+[ 89730.308] (**) Telink Wireless Receiver Mouse: (accel) selected scheme none/0
+[ 89730.308] (**) Telink Wireless Receiver Mouse: (accel) acceleration factor: 2.000
+[ 89730.308] (**) Telink Wireless Receiver Mouse: (accel) acceleration threshold: 4
+[ 89730.311] (II) event16 - Telink Wireless Receiver Mouse: is tagged by udev as: Mouse
+[ 89730.311] (II) event16 - Telink Wireless Receiver Mouse: device is a pointer
+[ 89730.314] (II) config/udev: Adding input device Telink Wireless Receiver Consumer Control (/dev/input/event17)
+[ 89730.314] (**) Telink Wireless Receiver Consumer Control: Applying InputClass "libinput keyboard catchall"
+[ 89730.314] (II) Using input driver 'libinput' for 'Telink Wireless Receiver Consumer Control'
+[ 89730.316] (II) systemd-logind: got fd for /dev/input/event17 13:81 fd 96 paused 0
+[ 89730.316] (**) Telink Wireless Receiver Consumer Control: always reports core events
+[ 89730.316] (**) Option "Device" "/dev/input/event17"
+[ 89730.316] (**) Option "_source" "server/udev"
+[ 89730.322] (II) event17 - Telink Wireless Receiver Consumer Control: is tagged by udev as: Keyboard
+[ 89730.322] (II) event17 - Telink Wireless Receiver Consumer Control: device is a keyboard
+[ 89730.323] (II) event17 - Telink Wireless Receiver Consumer Control: device removed
+[ 89730.323] (II) libinput: Telink Wireless Receiver Consumer Control: needs a virtual subdevice
+[ 89730.323] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/0003:248A:8367.0009/input/input38/event17"
+[ 89730.323] (II) XINPUT: Adding extended input device "Telink Wireless Receiver Consumer Control" (type: MOUSE, id 17)
+[ 89730.325] (**) Option "AccelerationScheme" "none"
+[ 89730.327] (**) Telink Wireless Receiver Consumer Control: (accel) selected scheme none/0
+[ 89730.327] (**) Telink Wireless Receiver Consumer Control: (accel) acceleration factor: 2.000
+[ 89730.327] (**) Telink Wireless Receiver Consumer Control: (accel) acceleration threshold: 4
+[ 89730.330] (II) event17 - Telink Wireless Receiver Consumer Control: is tagged by udev as: Keyboard
+[ 89730.330] (II) event17 - Telink Wireless Receiver Consumer Control: device is a keyboard
+[ 89730.332] (**) Telink Wireless Receiver Consumer Control: Applying InputClass "libinput keyboard catchall"
+[ 89730.332] (II) Using input driver 'libinput' for 'Telink Wireless Receiver Consumer Control'
+[ 89730.332] (II) systemd-logind: returning pre-existing fd for /dev/input/event17 13:81
+[ 89730.332] (**) Telink Wireless Receiver Consumer Control: always reports core events
+[ 89730.332] (**) Option "Device" "/dev/input/event17"
+[ 89730.332] (**) Option "_source" "_driver/libinput"
+[ 89730.332] (II) libinput: Telink Wireless Receiver Consumer Control: is a virtual subdevice
+[ 89730.332] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/0003:248A:8367.0009/input/input38/event17"
+[ 89730.332] (II) XINPUT: Adding extended input device "Telink Wireless Receiver Consumer Control" (type: KEYBOARD, id 18)
+[ 89730.332] (**) Option "xkb_layout" "latam"
+[ 89998.156] (**) Option "fd" "82"
+[ 89998.158] (II) event2  - Power Button: device removed
+[ 89998.161] (**) Option "fd" "46"
+[ 89998.161] (II) event10 - Video Bus: device removed
+[ 89998.163] (**) Option "fd" "97"
+[ 89998.163] (II) event7  - Video Bus: device removed
+[ 89998.165] (**) Option "fd" "43"
+[ 89998.165] (II) event1  - Power Button: device removed
+[ 89998.167] (**) Option "fd" "100"
+[ 89998.167] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device removed
+[ 89998.169] (**) Option "fd" "91"
+[ 89998.169] (II) event5  - Ideapad extra buttons: device removed
+[ 89998.170] (**) Option "fd" "90"
+[ 89998.170] (II) event3  - AT Translated Set 2 keyboard: device removed
+[ 89998.172] (**) Option "fd" "98"
+[ 89998.172] (II) event4  - ETPS/2 Elantech Touchpad: device removed
+[ 89998.174] (**) Option "fd" "83"
+[ 89998.174] (II) event19 - Telink Wireless Receiver: device removed
+[ 89998.176] (**) Option "fd" "87"
+[ 89998.176] (II) event18 - Telink Wireless Receiver System Control: device removed
+[ 89998.178] (**) Option "fd" "89"
+[ 89998.178] (II) event16 - Telink Wireless Receiver Mouse: device removed
+[ 89998.181] (**) Option "fd" "96"
+[ 89998.183] (**) Option "fd" "96"
+[ 89998.183] (II) event17 - Telink Wireless Receiver Consumer Control: device removed
+[ 90000.270] (II) systemd-logind: got pause for 13:66
+[ 90000.270] (II) systemd-logind: got pause for 13:65
+[ 90000.270] (II) systemd-logind: got pause for 226:1
+[ 90000.270] (II) systemd-logind: got pause for 13:74
+[ 90000.270] (II) systemd-logind: got pause for 13:81
+[ 90000.270] (II) systemd-logind: got pause for 13:80
+[ 90000.270] (II) systemd-logind: got pause for 226:0
+[ 90000.270] (II) systemd-logind: got pause for 13:83
+[ 90000.270] (II) systemd-logind: got pause for 13:67
+[ 90000.270] (II) systemd-logind: got pause for 13:70
+[ 90000.270] (II) systemd-logind: got pause for 13:69
+[ 90000.270] (II) systemd-logind: got pause for 13:82
+[ 90000.270] (II) systemd-logind: got pause for 13:71
+[ 90000.270] (II) systemd-logind: got pause for 13:68
+[ 90000.432] (II) systemd-logind: got resume for 13:66
+[ 90000.433] (II) systemd-logind: got resume for 13:65
+[ 90000.434] (II) systemd-logind: got resume for 226:1
+[ 90000.434] (II) systemd-logind: got resume for 13:74
+[ 90000.434] (II) systemd-logind: got resume for 13:81
+[ 90000.434] (II) systemd-logind: got resume for 13:80
+[ 90000.434] (II) systemd-logind: got resume for 226:0
+[ 90000.435] (II) NVIDIA(0): Setting mode "NULL"
+[ 90000.435] (EE) NVIDIA(0): Failed to initiate mode change.
+[ 90000.435] (EE) NVIDIA(0): Failed to complete mode change
+[ 90000.580] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[ 90000.580] (II) event2  - Power Button: device is a keyboard
+[ 90000.591] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[ 90000.591] (II) event10 - Video Bus: device is a keyboard
+[ 90000.595] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[ 90000.595] (II) event1  - Power Button: device is a keyboard
+[ 90000.600] (II) event16 - Telink Wireless Receiver Mouse: is tagged by udev as: Mouse
+[ 90000.601] (II) event16 - Telink Wireless Receiver Mouse: device is a pointer
+[ 90000.606] (II) event17 - Telink Wireless Receiver Consumer Control: is tagged by udev as: Keyboard
+[ 90000.606] (II) event17 - Telink Wireless Receiver Consumer Control: device is a keyboard
+[ 90000.610] (II) systemd-logind: got resume for 13:83
+[ 90000.613] (II) event19 - Telink Wireless Receiver: is tagged by udev as: Keyboard
+[ 90000.613] (II) event19 - Telink Wireless Receiver: device is a keyboard
+[ 90000.711] (II) systemd-logind: got resume for 13:67
+[ 90000.713] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[ 90000.713] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[ 90000.716] (II) systemd-logind: got resume for 13:70
+[ 90000.719] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: is tagged by udev as: Keyboard
+[ 90000.719] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device is a keyboard
+[ 90000.722] (II) systemd-logind: got resume for 13:69
+[ 90000.723] (II) event5  - Ideapad extra buttons: is tagged by udev as: Keyboard
+[ 90000.723] (II) event5  - Ideapad extra buttons: device is a keyboard
+[ 90000.734] (II) systemd-logind: got resume for 13:82
+[ 90000.737] (II) event18 - Telink Wireless Receiver System Control: is tagged by udev as: Keyboard
+[ 90000.737] (II) event18 - Telink Wireless Receiver System Control: device is a keyboard
+[ 90000.741] (II) systemd-logind: got resume for 13:71
+[ 90000.748] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[ 90000.748] (II) event7  - Video Bus: device is a keyboard
+[ 90000.754] (II) systemd-logind: got resume for 13:68
+[ 90000.760] (II) event4  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[ 90000.767] (II) event4  - ETPS/2 Elantech Touchpad: device is a touchpad
+[ 92618.800] (**) Option "fd" "83"
+[ 92618.800] (II) event2  - Power Button: device removed
+[ 92618.803] (**) Option "fd" "47"
+[ 92618.803] (II) event10 - Video Bus: device removed
+[ 92618.805] (**) Option "fd" "98"
+[ 92618.806] (II) event7  - Video Bus: device removed
+[ 92618.808] (**) Option "fd" "43"
+[ 92618.808] (II) event1  - Power Button: device removed
+[ 92618.810] (**) Option "fd" "90"
+[ 92618.810] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device removed
+[ 92618.812] (**) Option "fd" "96"
+[ 92618.812] (II) event5  - Ideapad extra buttons: device removed
+[ 92618.814] (**) Option "fd" "103"
+[ 92618.814] (II) event3  - AT Translated Set 2 keyboard: device removed
+[ 92618.815] (**) Option "fd" "100"
+[ 92618.816] (II) event4  - ETPS/2 Elantech Touchpad: device removed
+[ 92618.818] (**) Option "fd" "89"
+[ 92618.818] (II) event19 - Telink Wireless Receiver: device removed
+[ 92618.820] (**) Option "fd" "97"
+[ 92618.820] (II) event18 - Telink Wireless Receiver System Control: device removed
+[ 92618.821] (**) Option "fd" "82"
+[ 92618.822] (II) event16 - Telink Wireless Receiver Mouse: device removed
+[ 92618.823] (**) Option "fd" "91"
+[ 92618.825] (**) Option "fd" "91"
+[ 92618.825] (II) event17 - Telink Wireless Receiver Consumer Control: device removed
+[ 92618.880] (II) systemd-logind: got pause for 13:66
+[ 92618.880] (II) systemd-logind: got pause for 13:65
+[ 92618.880] (II) systemd-logind: got pause for 226:1
+[ 92618.880] (II) systemd-logind: got pause for 13:74
+[ 92618.880] (II) systemd-logind: got pause for 13:81
+[ 92620.397] (II) systemd-logind: got pause for 13:80
+[ 92620.505] (II) systemd-logind: got pause for 226:0
+[ 92620.506] (II) systemd-logind: got pause for 13:83
+[ 92620.518] (II) systemd-logind: got pause for 13:67
+[ 92620.519] (II) systemd-logind: got pause for 13:70
+[ 92620.519] (II) systemd-logind: got pause for 13:69
+[ 92620.519] (II) systemd-logind: got pause for 13:82
+[ 92620.519] (II) systemd-logind: got pause for 13:71
+[ 92620.519] (II) systemd-logind: got pause for 13:68
+[ 92620.650] (II) systemd-logind: got resume for 13:66
+[ 92620.650] (II) systemd-logind: got resume for 13:65
+[ 92620.650] (II) systemd-logind: got resume for 226:1
+[ 92620.651] (II) systemd-logind: got resume for 13:74
+[ 92620.651] (II) systemd-logind: got resume for 13:81
+[ 92620.651] (II) systemd-logind: got resume for 13:80
+[ 92620.651] (II) systemd-logind: got resume for 226:0
+[ 92620.651] (II) NVIDIA(0): Setting mode "NULL"
+[ 92620.651] (EE) NVIDIA(0): Failed to initiate mode change.
+[ 92620.651] (EE) NVIDIA(0): Failed to complete mode change
+[ 92620.744] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[ 92620.744] (II) event2  - Power Button: device is a keyboard
+[ 92620.751] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[ 92620.751] (II) event10 - Video Bus: device is a keyboard
+[ 92620.754] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[ 92620.754] (II) event1  - Power Button: device is a keyboard
+[ 92620.757] (II) event16 - Telink Wireless Receiver Mouse: is tagged by udev as: Mouse
+[ 92620.757] (II) event16 - Telink Wireless Receiver Mouse: device is a pointer
+[ 92620.761] (II) event17 - Telink Wireless Receiver Consumer Control: is tagged by udev as: Keyboard
+[ 92620.761] (II) event17 - Telink Wireless Receiver Consumer Control: device is a keyboard
+[ 92620.764] (II) systemd-logind: got resume for 13:83
+[ 92620.766] (II) event19 - Telink Wireless Receiver: is tagged by udev as: Keyboard
+[ 92620.766] (II) event19 - Telink Wireless Receiver: device is a keyboard
+[ 92620.891] (II) systemd-logind: got resume for 13:67
+[ 92620.910] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[ 92620.910] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[ 92620.915] (II) systemd-logind: got resume for 13:70
+[ 92620.918] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: is tagged by udev as: Keyboard
+[ 92620.918] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device is a keyboard
+[ 92620.922] (II) systemd-logind: got resume for 13:69
+[ 92620.925] (II) event5  - Ideapad extra buttons: is tagged by udev as: Keyboard
+[ 92620.925] (II) event5  - Ideapad extra buttons: device is a keyboard
+[ 92620.928] (II) systemd-logind: got resume for 13:82
+[ 92620.931] (II) event18 - Telink Wireless Receiver System Control: is tagged by udev as: Keyboard
+[ 92620.931] (II) event18 - Telink Wireless Receiver System Control: device is a keyboard
+[ 92620.939] (II) systemd-logind: got resume for 13:71
+[ 92620.941] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[ 92620.944] (II) event7  - Video Bus: device is a keyboard
+[ 92620.946] (II) systemd-logind: got resume for 13:68
+[ 92620.947] (II) event4  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[ 92620.948] (II) event4  - ETPS/2 Elantech Touchpad: device is a touchpad
+[ 93056.805] (**) Option "fd" "83"
+[ 93056.805] (II) event2  - Power Button: device removed
+[ 93056.807] (**) Option "fd" "94"
+[ 93056.807] (II) event10 - Video Bus: device removed
+[ 93056.808] (**) Option "fd" "102"
+[ 93056.808] (II) event7  - Video Bus: device removed
+[ 93056.809] (**) Option "fd" "43"
+[ 93056.809] (II) event1  - Power Button: device removed
+[ 93056.810] (**) Option "fd" "93"
+[ 93056.810] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device removed
+[ 93056.811] (**) Option "fd" "98"
+[ 93056.811] (II) event5  - Ideapad extra buttons: device removed
+[ 93056.812] (**) Option "fd" "105"
+[ 93056.812] (II) event3  - AT Translated Set 2 keyboard: device removed
+[ 93056.813] (**) Option "fd" "103"
+[ 93056.813] (II) event4  - ETPS/2 Elantech Touchpad: device removed
+[ 93056.814] (**) Option "fd" "91"
+[ 93056.814] (II) event19 - Telink Wireless Receiver: device removed
+[ 93056.815] (**) Option "fd" "100"
+[ 93056.815] (II) event18 - Telink Wireless Receiver System Control: device removed
+[ 93056.816] (**) Option "fd" "89"
+[ 93056.816] (II) event16 - Telink Wireless Receiver Mouse: device removed
+[ 93056.817] (**) Option "fd" "82"
+[ 93056.818] (**) Option "fd" "82"
+[ 93056.818] (II) event17 - Telink Wireless Receiver Consumer Control: device removed
+[ 93060.427] (II) systemd-logind: got pause for 13:66
+[ 93060.428] (II) systemd-logind: got pause for 13:65
+[ 93060.428] (II) systemd-logind: got pause for 226:1
+[ 93060.430] (II) systemd-logind: got pause for 13:74
+[ 93060.432] (II) systemd-logind: got pause for 13:81
+[ 93060.432] (II) systemd-logind: got pause for 13:80
+[ 93060.433] (II) systemd-logind: got pause for 226:0
+[ 93060.433] (II) systemd-logind: got pause for 13:83
+[ 93060.433] (II) systemd-logind: got pause for 13:67
+[ 93060.434] (II) systemd-logind: got pause for 13:70
+[ 93060.435] (II) systemd-logind: got pause for 13:69
+[ 93060.435] (II) systemd-logind: got pause for 13:82
+[ 93060.436] (II) systemd-logind: got pause for 13:71
+[ 93060.436] (II) systemd-logind: got pause for 13:68
+[ 93060.534] (II) config/udev: removing device Telink Wireless Receiver Mouse
+[ 93060.554] (II) UnloadModule: "libinput"
+[ 93060.555] (II) systemd-logind: releasing fd for 13:80
+[ 93060.710] (EE) systemd-logind: failed to release device: Device not taken
+[ 93060.788] (II) config/udev: removing device Telink Wireless Receiver Consumer Control
+[ 93060.794] (II) UnloadModule: "libinput"
+[ 93060.794] (II) systemd-logind: not releasing fd for 13:81, still in use
+[ 93060.794] (II) config/udev: removing device Telink Wireless Receiver Consumer Control
+[ 93060.801] (II) UnloadModule: "libinput"
+[ 93060.801] (II) systemd-logind: releasing fd for 13:81
+[ 93060.816] (EE) systemd-logind: failed to release device: Device not taken
+[ 93060.816] (II) systemd-logind: got resume for 13:66
+[ 93060.816] (II) systemd-logind: got resume for 13:65
+[ 93060.816] (II) systemd-logind: got resume for 226:1
+[ 93060.816] (II) systemd-logind: got resume for 13:74
+[ 93060.816] (II) systemd-logind: got resume for 226:0
+[ 93060.816] (II) NVIDIA(0): Setting mode "NULL"
+[ 93060.816] (EE) NVIDIA(0): Failed to initiate mode change.
+[ 93060.816] (EE) NVIDIA(0): Failed to complete mode change
+[ 93060.932] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[ 93060.932] (II) event2  - Power Button: device is a keyboard
+[ 93060.935] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[ 93060.936] (II) event10 - Video Bus: device is a keyboard
+[ 93060.938] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[ 93060.938] (II) event1  - Power Button: device is a keyboard
+[ 93060.939] (II) systemd-logind: got resume for 13:83
+[ 93060.939] (EE) client bug: Invalid path /dev/input/event19
+[ 93060.939] [dix] couldn't enable device 14
+[ 93060.939] (II) systemd-logind: got resume for 13:67
+[ 93060.940] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[ 93060.940] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[ 93060.942] (II) systemd-logind: got resume for 13:70
+[ 93060.943] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: is tagged by udev as: Keyboard
+[ 93060.943] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device is a keyboard
+[ 93060.944] (II) systemd-logind: got resume for 13:69
+[ 93060.945] (II) event5  - Ideapad extra buttons: is tagged by udev as: Keyboard
+[ 93060.945] (II) event5  - Ideapad extra buttons: device is a keyboard
+[ 93060.946] (II) systemd-logind: got resume for 13:71
+[ 93060.948] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[ 93060.948] (II) event7  - Video Bus: device is a keyboard
+[ 93060.949] (II) systemd-logind: got resume for 13:68
+[ 93060.950] (II) event4  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[ 93060.951] (II) event4  - ETPS/2 Elantech Touchpad: device is a touchpad
+[ 93061.030] (II) config/udev: removing device Telink Wireless Receiver System Control
+[ 93061.035] (II) UnloadModule: "libinput"
+[ 93061.035] (II) systemd-logind: releasing fd for 13:82
+[ 93061.061] (EE) systemd-logind: failed to release device: Device not taken
+[ 93061.063] (II) config/udev: removing device Telink Wireless Receiver
+[ 93061.067] (II) UnloadModule: "libinput"
+[ 93061.067] (II) systemd-logind: releasing fd for 13:83
+[ 93061.077] (EE) systemd-logind: failed to release device: Device not taken
+[ 93067.165] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/mouse1)
+[ 93067.166] (II) No input driver specified, ignoring this device.
+[ 93067.166] (II) This device may have been added with another device file.
+[ 93067.243] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/event16)
+[ 93067.243] (**) PixArt USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[ 93067.243] (II) Using input driver 'libinput' for 'PixArt USB Optical Mouse'
+[ 93067.254] (II) systemd-logind: got fd for /dev/input/event16 13:80 fd 98 paused 0
+[ 93067.254] (**) PixArt USB Optical Mouse: always reports core events
+[ 93067.255] (**) Option "Device" "/dev/input/event16"
+[ 93067.255] (**) Option "_source" "server/udev"
+[ 93067.265] (II) event16 - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+[ 93067.265] (II) event16 - PixArt USB Optical Mouse: device set to 1000 DPI
+[ 93067.265] (II) event16 - PixArt USB Optical Mouse: device is a pointer
+[ 93067.265] (II) event16 - PixArt USB Optical Mouse: device removed
+[ 93067.266] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.0/0003:093A:2510.000B/input/input41/event16"
+[ 93067.266] (II) XINPUT: Adding extended input device "PixArt USB Optical Mouse" (type: MOUSE, id 14)
+[ 93067.292] (**) Option "AccelerationScheme" "none"
+[ 93067.338] (**) PixArt USB Optical Mouse: (accel) selected scheme none/0
+[ 93067.339] (**) PixArt USB Optical Mouse: (accel) acceleration factor: 2.000
+[ 93067.339] (**) PixArt USB Optical Mouse: (accel) acceleration threshold: 4
+[ 93067.358] (II) event16 - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+[ 93067.363] (II) event16 - PixArt USB Optical Mouse: device set to 1000 DPI
+[ 93067.363] (II) event16 - PixArt USB Optical Mouse: device is a pointer
+[107206.218] (**) Option "fd" "100"
+[107206.218] (II) event2  - Power Button: device removed
+[107206.220] (**) Option "fd" "83"
+[107206.220] (II) event10 - Video Bus: device removed
+[107206.221] (**) Option "fd" "96"
+[107206.221] (II) event7  - Video Bus: device removed
+[107206.222] (**) Option "fd" "43"
+[107206.222] (II) event1  - Power Button: device removed
+[107206.223] (**) Option "fd" "94"
+[107206.223] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device removed
+[107206.224] (**) Option "fd" "95"
+[107206.224] (II) event5  - Ideapad extra buttons: device removed
+[107206.224] (**) Option "fd" "93"
+[107206.225] (II) event3  - AT Translated Set 2 keyboard: device removed
+[107206.226] (**) Option "fd" "97"
+[107206.226] (II) event4  - ETPS/2 Elantech Touchpad: device removed
+[107206.227] (**) Option "fd" "98"
+[107206.227] (II) event16 - PixArt USB Optical Mouse: device removed
+[107208.474] (II) systemd-logind: got pause for 13:66
+[107208.474] (II) systemd-logind: got pause for 13:65
+[107208.474] (II) systemd-logind: got pause for 226:1
+[107208.474] (II) systemd-logind: got pause for 13:74
+[107208.474] (II) systemd-logind: got pause for 13:80
+[107208.474] (II) systemd-logind: got pause for 226:0
+[107208.474] (II) systemd-logind: got pause for 13:67
+[107208.474] (II) systemd-logind: got pause for 13:70
+[107208.474] (II) systemd-logind: got pause for 13:69
+[107208.474] (II) systemd-logind: got pause for 13:71
+[107208.474] (II) systemd-logind: got pause for 13:68
+[107208.644] (II) systemd-logind: got resume for 13:66
+[107208.644] (II) systemd-logind: got resume for 13:65
+[107208.644] (II) systemd-logind: got resume for 226:1
+[107208.668] (II) systemd-logind: got resume for 13:74
+[107208.758] (II) systemd-logind: got resume for 13:80
+[107208.758] (II) systemd-logind: got resume for 226:0
+[107208.759] (II) NVIDIA(0): Setting mode "NULL"
+[107208.759] (EE) NVIDIA(0): Failed to initiate mode change.
+[107208.759] (EE) NVIDIA(0): Failed to complete mode change
+[107208.979] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[107208.979] (II) event2  - Power Button: device is a keyboard
+[107209.001] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[107209.001] (II) event10 - Video Bus: device is a keyboard
+[107209.006] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[107209.006] (II) event1  - Power Button: device is a keyboard
+[107209.012] (II) event16 - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+[107209.013] (II) event16 - PixArt USB Optical Mouse: device set to 1000 DPI
+[107209.013] (II) event16 - PixArt USB Optical Mouse: device is a pointer
+[107209.014] (II) systemd-logind: got resume for 13:67
+[107209.016] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[107209.019] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[107209.025] (II) systemd-logind: got resume for 13:70
+[107209.027] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: is tagged by udev as: Keyboard
+[107209.027] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device is a keyboard
+[107209.029] (II) systemd-logind: got resume for 13:69
+[107209.030] (II) event5  - Ideapad extra buttons: is tagged by udev as: Keyboard
+[107209.030] (II) event5  - Ideapad extra buttons: device is a keyboard
+[107209.032] (II) systemd-logind: got resume for 13:71
+[107209.033] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[107209.033] (II) event7  - Video Bus: device is a keyboard
+[107209.035] (II) systemd-logind: got resume for 13:68
+[107209.037] (II) event4  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[107209.039] (II) event4  - ETPS/2 Elantech Touchpad: device is a touchpad
+[112570.112] (**) Option "fd" "76"
+[112570.112] (II) event2  - Power Button: device removed
+[112570.115] (**) Option "fd" "79"
+[112570.115] (II) event10 - Video Bus: device removed
+[112570.117] (**) Option "fd" "94"
+[112570.117] (II) event7  - Video Bus: device removed
+[112570.118] (**) Option "fd" "43"
+[112570.118] (II) event1  - Power Button: device removed
+[112570.120] (**) Option "fd" "97"
+[112570.120] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device removed
+[112570.121] (**) Option "fd" "81"
+[112570.121] (II) event5  - Ideapad extra buttons: device removed
+[112570.123] (**) Option "fd" "80"
+[112570.123] (II) event3  - AT Translated Set 2 keyboard: device removed
+[112570.124] (**) Option "fd" "95"
+[112570.124] (II) event4  - ETPS/2 Elantech Touchpad: device removed
+[112570.126] (**) Option "fd" "83"
+[112570.126] (II) event16 - PixArt USB Optical Mouse: device removed
+[112572.498] (II) systemd-logind: got pause for 13:66
+[112572.507] (II) systemd-logind: got pause for 13:65
+[112572.509] (II) systemd-logind: got pause for 226:1
+[112572.514] (II) systemd-logind: got pause for 13:74
+[112572.515] (II) systemd-logind: got pause for 13:80
+[112572.516] (II) systemd-logind: got pause for 226:0
+[112572.521] (II) systemd-logind: got pause for 13:67
+[112572.522] (II) systemd-logind: got pause for 13:70
+[112572.522] (II) systemd-logind: got pause for 13:69
+[112572.522] (II) systemd-logind: got pause for 13:71
+[112572.524] (II) systemd-logind: got pause for 13:68
+[112572.654] (II) systemd-logind: got resume for 13:66
+[112572.654] (II) systemd-logind: got resume for 13:65
+[112572.654] (II) systemd-logind: got resume for 226:1
+[112572.654] (II) systemd-logind: got resume for 13:74
+[112572.654] (II) systemd-logind: got resume for 13:80
+[112572.734] (II) systemd-logind: got resume for 226:0
+[112572.736] (II) NVIDIA(0): Setting mode "NULL"
+[112572.737] (EE) NVIDIA(0): Failed to initiate mode change.
+[112572.737] (EE) NVIDIA(0): Failed to complete mode change
+[112572.872] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[112572.872] (II) event2  - Power Button: device is a keyboard
+[112572.880] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[112572.880] (II) event10 - Video Bus: device is a keyboard
+[112572.946] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[112572.946] (II) event1  - Power Button: device is a keyboard
+[112572.958] (II) event16 - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+[112572.958] (II) event16 - PixArt USB Optical Mouse: device set to 1000 DPI
+[112572.958] (II) event16 - PixArt USB Optical Mouse: device is a pointer
+[112572.960] (II) systemd-logind: got resume for 13:67
+[112572.963] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[112572.963] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[112572.966] (II) systemd-logind: got resume for 13:70
+[112572.968] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: is tagged by udev as: Keyboard
+[112572.968] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device is a keyboard
+[112572.970] (II) systemd-logind: got resume for 13:69
+[112572.972] (II) event5  - Ideapad extra buttons: is tagged by udev as: Keyboard
+[112572.972] (II) event5  - Ideapad extra buttons: device is a keyboard
+[112572.975] (II) systemd-logind: got resume for 13:71
+[112572.989] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[112572.989] (II) event7  - Video Bus: device is a keyboard
+[112572.990] (II) systemd-logind: got resume for 13:68
+[112572.992] (II) event4  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[112572.993] (II) event4  - ETPS/2 Elantech Touchpad: device is a touchpad
+[137137.565] (II) config/udev: removing device PixArt USB Optical Mouse
+[137137.565] (**) Option "fd" "79"
+[137137.565] (II) event16 - PixArt USB Optical Mouse: device removed
+[137137.585] (II) UnloadModule: "libinput"
+[137137.585] (II) systemd-logind: releasing fd for 13:80
+[137140.131] (**) Option "fd" "80"
+[137140.132] (II) event2  - Power Button: device removed
+[137140.135] (**) Option "fd" "83"
+[137140.135] (II) event10 - Video Bus: device removed
+[137140.138] (**) Option "fd" "93"
+[137140.139] (II) event7  - Video Bus: device removed
+[137140.141] (**) Option "fd" "43"
+[137140.141] (II) event1  - Power Button: device removed
+[137140.144] (**) Option "fd" "86"
+[137140.144] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device removed
+[137140.146] (**) Option "fd" "91"
+[137140.146] (II) event5  - Ideapad extra buttons: device removed
+[137140.148] (**) Option "fd" "81"
+[137140.148] (II) event3  - AT Translated Set 2 keyboard: device removed
+[137140.150] (**) Option "fd" "105"
+[137140.150] (II) event4  - ETPS/2 Elantech Touchpad: device removed
+[137140.203] (II) systemd-logind: got pause for 13:66
+[137140.203] (II) systemd-logind: got pause for 13:65
+[137140.203] (II) systemd-logind: got pause for 226:1
+[137140.203] (II) systemd-logind: got pause for 13:74
+[137140.203] (II) systemd-logind: got pause for 226:0
+[137140.203] (II) systemd-logind: got pause for 13:67
+[137140.203] (II) systemd-logind: got pause for 13:70
+[137140.203] (II) systemd-logind: got pause for 13:69
+[137140.203] (II) systemd-logind: got pause for 13:71
+[137140.203] (II) systemd-logind: got pause for 13:68
+[137142.076] (II) systemd-logind: got resume for 13:66
+[137142.077] (II) systemd-logind: got resume for 13:65
+[137142.078] (II) systemd-logind: got resume for 226:1
+[137142.079] (II) systemd-logind: got resume for 13:74
+[137142.079] (II) systemd-logind: got resume for 226:0
+[137142.080] (II) NVIDIA(0): Setting mode "NULL"
+[137142.081] (EE) NVIDIA(0): Failed to initiate mode change.
+[137142.082] (EE) NVIDIA(0): Failed to complete mode change
+[137142.191] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[137142.191] (II) event2  - Power Button: device is a keyboard
+[137142.195] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[137142.195] (II) event10 - Video Bus: device is a keyboard
+[137142.199] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[137142.199] (II) event1  - Power Button: device is a keyboard
+[137142.206] (II) systemd-logind: got resume for 13:67
+[137142.209] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[137142.209] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[137142.212] (II) systemd-logind: got resume for 13:70
+[137142.216] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: is tagged by udev as: Keyboard
+[137142.217] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device is a keyboard
+[137142.219] (II) systemd-logind: got resume for 13:69
+[137142.222] (II) event5  - Ideapad extra buttons: is tagged by udev as: Keyboard
+[137142.222] (II) event5  - Ideapad extra buttons: device is a keyboard
+[137142.224] (II) systemd-logind: got resume for 13:71
+[137142.230] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[137142.230] (II) event7  - Video Bus: device is a keyboard
+[137142.233] (II) systemd-logind: got resume for 13:68
+[137142.235] (II) event4  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[137142.237] (II) event4  - ETPS/2 Elantech Touchpad: device is a touchpad
+[137159.463] (EE) event4  - ETPS/2 Elantech Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.6/touchpad-jumping-cursors.html for details
+[137261.943] (EE) event4  - ETPS/2 Elantech Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.6/touchpad-jumping-cursors.html for details
+[137829.775] (EE) event4  - ETPS/2 Elantech Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.6/touchpad-jumping-cursors.html for details
+[137881.262] (**) Option "fd" "81"
+[137881.262] (II) event2  - Power Button: device removed
+[137881.267] (**) Option "fd" "80"
+[137881.267] (II) event10 - Video Bus: device removed
+[137881.270] (**) Option "fd" "105"
+[137881.270] (II) event7  - Video Bus: device removed
+[137881.274] (**) Option "fd" "43"
+[137881.274] (II) event1  - Power Button: device removed
+[137881.278] (**) Option "fd" "86"
+[137881.278] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device removed
+[137881.281] (**) Option "fd" "104"
+[137881.281] (II) event5  - Ideapad extra buttons: device removed
+[137881.284] (**) Option "fd" "111"
+[137881.284] (II) event3  - AT Translated Set 2 keyboard: device removed
+[137881.287] (**) Option "fd" "112"
+[137881.287] (II) event4  - ETPS/2 Elantech Touchpad: device removed
+[137882.968] (II) systemd-logind: got pause for 13:66
+[137882.973] (II) systemd-logind: got pause for 13:65
+[137882.973] (II) systemd-logind: got pause for 226:1
+[137882.973] (II) systemd-logind: got pause for 13:74
+[137882.973] (II) systemd-logind: got pause for 226:0
+[137882.973] (II) systemd-logind: got pause for 13:67
+[137882.973] (II) systemd-logind: got pause for 13:70
+[137882.973] (II) systemd-logind: got pause for 13:69
+[137882.973] (II) systemd-logind: got pause for 13:71
+[137882.973] (II) systemd-logind: got pause for 13:68
+[137883.104] (II) systemd-logind: got resume for 13:66
+[137883.104] (II) systemd-logind: got resume for 13:65
+[137883.104] (II) systemd-logind: got resume for 226:1
+[137883.104] (II) systemd-logind: got resume for 13:74
+[137883.104] (II) systemd-logind: got resume for 226:0
+[137883.104] (II) NVIDIA(0): Setting mode "NULL"
+[137883.105] (EE) NVIDIA(0): Failed to initiate mode change.
+[137883.105] (EE) NVIDIA(0): Failed to complete mode change
+[137883.200] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[137883.200] (II) event2  - Power Button: device is a keyboard
+[137883.207] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[137883.207] (II) event10 - Video Bus: device is a keyboard
+[137883.211] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[137883.211] (II) event1  - Power Button: device is a keyboard
+[137883.221] (II) systemd-logind: got resume for 13:67
+[137883.223] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[137883.223] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[137883.226] (II) systemd-logind: got resume for 13:70
+[137883.232] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: is tagged by udev as: Keyboard
+[137883.232] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device is a keyboard
+[137883.371] (II) systemd-logind: got resume for 13:69
+[137883.373] (II) event5  - Ideapad extra buttons: is tagged by udev as: Keyboard
+[137883.373] (II) event5  - Ideapad extra buttons: device is a keyboard
+[137883.376] (II) systemd-logind: got resume for 13:71
+[137883.381] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[137883.381] (II) event7  - Video Bus: device is a keyboard
+[137883.384] (II) systemd-logind: got resume for 13:68
+[137883.386] (II) event4  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[137883.389] (II) event4  - ETPS/2 Elantech Touchpad: device is a touchpad
+[137889.485] (II) config/udev: Adding input device Logitech Gaming Mouse G502 (/dev/input/mouse1)
+[137889.486] (II) No input driver specified, ignoring this device.
+[137889.486] (II) This device may have been added with another device file.
+[137889.526] (II) config/udev: Adding input device Logitech Gaming Mouse G502 Keyboard (/dev/input/event17)
+[137889.526] (**) Logitech Gaming Mouse G502 Keyboard: Applying InputClass "libinput keyboard catchall"
+[137889.526] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502 Keyboard'
+[137889.532] (II) systemd-logind: got fd for /dev/input/event17 13:81 fd 114 paused 0
+[137889.536] (**) Logitech Gaming Mouse G502 Keyboard: always reports core events
+[137889.537] (**) Option "Device" "/dev/input/event17"
+[137889.537] (**) Option "_source" "server/udev"
+[137889.539] (II) event17 - Logitech Gaming Mouse G502 Keyboard: is tagged by udev as: Keyboard
+[137889.539] (II) event17 - Logitech Gaming Mouse G502 Keyboard: device is a keyboard
+[137889.539] (II) event17 - Logitech Gaming Mouse G502 Keyboard: device removed
+[137889.539] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.1/0003:046D:C07D.000D/input/input43/event17"
+[137889.539] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502 Keyboard" (type: KEYBOARD, id 14)
+[137889.539] (**) Option "xkb_layout" "latam"
+[137889.549] (II) event17 - Logitech Gaming Mouse G502 Keyboard: is tagged by udev as: Keyboard
+[137889.550] (II) event17 - Logitech Gaming Mouse G502 Keyboard: device is a keyboard
+[137889.566] (II) config/udev: Adding input device Logitech Gaming Mouse G502 System Control (/dev/input/event19)
+[137889.566] (**) Logitech Gaming Mouse G502 System Control: Applying InputClass "libinput keyboard catchall"
+[137889.566] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502 System Control'
+[137889.573] (II) systemd-logind: got fd for /dev/input/event19 13:83 fd 115 paused 0
+[137889.573] (**) Logitech Gaming Mouse G502 System Control: always reports core events
+[137889.573] (**) Option "Device" "/dev/input/event19"
+[137889.573] (**) Option "_source" "server/udev"
+[137889.575] (II) event19 - Logitech Gaming Mouse G502 System Control: is tagged by udev as: Keyboard
+[137889.575] (II) event19 - Logitech Gaming Mouse G502 System Control: device is a keyboard
+[137889.576] (II) event19 - Logitech Gaming Mouse G502 System Control: device removed
+[137889.576] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.1/0003:046D:C07D.000D/input/input45/event19"
+[137889.576] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502 System Control" (type: KEYBOARD, id 15)
+[137889.576] (**) Option "xkb_layout" "latam"
+[137889.582] (II) event19 - Logitech Gaming Mouse G502 System Control: is tagged by udev as: Keyboard
+[137889.582] (II) event19 - Logitech Gaming Mouse G502 System Control: device is a keyboard
+[137889.587] (II) config/udev: Adding input device Logitech Gaming Mouse G502 Consumer Control (/dev/input/event18)
+[137889.587] (**) Logitech Gaming Mouse G502 Consumer Control: Applying InputClass "libinput keyboard catchall"
+[137889.587] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502 Consumer Control'
+[137889.624] (II) systemd-logind: got fd for /dev/input/event18 13:82 fd 116 paused 0
+[137889.624] (**) Logitech Gaming Mouse G502 Consumer Control: always reports core events
+[137889.624] (**) Option "Device" "/dev/input/event18"
+[137889.624] (**) Option "_source" "server/udev"
+[137889.627] (II) event18 - Logitech Gaming Mouse G502 Consumer Control: is tagged by udev as: Keyboard
+[137889.627] (II) event18 - Logitech Gaming Mouse G502 Consumer Control: device is a keyboard
+[137889.627] (II) event18 - Logitech Gaming Mouse G502 Consumer Control: device removed
+[137889.627] (II) libinput: Logitech Gaming Mouse G502 Consumer Control: needs a virtual subdevice
+[137889.627] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.1/0003:046D:C07D.000D/input/input44/event18"
+[137889.627] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502 Consumer Control" (type: MOUSE, id 16)
+[137889.631] (**) Option "AccelerationScheme" "none"
+[137889.634] (**) Logitech Gaming Mouse G502 Consumer Control: (accel) selected scheme none/0
+[137889.634] (**) Logitech Gaming Mouse G502 Consumer Control: (accel) acceleration factor: 2.000
+[137889.634] (**) Logitech Gaming Mouse G502 Consumer Control: (accel) acceleration threshold: 4
+[137889.637] (II) event18 - Logitech Gaming Mouse G502 Consumer Control: is tagged by udev as: Keyboard
+[137889.637] (II) event18 - Logitech Gaming Mouse G502 Consumer Control: device is a keyboard
+[137889.640] (**) Logitech Gaming Mouse G502 Consumer Control: Applying InputClass "libinput keyboard catchall"
+[137889.640] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502 Consumer Control'
+[137889.640] (II) systemd-logind: returning pre-existing fd for /dev/input/event18 13:82
+[137889.640] (**) Logitech Gaming Mouse G502 Consumer Control: always reports core events
+[137889.640] (**) Option "Device" "/dev/input/event18"
+[137889.640] (**) Option "_source" "_driver/libinput"
+[137889.640] (II) libinput: Logitech Gaming Mouse G502 Consumer Control: is a virtual subdevice
+[137889.640] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.1/0003:046D:C07D.000D/input/input44/event18"
+[137889.640] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502 Consumer Control" (type: KEYBOARD, id 17)
+[137889.640] (**) Option "xkb_layout" "latam"
+[137889.647] (II) config/udev: Adding input device Logitech Gaming Mouse G502 (/dev/input/event16)
+[137889.647] (**) Logitech Gaming Mouse G502: Applying InputClass "libinput pointer catchall"
+[137889.647] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502'
+[137889.710] (II) systemd-logind: got fd for /dev/input/event16 13:80 fd 117 paused 0
+[137889.710] (**) Logitech Gaming Mouse G502: always reports core events
+[137889.710] (**) Option "Device" "/dev/input/event16"
+[137889.710] (**) Option "_source" "server/udev"
+[137889.713] (II) event16 - Logitech Gaming Mouse G502: is tagged by udev as: Mouse
+[137889.713] (II) event16 - Logitech Gaming Mouse G502: device is a pointer
+[137889.714] (II) event16 - Logitech Gaming Mouse G502: device removed
+[137889.714] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.0/0003:046D:C07D.000C/input/input42/event16"
+[137889.714] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502" (type: MOUSE, id 18)
+[137889.716] (**) Option "AccelerationScheme" "none"
+[137889.719] (**) Logitech Gaming Mouse G502: (accel) selected scheme none/0
+[137889.719] (**) Logitech Gaming Mouse G502: (accel) acceleration factor: 2.000
+[137889.719] (**) Logitech Gaming Mouse G502: (accel) acceleration threshold: 4
+[137889.722] (II) event16 - Logitech Gaming Mouse G502: is tagged by udev as: Mouse
+[137889.722] (II) event16 - Logitech Gaming Mouse G502: device is a pointer
+[143608.763] (II) config/udev: removing device Logitech Gaming Mouse G502
+[143608.763] (**) Option "fd" "117"
+[143608.764] (II) event16 - Logitech Gaming Mouse G502: device removed
+[143608.785] (II) UnloadModule: "libinput"
+[143608.785] (II) systemd-logind: releasing fd for 13:80
+[143608.786] (EE) systemd-logind: failed to release device: Device not taken
+[143608.829] (II) config/udev: removing device Logitech Gaming Mouse G502 Keyboard
+[143608.829] (**) Option "fd" "114"
+[143608.829] (II) event17 - Logitech Gaming Mouse G502 Keyboard: device removed
+[143608.843] (II) UnloadModule: "libinput"
+[143608.843] (II) systemd-logind: releasing fd for 13:81
+[143608.881] (II) config/udev: removing device Logitech Gaming Mouse G502 Consumer Control
+[143608.881] (**) Option "fd" "116"
+[143608.897] (II) UnloadModule: "libinput"
+[143608.897] (II) systemd-logind: not releasing fd for 13:82, still in use
+[143608.897] (II) config/udev: removing device Logitech Gaming Mouse G502 Consumer Control
+[143608.897] (**) Option "fd" "116"
+[143608.897] (II) event18 - Logitech Gaming Mouse G502 Consumer Control: device removed
+[143608.908] (II) UnloadModule: "libinput"
+[143608.908] (II) systemd-logind: releasing fd for 13:82
+[143608.935] (II) config/udev: removing device Logitech Gaming Mouse G502 System Control
+[143608.935] (**) Option "fd" "115"
+[143608.935] (II) event19 - Logitech Gaming Mouse G502 System Control: device removed
+[143608.954] (II) UnloadModule: "libinput"
+[143608.954] (II) systemd-logind: releasing fd for 13:83
+[143639.602] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/mouse1)
+[143639.602] (II) No input driver specified, ignoring this device.
+[143639.602] (II) This device may have been added with another device file.
+[143639.661] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/event16)
+[143639.661] (**) PixArt USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[143639.661] (II) Using input driver 'libinput' for 'PixArt USB Optical Mouse'
+[143639.663] (II) systemd-logind: got fd for /dev/input/event16 13:80 fd 114 paused 0
+[143639.663] (**) PixArt USB Optical Mouse: always reports core events
+[143639.663] (**) Option "Device" "/dev/input/event16"
+[143639.663] (**) Option "_source" "server/udev"
+[143639.667] (II) event16 - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+[143639.667] (II) event16 - PixArt USB Optical Mouse: device set to 1000 DPI
+[143639.667] (II) event16 - PixArt USB Optical Mouse: device is a pointer
+[143639.667] (II) event16 - PixArt USB Optical Mouse: device removed
+[143639.667] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.0/0003:093A:2510.000E/input/input48/event16"
+[143639.667] (II) XINPUT: Adding extended input device "PixArt USB Optical Mouse" (type: MOUSE, id 14)
+[143639.676] (**) Option "AccelerationScheme" "none"
+[143639.684] (**) PixArt USB Optical Mouse: (accel) selected scheme none/0
+[143639.684] (**) PixArt USB Optical Mouse: (accel) acceleration factor: 2.000
+[143639.684] (**) PixArt USB Optical Mouse: (accel) acceleration threshold: 4
+[143639.686] (II) event16 - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+[143639.686] (II) event16 - PixArt USB Optical Mouse: device set to 1000 DPI
+[143639.686] (II) event16 - PixArt USB Optical Mouse: device is a pointer
+[151813.001] (II) config/udev: removing device PixArt USB Optical Mouse
+[151813.002] (**) Option "fd" "114"
+[151813.002] (II) event16 - PixArt USB Optical Mouse: device removed
+[151813.032] (II) UnloadModule: "libinput"
+[151813.032] (II) systemd-logind: releasing fd for 13:80
+[151813.033] (EE) systemd-logind: failed to release device: Device not taken
+[151815.662] (**) Option "fd" "86"
+[151815.664] (II) event2  - Power Button: device removed
+[151815.667] (**) Option "fd" "80"
+[151815.668] (II) event10 - Video Bus: device removed
+[151815.671] (**) Option "fd" "97"
+[151815.671] (II) event7  - Video Bus: device removed
+[151815.674] (**) Option "fd" "43"
+[151815.674] (II) event1  - Power Button: device removed
+[151815.677] (**) Option "fd" "93"
+[151815.677] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device removed
+[151815.680] (**) Option "fd" "113"
+[151815.680] (II) event5  - Ideapad extra buttons: device removed
+[151815.683] (**) Option "fd" "81"
+[151815.683] (II) event3  - AT Translated Set 2 keyboard: device removed
+[151815.685] (**) Option "fd" "111"
+[151815.685] (II) event4  - ETPS/2 Elantech Touchpad: device removed
+[151815.756] (II) systemd-logind: got pause for 13:66
+[151815.756] (II) systemd-logind: got pause for 13:65
+[151815.756] (II) systemd-logind: got pause for 226:1
+[151815.756] (II) systemd-logind: got pause for 13:74
+[151815.756] (II) systemd-logind: got pause for 226:0
+[151815.756] (II) systemd-logind: got pause for 13:67
+[151815.756] (II) systemd-logind: got pause for 13:70
+[151817.414] (II) systemd-logind: got pause for 13:69
+[151817.414] (II) systemd-logind: got pause for 13:71
+[151817.414] (II) systemd-logind: got pause for 13:68
+[151817.433] (II) systemd-logind: got resume for 13:66
+[151817.546] (II) systemd-logind: got resume for 13:65
+[151817.548] (II) systemd-logind: got resume for 226:1
+[151817.548] (II) systemd-logind: got resume for 13:74
+[151817.548] (II) systemd-logind: got resume for 226:0
+[151817.548] (II) NVIDIA(0): Setting mode "NULL"
+[151817.548] (EE) NVIDIA(0): Failed to initiate mode change.
+[151817.548] (EE) NVIDIA(0): Failed to complete mode change
+[151818.099] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[151818.100] (II) event2  - Power Button: device is a keyboard
+[151818.143] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[151818.144] (II) event10 - Video Bus: device is a keyboard
+[151818.226] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[151818.226] (II) event1  - Power Button: device is a keyboard
+[151818.237] (II) systemd-logind: got resume for 13:67
+[151818.244] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[151818.244] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[151818.261] (II) systemd-logind: got resume for 13:70
+[151818.268] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: is tagged by udev as: Keyboard
+[151818.268] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device is a keyboard
+[151818.286] (II) systemd-logind: got resume for 13:69
+[151818.296] (II) event5  - Ideapad extra buttons: is tagged by udev as: Keyboard
+[151818.296] (II) event5  - Ideapad extra buttons: device is a keyboard
+[151818.299] (II) systemd-logind: got resume for 13:71
+[151818.302] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[151818.302] (II) event7  - Video Bus: device is a keyboard
+[151818.304] (II) systemd-logind: got resume for 13:68
+[151818.306] (II) event4  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[151818.308] (II) event4  - ETPS/2 Elantech Touchpad: device is a touchpad
+[151823.632] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/mouse1)
+[151823.633] (II) No input driver specified, ignoring this device.
+[151823.633] (II) This device may have been added with another device file.
+[151823.684] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/event16)
+[151823.684] (**) PixArt USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[151823.684] (II) Using input driver 'libinput' for 'PixArt USB Optical Mouse'
+[151823.691] (II) systemd-logind: got fd for /dev/input/event16 13:80 fd 114 paused 0
+[151823.691] (**) PixArt USB Optical Mouse: always reports core events
+[151823.691] (**) Option "Device" "/dev/input/event16"
+[151823.692] (**) Option "_source" "server/udev"
+[151823.695] (II) event16 - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+[151823.695] (II) event16 - PixArt USB Optical Mouse: device set to 1000 DPI
+[151823.695] (II) event16 - PixArt USB Optical Mouse: device is a pointer
+[151823.695] (II) event16 - PixArt USB Optical Mouse: device removed
+[151823.695] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/0003:093A:2510.000F/input/input49/event16"
+[151823.695] (II) XINPUT: Adding extended input device "PixArt USB Optical Mouse" (type: MOUSE, id 14)
+[151823.728] (**) Option "AccelerationScheme" "none"
+[151823.734] (**) PixArt USB Optical Mouse: (accel) selected scheme none/0
+[151823.734] (**) PixArt USB Optical Mouse: (accel) acceleration factor: 2.000
+[151823.734] (**) PixArt USB Optical Mouse: (accel) acceleration threshold: 4
+[151823.737] (II) event16 - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+[151823.737] (II) event16 - PixArt USB Optical Mouse: device set to 1000 DPI
+[151823.737] (II) event16 - PixArt USB Optical Mouse: device is a pointer
+[164848.428] (II) config/udev: removing device PixArt USB Optical Mouse
+[164848.428] (**) Option "fd" "114"
+[164848.428] (II) event16 - PixArt USB Optical Mouse: device removed
+[164848.450] (II) UnloadModule: "libinput"
+[164848.450] (II) systemd-logind: releasing fd for 13:80
+[164853.250] (**) Option "fd" "80"
+[164853.251] (II) event2  - Power Button: device removed
+[164853.259] (**) Option "fd" "81"
+[164853.259] (II) event10 - Video Bus: device removed
+[164853.262] (**) Option "fd" "104"
+[164853.262] (II) event7  - Video Bus: device removed
+[164853.266] (**) Option "fd" "105"
+[164853.266] (II) event1  - Power Button: device removed
+[164853.268] (**) Option "fd" "97"
+[164853.268] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device removed
+[164853.271] (**) Option "fd" "116"
+[164853.271] (II) event5  - Ideapad extra buttons: device removed
+[164853.273] (**) Option "fd" "93"
+[164853.273] (II) event3  - AT Translated Set 2 keyboard: device removed
+[164853.276] (**) Option "fd" "113"
+[164853.276] (II) event4  - ETPS/2 Elantech Touchpad: device removed
+[164854.843] (II) systemd-logind: got pause for 13:66
+[164854.843] (II) systemd-logind: got pause for 13:65
+[164854.843] (II) systemd-logind: got pause for 226:1
+[164854.843] (II) systemd-logind: got pause for 13:74
+[164854.843] (II) systemd-logind: got pause for 226:0
+[164854.843] (II) systemd-logind: got pause for 13:67
+[164854.843] (II) systemd-logind: got pause for 13:70
+[164854.844] (II) systemd-logind: got pause for 13:69
+[164854.844] (II) systemd-logind: got pause for 13:71
+[164854.844] (II) systemd-logind: got pause for 13:68
+[164855.062] (II) systemd-logind: got resume for 13:66
+[164855.062] (II) systemd-logind: got resume for 13:65
+[164855.063] (II) systemd-logind: got resume for 226:1
+[164855.063] (II) systemd-logind: got resume for 13:74
+[164855.063] (II) systemd-logind: got resume for 226:0
+[164855.063] (II) NVIDIA(0): Setting mode "NULL"
+[164855.063] (EE) NVIDIA(0): Failed to initiate mode change.
+[164855.063] (EE) NVIDIA(0): Failed to complete mode change
+[164855.167] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[164855.167] (II) event2  - Power Button: device is a keyboard
+[164855.172] (II) event10 - Video Bus: is tagged by udev as: Keyboard
+[164855.173] (II) event10 - Video Bus: device is a keyboard
+[164855.176] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[164855.176] (II) event1  - Power Button: device is a keyboard
+[164855.183] (II) systemd-logind: got resume for 13:67
+[164855.185] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[164855.185] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[164855.197] (II) systemd-logind: got resume for 13:70
+[164855.199] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: is tagged by udev as: Keyboard
+[164855.199] (II) event6  - Lenovo EasyCamera: Lenovo EasyC: device is a keyboard
+[164855.204] (II) systemd-logind: got resume for 13:69
+[164855.207] (II) event5  - Ideapad extra buttons: is tagged by udev as: Keyboard
+[164855.207] (II) event5  - Ideapad extra buttons: device is a keyboard
+[164855.209] (II) systemd-logind: got resume for 13:71
+[164855.213] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[164855.213] (II) event7  - Video Bus: device is a keyboard
+[164855.215] (II) systemd-logind: got resume for 13:68
+[164855.217] (II) event4  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[164855.219] (II) event4  - ETPS/2 Elantech Touchpad: device is a touchpad
+[165058.678] (EE) event4  - ETPS/2 Elantech Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.6/touchpad-jumping-cursors.html for details
+[165294.330] (EE) event4  - ETPS/2 Elantech Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.12.6/touchpad-jumping-cursors.html for details
+[169126.072] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/mouse1)
+[169126.072] (II) No input driver specified, ignoring this device.
+[169126.072] (II) This device may have been added with another device file.
+[169126.107] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/event16)
+[169126.108] (**) PixArt USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[169126.108] (II) Using input driver 'libinput' for 'PixArt USB Optical Mouse'
+[169126.119] (II) systemd-logind: got fd for /dev/input/event16 13:80 fd 113 paused 0
+[169126.119] (**) PixArt USB Optical Mouse: always reports core events
+[169126.119] (**) Option "Device" "/dev/input/event16"
+[169126.119] (**) Option "_source" "server/udev"
+[169126.122] (II) event16 - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+[169126.122] (II) event16 - PixArt USB Optical Mouse: device set to 1000 DPI
+[169126.122] (II) event16 - PixArt USB Optical Mouse: device is a pointer
+[169126.122] (II) event16 - PixArt USB Optical Mouse: device removed
+[169126.122] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/0003:093A:2510.0010/input/input50/event16"
+[169126.123] (II) XINPUT: Adding extended input device "PixArt USB Optical Mouse" (type: MOUSE, id 14)
+[169126.131] (**) Option "AccelerationScheme" "none"
+[169126.143] (**) PixArt USB Optical Mouse: (accel) selected scheme none/0
+[169126.144] (**) PixArt USB Optical Mouse: (accel) acceleration factor: 2.000
+[169126.144] (**) PixArt USB Optical Mouse: (accel) acceleration threshold: 4
+[169126.147] (II) event16 - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+[169126.147] (II) event16 - PixArt USB Optical Mouse: device set to 1000 DPI
+[169126.147] (II) event16 - PixArt USB Optical Mouse: device is a pointer
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
