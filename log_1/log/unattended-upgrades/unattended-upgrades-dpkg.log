@@ -1,0 +1,611 @@
+Log started: 2019-10-01  12:45:08
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188824 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../libcom-err2_1.44.6-1ubuntu0.1_amd64.deb ...
+Desempaquetando libcom-err2:amd64 (1.44.6-1ubuntu0.1) sobre (1.44.6-1) ...
+Configurando libcom-err2:amd64 (1.44.6-1ubuntu0.1) ...
+Procesando disparadores para libc-bin (2.29-0ubuntu2) ...
+Log ended: 2019-10-01  12:45:14
+
+Log started: 2019-10-01  12:45:15
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188824 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../libss2_1.44.6-1ubuntu0.1_amd64.deb ...
+Desempaquetando libss2:amd64 (1.44.6-1ubuntu0.1) sobre (1.44.6-1) ...
+Configurando libss2:amd64 (1.44.6-1ubuntu0.1) ...
+Procesando disparadores para libc-bin (2.29-0ubuntu2) ...
+Log ended: 2019-10-01  12:45:23
+
+Log started: 2019-10-01  12:45:25
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188824 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../libext2fs2_1.44.6-1ubuntu0.1_amd64.deb ...
+Desempaquetando libext2fs2:amd64 (1.44.6-1ubuntu0.1) sobre (1.44.6-1) ...
+Configurando libext2fs2:amd64 (1.44.6-1ubuntu0.1) ...
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188824 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../e2fsprogs_1.44.6-1ubuntu0.1_amd64.deb ...
+Desempaquetando e2fsprogs (1.44.6-1ubuntu0.1) sobre (1.44.6-1) ...
+Configurando e2fsprogs (1.44.6-1ubuntu0.1) ...
+update-initramfs: deferring update (trigger activated)
+Procesando disparadores para libc-bin (2.29-0ubuntu2) ...
+Procesando disparadores para man-db (2.8.5-2) ...
+Procesando disparadores para initramfs-tools (0.131ubuntu19.1) ...
+update-initramfs: Generating /boot/initrd.img-5.0.0-29-generic
+Log ended: 2019-10-01  12:45:56
+
+Log started: 2019-10-04  14:09:30
+Preconfigurando paquetes ...
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188824 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../tzdata_2019c-0ubuntu0.19.04_all.deb ...
+Desempaquetando tzdata (2019c-0ubuntu0.19.04) sobre (2019b-0ubuntu0.19.04) ...
+Configurando tzdata (2019c-0ubuntu0.19.04) ...
+
+Current default time zone: 'America/Santiago'
+Local time is now:      Fri Oct  4 14:09:32 -03 2019.
+Universal Time is now:  Fri Oct  4 17:09:32 UTC 2019.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Log ended: 2019-10-04  14:09:35
+
+Log started: 2019-10-16  13:35:21
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188824 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../firefox-locale-en_69.0.2+build1-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando firefox-locale-en (69.0.2+build1-0ubuntu0.19.04.1) sobre (69.0.1+build1-0ubuntu0.19.04.1) ...
+Configurando firefox-locale-en (69.0.2+build1-0ubuntu0.19.04.1) ...
+Log ended: 2019-10-16  13:35:26
+
+Log started: 2019-10-16  13:35:27
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188824 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../0-python2.7-dev_2.7.16-2ubuntu0.2_amd64.deb ...
+Desempaquetando python2.7-dev (2.7.16-2ubuntu0.2) sobre (2.7.16-2ubuntu0.1) ...
+Preparando para desempaquetar .../1-libpython2.7-dev_2.7.16-2ubuntu0.2_amd64.deb ...
+Desempaquetando libpython2.7-dev:amd64 (2.7.16-2ubuntu0.2) sobre (2.7.16-2ubuntu0.1) ...
+Preparando para desempaquetar .../2-libpython2.7_2.7.16-2ubuntu0.2_amd64.deb ...
+Desempaquetando libpython2.7:amd64 (2.7.16-2ubuntu0.2) sobre (2.7.16-2ubuntu0.1) ...
+Preparando para desempaquetar .../3-python2.7_2.7.16-2ubuntu0.2_amd64.deb ...
+Desempaquetando python2.7 (2.7.16-2ubuntu0.2) sobre (2.7.16-2ubuntu0.1) ...
+Preparando para desempaquetar .../4-libpython2.7-stdlib_2.7.16-2ubuntu0.2_amd64.deb ...
+Desempaquetando libpython2.7-stdlib:amd64 (2.7.16-2ubuntu0.2) sobre (2.7.16-2ubuntu0.1) ...
+Preparando para desempaquetar .../5-python2.7-minimal_2.7.16-2ubuntu0.2_amd64.deb ...
+Desempaquetando python2.7-minimal (2.7.16-2ubuntu0.2) sobre (2.7.16-2ubuntu0.1) ...
+Preparando para desempaquetar .../6-libpython2.7-minimal_2.7.16-2ubuntu0.2_amd64.deb ...
+Desempaquetando libpython2.7-minimal:amd64 (2.7.16-2ubuntu0.2) sobre (2.7.16-2ubuntu0.1) ...
+Configurando libpython2.7-minimal:amd64 (2.7.16-2ubuntu0.2) ...
+Configurando python2.7-minimal (2.7.16-2ubuntu0.2) ...
+Configurando libpython2.7-stdlib:amd64 (2.7.16-2ubuntu0.2) ...
+Configurando libpython2.7:amd64 (2.7.16-2ubuntu0.2) ...
+Configurando libpython2.7-dev:amd64 (2.7.16-2ubuntu0.2) ...
+Configurando python2.7 (2.7.16-2ubuntu0.2) ...
+Configurando python2.7-dev (2.7.16-2ubuntu0.2) ...
+Procesando disparadores para desktop-file-utils (0.23-4ubuntu1) ...
+Procesando disparadores para mime-support (3.60ubuntu1) ...
+Procesando disparadores para gnome-menus (3.32.0-1ubuntu1) ...
+Procesando disparadores para libc-bin (2.29-0ubuntu2) ...
+Procesando disparadores para man-db (2.8.5-2) ...
+Procesando disparadores para bamfdaemon (0.5.3+18.04.20180207.2-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Log ended: 2019-10-16  13:35:44
+
+Log started: 2019-10-16  13:35:45
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188824 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../python3.7_3.7.3-2ubuntu0.2_amd64.deb ...
+Desempaquetando python3.7 (3.7.3-2ubuntu0.2) sobre (3.7.3-2ubuntu0.1) ...
+Preparando para desempaquetar .../libpython3.7_3.7.3-2ubuntu0.2_amd64.deb ...
+Desempaquetando libpython3.7:amd64 (3.7.3-2ubuntu0.2) sobre (3.7.3-2ubuntu0.1) ...
+Preparando para desempaquetar .../libpython3.7-stdlib_3.7.3-2ubuntu0.2_amd64.deb ...
+Desempaquetando libpython3.7-stdlib:amd64 (3.7.3-2ubuntu0.2) sobre (3.7.3-2ubuntu0.1) ...
+Preparando para desempaquetar .../python3.7-minimal_3.7.3-2ubuntu0.2_amd64.deb ...
+Desempaquetando python3.7-minimal (3.7.3-2ubuntu0.2) sobre (3.7.3-2ubuntu0.1) ...
+Preparando para desempaquetar .../libpython3.7-minimal_3.7.3-2ubuntu0.2_amd64.deb ...
+Desempaquetando libpython3.7-minimal:amd64 (3.7.3-2ubuntu0.2) sobre (3.7.3-2ubuntu0.1) ...
+Configurando libpython3.7-minimal:amd64 (3.7.3-2ubuntu0.2) ...
+Configurando python3.7-minimal (3.7.3-2ubuntu0.2) ...
+Configurando libpython3.7-stdlib:amd64 (3.7.3-2ubuntu0.2) ...
+Configurando libpython3.7:amd64 (3.7.3-2ubuntu0.2) ...
+Configurando python3.7 (3.7.3-2ubuntu0.2) ...
+Procesando disparadores para desktop-file-utils (0.23-4ubuntu1) ...
+Procesando disparadores para mime-support (3.60ubuntu1) ...
+Procesando disparadores para gnome-menus (3.32.0-1ubuntu1) ...
+Procesando disparadores para libc-bin (2.29-0ubuntu2) ...
+Procesando disparadores para man-db (2.8.5-2) ...
+Procesando disparadores para bamfdaemon (0.5.3+18.04.20180207.2-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Log ended: 2019-10-16  13:35:59
+
+Log started: 2019-10-16  13:36:01
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188824 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../gir1.2-soup-2.4_2.66.1-1ubuntu0.1_amd64.deb ...
+Desempaquetando gir1.2-soup-2.4:amd64 (2.66.1-1ubuntu0.1) sobre (2.66.1-1) ...
+Configurando gir1.2-soup-2.4:amd64 (2.66.1-1ubuntu0.1) ...
+Log ended: 2019-10-16  13:36:06
+
+Log started: 2019-10-16  13:36:08
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188824 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../thunderbird-locale-en_1%3a60.9.0+build1-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando thunderbird-locale-en (1:60.9.0+build1-0ubuntu0.19.04.1) sobre (1:60.8.0+build1-0ubuntu0.19.04.1) ...
+Preparando para desempaquetar .../thunderbird-locale-es_1%3a60.9.0+build1-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando thunderbird-locale-es (1:60.9.0+build1-0ubuntu0.19.04.1) sobre (1:60.8.0+build1-0ubuntu0.19.04.1) ...
+Preparando para desempaquetar .../thunderbird_1%3a60.9.0+build1-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando thunderbird (1:60.9.0+build1-0ubuntu0.19.04.1) sobre (1:60.8.0+build1-0ubuntu0.19.04.1) ...
+Preparando para desempaquetar .../thunderbird-gnome-support_1%3a60.9.0+build1-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando thunderbird-gnome-support (1:60.9.0+build1-0ubuntu0.19.04.1) sobre (1:60.8.0+build1-0ubuntu0.19.04.1) ...
+Configurando thunderbird (1:60.9.0+build1-0ubuntu0.19.04.1) ...
+Configurando thunderbird-locale-es (1:60.9.0+build1-0ubuntu0.19.04.1) ...
+Configurando thunderbird-locale-en (1:60.9.0+build1-0ubuntu0.19.04.1) ...
+Configurando thunderbird-gnome-support (1:60.9.0+build1-0ubuntu0.19.04.1) ...
+Procesando disparadores para desktop-file-utils (0.23-4ubuntu1) ...
+Procesando disparadores para mime-support (3.60ubuntu1) ...
+Procesando disparadores para gnome-menus (3.32.0-1ubuntu1) ...
+Procesando disparadores para man-db (2.8.5-2) ...
+Procesando disparadores para bamfdaemon (0.5.3+18.04.20180207.2-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Log ended: 2019-10-16  13:36:23
+
+Log started: 2019-10-16  13:36:24
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188825 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../firefox_69.0.2+build1-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando firefox (69.0.2+build1-0ubuntu0.19.04.1) sobre (69.0.1+build1-0ubuntu0.19.04.1) ...
+Configurando firefox (69.0.2+build1-0ubuntu0.19.04.1) ...
+Please restart all running instances of firefox, or you will experience problems.
+Procesando disparadores para man-db (2.8.5-2) ...
+Procesando disparadores para bamfdaemon (0.5.3+18.04.20180207.2-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Procesando disparadores para desktop-file-utils (0.23-4ubuntu1) ...
+Procesando disparadores para mime-support (3.60ubuntu1) ...
+Procesando disparadores para hicolor-icon-theme (0.17-2) ...
+Procesando disparadores para gnome-menus (3.32.0-1ubuntu1) ...
+Log ended: 2019-10-16  13:36:39
+
+Log started: 2019-10-16  13:36:41
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188825 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../sudo_1.8.27-1ubuntu1.1_amd64.deb ...
+Desempaquetando sudo (1.8.27-1ubuntu1.1) sobre (1.8.27-1ubuntu1) ...
+Configurando sudo (1.8.27-1ubuntu1.1) ...
+Procesando disparadores para man-db (2.8.5-2) ...
+Log ended: 2019-10-16  13:36:48
+
+Log started: 2019-10-16  13:36:49
+Seleccionando el paquete linux-modules-5.0.0-31-generic previamente no seleccionado.
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188825 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../0-linux-modules-5.0.0-31-generic_5.0.0-31.33_amd64.deb ...
+Desempaquetando linux-modules-5.0.0-31-generic (5.0.0-31.33) ...
+Seleccionando el paquete linux-image-5.0.0-31-generic previamente no seleccionado.
+Preparando para desempaquetar .../1-linux-image-5.0.0-31-generic_5.0.0-31.33_amd64.deb ...
+Desempaquetando linux-image-5.0.0-31-generic (5.0.0-31.33) ...
+Seleccionando el paquete linux-modules-extra-5.0.0-31-generic previamente no seleccionado.
+Preparando para desempaquetar .../2-linux-modules-extra-5.0.0-31-generic_5.0.0-31.33_amd64.deb ...
+Desempaquetando linux-modules-extra-5.0.0-31-generic (5.0.0-31.33) ...
+Preparando para desempaquetar .../3-linux-generic_5.0.0.31.32_amd64.deb ...
+Desempaquetando linux-generic (5.0.0.31.32) sobre (5.0.0.29.30) ...
+Preparando para desempaquetar .../4-linux-image-generic_5.0.0.31.32_amd64.deb ...
+Desempaquetando linux-image-generic (5.0.0.31.32) sobre (5.0.0.29.30) ...
+Seleccionando el paquete linux-headers-5.0.0-31 previamente no seleccionado.
+Preparando para desempaquetar .../5-linux-headers-5.0.0-31_5.0.0-31.33_all.deb ...
+Desempaquetando linux-headers-5.0.0-31 (5.0.0-31.33) ...
+Seleccionando el paquete linux-headers-5.0.0-31-generic previamente no seleccionado.
+Preparando para desempaquetar .../6-linux-headers-5.0.0-31-generic_5.0.0-31.33_amd64.deb ...
+Desempaquetando linux-headers-5.0.0-31-generic (5.0.0-31.33) ...
+Preparando para desempaquetar .../7-linux-headers-generic_5.0.0.31.32_amd64.deb ...
+Desempaquetando linux-headers-generic (5.0.0.31.32) sobre (5.0.0.29.30) ...
+Configurando linux-modules-5.0.0-31-generic (5.0.0-31.33) ...
+Configurando linux-headers-5.0.0-31 (5.0.0-31.33) ...
+Configurando linux-headers-5.0.0-31-generic (5.0.0-31.33) ...
+/etc/kernel/header_postinst.d/dkms:
+ * dkms: running auto installation service for kernel 5.0.0-31-generic
+
+Kernel preparation unnecessary for this kernel.  Skipping...
+applying patch buildfix_kernel_4.11.patch...patching file uvm/nvidia_uvm_lite.c
+
+applying patch buildfix_kernel_5.0.patch...patching file Makefile
+patching file conftest.sh
+patching file nv-drm.c
+patching file nv-time.h
+patching file os-interface.c
+patching file uvm/Makefile
+patching file uvm/nvidia_uvm_linux.h
+patching file uvm/nvidia_uvm_lite.c
+
+
+Building module:
+cleaning build area...
+make -j4 KERNELRELEASE=5.0.0-31-generic -k module KERNDIR=/lib/modules/5.0.0-31-generic IGNORE_XEN_PRESENCE=1 IGNORE_CC_MISMATCH=1 SYSSRC=/lib/modules/5.0.0-31-generic/build LD=/usr/bin/ld.bfd; make -C uvm module KERNEL_UNAME=5.0.0-31-generic KBUILD_EXTMOD=/var/lib/dkms/nvidia-340/340.107/build/uvm..................
+Signing module:
+ - /var/lib/dkms/nvidia-340/340.107/5.0.0-31-generic/x86_64/module/nvidia_uvm.ko
+ - /var/lib/dkms/nvidia-340/340.107/5.0.0-31-generic/x86_64/module/nvidia.ko
+Secure Boot not enabled on this system.
+cleaning build area...
+
+DKMS: build completed.
+
+nvidia.ko:
+Running module version sanity check.
+modinfo: ERROR: missing module or filename.
+ - Original module
+   - No original module exists within this kernel
+ - Installation
+   - Installing to /lib/modules/5.0.0-31-generic/updates/dkms/
+
+nvidia_uvm.ko:
+Running module version sanity check.
+modinfo: ERROR: missing module or filename.
+ - Original module
+   - No original module exists within this kernel
+ - Installation
+   - Installing to /lib/modules/5.0.0-31-generic/updates/dkms/
+
+depmod...
+
+DKMS: install completed.
+   ...done.
+Configurando linux-image-5.0.0-31-generic (5.0.0-31.33) ...
+I: /vmlinuz.old is now a symlink to boot/vmlinuz-5.0.0-29-generic
+I: /initrd.img.old is now a symlink to boot/initrd.img-5.0.0-29-generic
+I: /vmlinuz is now a symlink to boot/vmlinuz-5.0.0-31-generic
+I: /initrd.img is now a symlink to boot/initrd.img-5.0.0-31-generic
+Configurando linux-headers-generic (5.0.0.31.32) ...
+Configurando linux-modules-extra-5.0.0-31-generic (5.0.0-31.33) ...
+Configurando linux-image-generic (5.0.0.31.32) ...
+Configurando linux-generic (5.0.0.31.32) ...
+Procesando disparadores para linux-image-5.0.0-31-generic (5.0.0-31.33) ...
+/etc/kernel/postinst.d/dkms:
+ * dkms: running auto installation service for kernel 5.0.0-31-generic
+   ...done.
+/etc/kernel/postinst.d/initramfs-tools:
+update-initramfs: Generating /boot/initrd.img-5.0.0-31-generic
+/etc/kernel/postinst.d/zz-update-grub:
+Obteniendo el archivo «/etc/default/grub»
+Obteniendo el archivo «/etc/default/grub.d/init-select.cfg»
+Generando un fichero de configuración de grub...
+Encontrada imagen de linux: /boot/vmlinuz-5.0.0-31-generic
+Encontrada imagen de memoria inicial: /boot/initrd.img-5.0.0-31-generic
+Encontrada imagen de linux: /boot/vmlinuz-5.0.0-29-generic
+Encontrada imagen de memoria inicial: /boot/initrd.img-5.0.0-29-generic
+Encontrada imagen de linux: /boot/vmlinuz-5.0.0-27-generic
+Encontrada imagen de memoria inicial: /boot/initrd.img-5.0.0-27-generic
+Añadiendo menú de entrada de inicio para la configuración del firmware EFI
+hecho
+Log ended: 2019-10-16  13:38:30
+
+Log started: 2019-10-16  13:38:31
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 224406 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../thunderbird-locale-en-us_1%3a60.9.0+build1-0ubuntu0.19.04.1_all.deb ...
+Desempaquetando thunderbird-locale-en-us (1:60.9.0+build1-0ubuntu0.19.04.1) sobre (1:60.8.0+build1-0ubuntu0.19.04.1) ...
+Configurando thunderbird-locale-en-us (1:60.9.0+build1-0ubuntu0.19.04.1) ...
+Log ended: 2019-10-16  13:38:35
+
+Log started: 2019-10-16  13:38:37
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 224406 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../libsoup2.4-1_2.66.1-1ubuntu0.1_amd64.deb ...
+Desempaquetando libsoup2.4-1:amd64 (2.66.1-1ubuntu0.1) sobre (2.66.1-1) ...
+Configurando libsoup2.4-1:amd64 (2.66.1-1ubuntu0.1) ...
+Procesando disparadores para libc-bin (2.29-0ubuntu2) ...
+Log ended: 2019-10-16  13:38:41
+
+Log started: 2019-10-16  13:38:42
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 224406 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../linux-signed-generic_5.0.0.31.32_amd64.deb ...
+Desempaquetando linux-signed-generic (5.0.0.31.32) sobre (5.0.0.29.30) ...
+Configurando linux-signed-generic (5.0.0.31.32) ...
+Log ended: 2019-10-16  13:38:47
+
+Log started: 2019-10-16  13:38:48
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 224406 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../linux-libc-dev_5.0.0-31.33_amd64.deb ...
+Desempaquetando linux-libc-dev:amd64 (5.0.0-31.33) sobre (5.0.0-29.31) ...
+Configurando linux-libc-dev:amd64 (5.0.0-31.33) ...
+Log ended: 2019-10-16  13:38:54
+
+Log started: 2019-10-16  13:38:55
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 224406 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../libsoup-gnome2.4-1_2.66.1-1ubuntu0.1_amd64.deb ...
+Desempaquetando libsoup-gnome2.4-1:amd64 (2.66.1-1ubuntu0.1) sobre (2.66.1-1) ...
+Configurando libsoup-gnome2.4-1:amd64 (2.66.1-1ubuntu0.1) ...
+Procesando disparadores para libc-bin (2.29-0ubuntu2) ...
+Log ended: 2019-10-16  13:39:00
+
+Log started: 2019-10-16  13:39:01
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 224406 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../aspell_0.60.7~20110707-6ubuntu0.1_amd64.deb ...
+Desempaquetando aspell (0.60.7~20110707-6ubuntu0.1) sobre (0.60.7~20110707-6) ...
+Preparando para desempaquetar .../libaspell15_0.60.7~20110707-6ubuntu0.1_amd64.deb ...
+Desempaquetando libaspell15:amd64 (0.60.7~20110707-6ubuntu0.1) sobre (0.60.7~20110707-6) ...
+Configurando libaspell15:amd64 (0.60.7~20110707-6ubuntu0.1) ...
+Configurando aspell (0.60.7~20110707-6ubuntu0.1) ...
+Procesando disparadores para man-db (2.8.5-2) ...
+Procesando disparadores para libc-bin (2.29-0ubuntu2) ...
+Procesando disparadores para dictionaries-common (1.28.1) ...
+Log ended: 2019-10-16  13:39:09
+
+Log started: 2019-10-16  13:39:10
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 224406 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../firefox-locale-es_69.0.2+build1-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando firefox-locale-es (69.0.2+build1-0ubuntu0.19.04.1) sobre (69.0.1+build1-0ubuntu0.19.04.1) ...
+Configurando firefox-locale-es (69.0.2+build1-0ubuntu0.19.04.1) ...
+Log ended: 2019-10-16  13:39:14
+
+Log started: 2019-10-17  14:36:39
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 224405 ficheros o directorios instalados actualmente.)
+Desinstalando linux-modules-extra-5.0.0-27-generic (5.0.0-27.28) ...
+Desinstalando linux-image-5.0.0-27-generic (5.0.0-27.28) ...
+/etc/kernel/prerm.d/dkms:
+dkms: removing: nvidia-340 340.107 (5.0.0-27-generic) (x86_64)
+
+-------- Uninstall Beginning --------
+Module:  nvidia-340
+Version: 340.107
+Kernel:  5.0.0-27-generic (x86_64)
+-------------------------------------
+
+Status: Before uninstall, this module version was ACTIVE on this kernel.
+
+nvidia.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/5.0.0-27-generic/updates/dkms/
+rmdir: fallo al borrar 'updates/dkms': El directorio no está vacío
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+
+
+nvidia_uvm.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/5.0.0-27-generic/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+
+depmod...
+
+DKMS: uninstall completed.
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.0.0-27-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Obteniendo el archivo «/etc/default/grub»
+Obteniendo el archivo «/etc/default/grub.d/init-select.cfg»
+Generando un fichero de configuración de grub...
+Encontrada imagen de linux: /boot/vmlinuz-5.0.0-31-generic
+Encontrada imagen de memoria inicial: /boot/initrd.img-5.0.0-31-generic
+Encontrada imagen de linux: /boot/vmlinuz-5.0.0-29-generic
+Encontrada imagen de memoria inicial: /boot/initrd.img-5.0.0-29-generic
+Añadiendo menú de entrada de inicio para la configuración del firmware EFI
+hecho
+Log ended: 2019-10-17  14:36:50
+
+Log started: 2019-10-17  14:36:51
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 219248 ficheros o directorios instalados actualmente.)
+Desinstalando linux-headers-5.0.0-27-generic (5.0.0-27.28) ...
+Desinstalando linux-headers-5.0.0-27 (5.0.0-27.28) ...
+Log ended: 2019-10-17  14:36:58
+
+Log started: 2019-10-17  14:37:00
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 190119 ficheros o directorios instalados actualmente.)
+Desinstalando linux-modules-5.0.0-27-generic (5.0.0-27.28) ...
+Log ended: 2019-10-17  14:37:07
+
+Log started: 2019-10-17  14:37:10
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188841 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../libtiff5_4.0.10-4ubuntu0.1_amd64.deb ...
+Desempaquetando libtiff5:amd64 (4.0.10-4ubuntu0.1) sobre (4.0.10-4) ...
+Configurando libtiff5:amd64 (4.0.10-4ubuntu0.1) ...
+Procesando disparadores para libc-bin (2.29-0ubuntu2) ...
+Log ended: 2019-10-17  14:37:22
+
+Log started: 2019-10-30  09:25:56
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 224439 ficheros o directorios instalados actualmente.)
+Desinstalando linux-headers-5.0.0-29-generic (5.0.0-29.31) ...
+Log ended: 2019-10-30  09:26:07
+
+Log started: 2019-10-30  09:26:08
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 212769 ficheros o directorios instalados actualmente.)
+Desinstalando linux-modules-extra-5.0.0-29-generic (5.0.0-29.31) ...
+Log ended: 2019-10-30  09:26:18
+
+Log started: 2019-10-30  09:26:19
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 207616 ficheros o directorios instalados actualmente.)
+Desinstalando linux-headers-5.0.0-29 (5.0.0-29.31) ...
+Log ended: 2019-10-30  09:26:25
+
+Log started: 2019-10-30  09:26:26
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 190157 ficheros o directorios instalados actualmente.)
+Desinstalando linux-image-5.0.0-29-generic (5.0.0-29.31) ...
+/etc/kernel/prerm.d/dkms:
+dkms: removing: nvidia-340 340.107 (5.0.0-29-generic) (x86_64)
+
+-------- Uninstall Beginning --------
+Module:  nvidia-340
+Version: 340.107
+Kernel:  5.0.0-29-generic (x86_64)
+-------------------------------------
+
+Status: Before uninstall, this module version was ACTIVE on this kernel.
+
+nvidia.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/5.0.0-29-generic/updates/dkms/
+rmdir: fallo al borrar 'updates/dkms': El directorio no está vacío
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+
+
+nvidia_uvm.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/5.0.0-29-generic/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+
+depmod...
+
+DKMS: uninstall completed.
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.0.0-29-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Obteniendo el archivo «/etc/default/grub»
+Obteniendo el archivo «/etc/default/grub.d/init-select.cfg»
+Generando un fichero de configuración de grub...
+Encontrada imagen de linux: /boot/vmlinuz-5.0.0-32-generic
+Encontrada imagen de memoria inicial: /boot/initrd.img-5.0.0-32-generic
+Encontrada imagen de linux: /boot/vmlinuz-5.0.0-31-generic
+Encontrada imagen de memoria inicial: /boot/initrd.img-5.0.0-31-generic
+Añadiendo menú de entrada de inicio para la configuración del firmware EFI
+hecho
+Desinstalando linux-modules-5.0.0-29-generic (5.0.0-29.31) ...
+Log ended: 2019-10-30  09:26:38
+
+Log started: 2019-10-30  09:26:40
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188875 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../0-php7.2-readline_7.2.24-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando php7.2-readline (7.2.24-0ubuntu0.19.04.1) sobre (7.2.19-0ubuntu0.19.04.2) ...
+Preparando para desempaquetar .../1-php7.2-opcache_7.2.24-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando php7.2-opcache (7.2.24-0ubuntu0.19.04.1) sobre (7.2.19-0ubuntu0.19.04.2) ...
+Preparando para desempaquetar .../2-php7.2-mysql_7.2.24-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando php7.2-mysql (7.2.24-0ubuntu0.19.04.1) sobre (7.2.19-0ubuntu0.19.04.2) ...
+Preparando para desempaquetar .../3-php7.2-json_7.2.24-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando php7.2-json (7.2.24-0ubuntu0.19.04.1) sobre (7.2.19-0ubuntu0.19.04.2) ...
+Preparando para desempaquetar .../4-php7.2-fpm_7.2.24-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando php7.2-fpm (7.2.24-0ubuntu0.19.04.1) sobre (7.2.19-0ubuntu0.19.04.2) ...
+Preparando para desempaquetar .../5-libapache2-mod-php7.2_7.2.24-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando libapache2-mod-php7.2 (7.2.24-0ubuntu0.19.04.1) sobre (7.2.19-0ubuntu0.19.04.2) ...
+Preparando para desempaquetar .../6-php7.2-cli_7.2.24-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando php7.2-cli (7.2.24-0ubuntu0.19.04.1) sobre (7.2.19-0ubuntu0.19.04.2) ...
+Preparando para desempaquetar .../7-php7.2-common_7.2.24-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando php7.2-common (7.2.24-0ubuntu0.19.04.1) sobre (7.2.19-0ubuntu0.19.04.2) ...
+Configurando php7.2-common (7.2.24-0ubuntu0.19.04.1) ...
+Configurando php7.2-opcache (7.2.24-0ubuntu0.19.04.1) ...
+Configurando php7.2-json (7.2.24-0ubuntu0.19.04.1) ...
+Configurando php7.2-mysql (7.2.24-0ubuntu0.19.04.1) ...
+Configurando php7.2-readline (7.2.24-0ubuntu0.19.04.1) ...
+Configurando php7.2-cli (7.2.24-0ubuntu0.19.04.1) ...
+Replacing config file /etc/php/7.2/cli/php.ini with new version
+Configurando php7.2-fpm (7.2.24-0ubuntu0.19.04.1) ...
+Replacing config file /etc/php/7.2/fpm/php.ini with new version
+NOTICE: Not enabling PHP 7.2 FPM by default.
+NOTICE: To enable PHP 7.2 FPM in Apache2 do:
+NOTICE: a2enmod proxy_fcgi setenvif
+NOTICE: a2enconf php7.2-fpm
+NOTICE: You are seeing this message because you have apache2 package installed.
+Configurando libapache2-mod-php7.2 (7.2.24-0ubuntu0.19.04.1) ...
+Replacing config file /etc/php/7.2/apache2/php.ini with new version
+libapache2-mod-php7.2: not switching MPM - already enabled
+Procesando disparadores para man-db (2.8.5-2) ...
+Procesando disparadores para systemd (240-6ubuntu5.7) ...
+Log ended: 2019-10-30  09:27:11
+
+Log started: 2019-10-30  09:27:13
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188875 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../firefox-locale-es_70.0+build2-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando firefox-locale-es (70.0+build2-0ubuntu0.19.04.1) sobre (69.0.2+build1-0ubuntu0.19.04.1) ...
+Configurando firefox-locale-es (70.0+build2-0ubuntu0.19.04.1) ...
+Log ended: 2019-10-30  09:27:17
+
+Log started: 2019-10-30  09:27:18
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188875 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../firefox-locale-en_70.0+build2-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando firefox-locale-en (70.0+build2-0ubuntu0.19.04.1) sobre (69.0.2+build1-0ubuntu0.19.04.1) ...
+Configurando firefox-locale-en (70.0+build2-0ubuntu0.19.04.1) ...
+Log ended: 2019-10-30  09:27:23
+
+Log started: 2019-10-30  09:27:25
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188875 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../firefox_70.0+build2-0ubuntu0.19.04.1_amd64.deb ...
+Desempaquetando firefox (70.0+build2-0ubuntu0.19.04.1) sobre (69.0.2+build1-0ubuntu0.19.04.1) ...
+Configurando firefox (70.0+build2-0ubuntu0.19.04.1) ...
+Please restart all running instances of firefox, or you will experience problems.
+Procesando disparadores para man-db (2.8.5-2) ...
+Procesando disparadores para bamfdaemon (0.5.3+18.04.20180207.2-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Procesando disparadores para desktop-file-utils (0.23-4ubuntu1) ...
+Procesando disparadores para mime-support (3.60ubuntu1) ...
+Procesando disparadores para hicolor-icon-theme (0.17-2) ...
+Procesando disparadores para gnome-menus (3.32.0-1ubuntu1) ...
+Log ended: 2019-10-30  09:27:41
+
+Log started: 2019-10-31  19:39:10
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188875 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../python3-apport_2.20.10-0ubuntu27.2_all.deb ...
+Desempaquetando python3-apport (2.20.10-0ubuntu27.2) sobre (2.20.10-0ubuntu27.1) ...
+Preparando para desempaquetar .../apport_2.20.10-0ubuntu27.2_all.deb ...
+Desempaquetando apport (2.20.10-0ubuntu27.2) sobre (2.20.10-0ubuntu27.1) ...
+Configurando python3-apport (2.20.10-0ubuntu27.2) ...
+Configurando apport (2.20.10-0ubuntu27.2) ...
+apport-autoreport.service is a disabled or a static unit, not starting it.
+Procesando disparadores para systemd (240-6ubuntu5.7) ...
+Procesando disparadores para man-db (2.8.5-2) ...
+Procesando disparadores para hicolor-icon-theme (0.17-2) ...
+Log ended: 2019-10-31  19:39:29
+
+Log started: 2019-10-31  19:39:30
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188875 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../libsmbclient_2%3a4.10.0+dfsg-0ubuntu2.6_amd64.deb ...
+Desempaquetando libsmbclient:amd64 (2:4.10.0+dfsg-0ubuntu2.6) sobre (2:4.10.0+dfsg-0ubuntu2.4) ...
+Preparando para desempaquetar .../samba-libs_2%3a4.10.0+dfsg-0ubuntu2.6_amd64.deb ...
+Desempaquetando samba-libs:amd64 (2:4.10.0+dfsg-0ubuntu2.6) sobre (2:4.10.0+dfsg-0ubuntu2.4) ...
+Preparando para desempaquetar .../libwbclient0_2%3a4.10.0+dfsg-0ubuntu2.6_amd64.deb ...
+Desempaquetando libwbclient0:amd64 (2:4.10.0+dfsg-0ubuntu2.6) sobre (2:4.10.0+dfsg-0ubuntu2.4) ...
+Configurando libwbclient0:amd64 (2:4.10.0+dfsg-0ubuntu2.6) ...
+Configurando samba-libs:amd64 (2:4.10.0+dfsg-0ubuntu2.6) ...
+Configurando libsmbclient:amd64 (2:4.10.0+dfsg-0ubuntu2.6) ...
+Procesando disparadores para man-db (2.8.5-2) ...
+Procesando disparadores para libc-bin (2.29-0ubuntu2) ...
+Log ended: 2019-10-31  19:39:39
+
+Log started: 2019-10-31  19:39:40
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188875 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../libarchive13_3.3.3-4ubuntu0.1_amd64.deb ...
+Desempaquetando libarchive13:amd64 (3.3.3-4ubuntu0.1) sobre (3.3.3-4) ...
+Configurando libarchive13:amd64 (3.3.3-4ubuntu0.1) ...
+Procesando disparadores para libc-bin (2.29-0ubuntu2) ...
+Log ended: 2019-10-31  19:39:45
+
+Log started: 2019-10-31  19:39:46
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188875 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../file_1%3a5.35-4ubuntu0.1_amd64.deb ...
+Desempaquetando file (1:5.35-4ubuntu0.1) sobre (1:5.35-4) ...
+Preparando para desempaquetar .../libmagic1_1%3a5.35-4ubuntu0.1_amd64.deb ...
+Desempaquetando libmagic1:amd64 (1:5.35-4ubuntu0.1) sobre (1:5.35-4) ...
+Preparando para desempaquetar .../libmagic-mgc_1%3a5.35-4ubuntu0.1_amd64.deb ...
+Desempaquetando libmagic-mgc (1:5.35-4ubuntu0.1) sobre (1:5.35-4) ...
+Configurando libmagic-mgc (1:5.35-4ubuntu0.1) ...
+Configurando libmagic1:amd64 (1:5.35-4ubuntu0.1) ...
+Configurando file (1:5.35-4ubuntu0.1) ...
+Procesando disparadores para libc-bin (2.29-0ubuntu2) ...
+Procesando disparadores para man-db (2.8.5-2) ...
+Log ended: 2019-10-31  19:39:53
+
+Log started: 2019-10-31  19:39:55
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188875 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../python3-problem-report_2.20.10-0ubuntu27.2_all.deb ...
+Desempaquetando python3-problem-report (2.20.10-0ubuntu27.2) sobre (2.20.10-0ubuntu27.1) ...
+Configurando python3-problem-report (2.20.10-0ubuntu27.2) ...
+Log ended: 2019-10-31  19:39:59
+
+Log started: 2019-10-31  19:40:01
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188875 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../whoopsie_0.2.64ubuntu0.3_amd64.deb ...
+Desempaquetando whoopsie (0.2.64ubuntu0.3) sobre (0.2.64ubuntu0.1) ...
+Preparando para desempaquetar .../libwhoopsie0_0.2.64ubuntu0.3_amd64.deb ...
+Desempaquetando libwhoopsie0:amd64 (0.2.64ubuntu0.3) sobre (0.2.64ubuntu0.1) ...
+Configurando libwhoopsie0:amd64 (0.2.64ubuntu0.3) ...
+Configurando whoopsie (0.2.64ubuntu0.3) ...
+Procesando disparadores para systemd (240-6ubuntu5.7) ...
+Procesando disparadores para libc-bin (2.29-0ubuntu2) ...
+Log ended: 2019-10-31  19:40:07
+
+Log started: 2019-10-31  19:40:08
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188875 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../libidn2-0_2.0.5-1ubuntu0.3_amd64.deb ...
+Desempaquetando libidn2-0:amd64 (2.0.5-1ubuntu0.3) sobre (2.0.5-1) ...
+Configurando libidn2-0:amd64 (2.0.5-1ubuntu0.3) ...
+Procesando disparadores para libc-bin (2.29-0ubuntu2) ...
+Log ended: 2019-10-31  19:40:12
+
+Log started: 2019-10-31  19:40:13
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 188875 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../apport-gtk_2.20.10-0ubuntu27.2_all.deb ...
+Desempaquetando apport-gtk (2.20.10-0ubuntu27.2) sobre (2.20.10-0ubuntu27.1) ...
+Configurando apport-gtk (2.20.10-0ubuntu27.2) ...
+Procesando disparadores para desktop-file-utils (0.23-4ubuntu1) ...
+Procesando disparadores para mime-support (3.60ubuntu1) ...
+Procesando disparadores para gnome-menus (3.32.0-1ubuntu1) ...
+Procesando disparadores para bamfdaemon (0.5.3+18.04.20180207.2-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Log ended: 2019-10-31  19:40:18
+
