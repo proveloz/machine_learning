@@ -1,0 +1,344 @@
+Oct 31 19:38:15 proveloz-z40 rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="865" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Oct 31 19:38:15 proveloz-z40 systemd[1]: logrotate.service: Succeeded.
+Oct 31 19:38:15 proveloz-z40 systemd[1]: Started Rotate log files.
+Oct 31 19:38:15 proveloz-z40 systemd[1]: man-db.service: Succeeded.
+Oct 31 19:38:15 proveloz-z40 systemd[1]: Started Daily man-db regeneration.
+Oct 31 19:38:17 proveloz-z40 gnome-shell[1509]: An active wireless connection, in infrastructure mode, involves no access point?
+Oct 31 19:38:17 proveloz-z40 ModemManager[891]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0': not supported by any plugin
+Oct 31 19:38:17 proveloz-z40 ModemManager[891]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.3/0000:02:00.0': not supported by any plugin
+Oct 31 19:38:17 proveloz-z40 gnome-shell[1509]: An active wireless connection, in infrastructure mode, involves no access point?
+Oct 31 19:38:17 proveloz-z40 gnome-shell[1509]: An active wireless connection, in infrastructure mode, involves no access point?
+Oct 31 19:38:18 proveloz-z40 dbus-daemon[872]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.60' (uid=1000 pid=1509 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct 31 19:38:18 proveloz-z40 systemd[1]: Starting Fingerprint Authentication Daemon...
+Oct 31 19:38:18 proveloz-z40 dbus-daemon[872]: [system] Successfully activated service 'net.reactivated.Fprint'
+Oct 31 19:38:18 proveloz-z40 systemd[1]: Started Fingerprint Authentication Daemon.
+Oct 31 19:38:19 proveloz-z40 systemd[1]: systemd-rfkill.service: Succeeded.
+Oct 31 19:38:20 proveloz-z40 kernel: [12532.685601] usb 2-7: New USB device found, idVendor=0cf3, idProduct=3004, bcdDevice= 0.02
+Oct 31 19:38:20 proveloz-z40 kernel: [12532.685605] usb 2-7: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Oct 31 19:38:20 proveloz-z40 systemd[1]: Starting Load/Save RF Kill Switch Status...
+Oct 31 19:38:20 proveloz-z40 mtp-probe: checking bus 2, device 7: "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2"
+Oct 31 19:38:20 proveloz-z40 mtp-probe: bus: 2, device: 7 was not an MTP device
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/mouse1)
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (II) No input driver specified, ignoring this device.
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (II) This device may have been added with another device file.
+Oct 31 19:38:20 proveloz-z40 bluetoothd[882]: Failed to set mode: Blocked through rfkill (0x12)
+Oct 31 19:38:20 proveloz-z40 NetworkManager[879]: <info>  [1572561500.2909] bluez5: NAP: added interface 18:CF:5E:9C:39:02
+Oct 31 19:38:20 proveloz-z40 bluetoothd[882]: Endpoint registered: sender=:1.83 path=/MediaEndpoint/A2DPSource
+Oct 31 19:38:20 proveloz-z40 bluetoothd[882]: Endpoint registered: sender=:1.83 path=/MediaEndpoint/A2DPSink
+Oct 31 19:38:20 proveloz-z40 systemd[1]: Started Load/Save RF Kill Switch Status.
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/event5)
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (**) PixArt USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (II) Using input driver 'libinput' for 'PixArt USB Optical Mouse'
+Oct 31 19:38:20 proveloz-z40 systemd[1]: Reached target Bluetooth.
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 64 paused 0
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (**) PixArt USB Optical Mouse: always reports core events
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (**) Option "Device" "/dev/input/event5"
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (**) Option "_source" "server/udev"
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (II) event5  - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (II) event5  - PixArt USB Optical Mouse: device set to 1000 DPI
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (II) event5  - PixArt USB Optical Mouse: device is a pointer
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (II) event5  - PixArt USB Optical Mouse: device removed
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/0003:093A:2510.0002/input/input18/event5"
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (II) XINPUT: Adding extended input device "PixArt USB Optical Mouse" (type: MOUSE, id 10)
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (**) Option "AccelerationScheme" "none"
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (**) PixArt USB Optical Mouse: (accel) selected scheme none/0
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (**) PixArt USB Optical Mouse: (accel) acceleration factor: 2.000
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (**) PixArt USB Optical Mouse: (accel) acceleration threshold: 4
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (II) event5  - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (II) event5  - PixArt USB Optical Mouse: device set to 1000 DPI
+Oct 31 19:38:20 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (II) event5  - PixArt USB Optical Mouse: device is a pointer
+Oct 31 19:38:20 proveloz-z40 mtp-probe: checking bus 2, device 7: "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2"
+Oct 31 19:38:20 proveloz-z40 mtp-probe: bus: 2, device: 7 was not an MTP device
+Oct 31 19:38:20 proveloz-z40 NetworkManager[879]: <info>  [1572561500.4162] keyfile: add connection /run/NetworkManager/system-connections/Red HUAWEI P20 Pro.nmconnection (ace9cc0f-a3f0-4023-8942-668f13f40ebf,"Red HUAWEI P20 Pro")
+Oct 31 19:38:20 proveloz-z40 NetworkManager[879]: <info>  [1572561500.4203] bluez: BT device HUAWEI P20 Pro (A4:9B:4F:63:E4:59) added (NAP)
+Oct 31 19:38:20 proveloz-z40 NetworkManager[879]: <info>  [1572561500.4251] manager: (A4:9B:4F:63:E4:59): new Bluetooth device (/org/freedesktop/NetworkManager/Devices/7)
+Oct 31 19:38:20 proveloz-z40 NetworkManager[879]: <info>  [1572561500.4267] device (A4:9B:4F:63:E4:59): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Oct 31 19:38:20 proveloz-z40 NetworkManager[879]: <info>  [1572561500.4350] keyfile: add connection /run/NetworkManager/system-connections/Red Galaxy A30.nmconnection (b050fd1f-d238-4c8f-a9fc-21049deab0f1,"Red Galaxy A30")
+Oct 31 19:38:20 proveloz-z40 NetworkManager[879]: <info>  [1572561500.4447] bluez: BT device Galaxy A30 (20:32:6C:5F:85:F7) added (NAP)
+Oct 31 19:38:20 proveloz-z40 NetworkManager[879]: <info>  [1572561500.4453] manager: (20:32:6C:5F:85:F7): new Bluetooth device (/org/freedesktop/NetworkManager/Devices/8)
+Oct 31 19:38:20 proveloz-z40 NetworkManager[879]: <info>  [1572561500.4461] device (20:32:6C:5F:85:F7): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Oct 31 19:38:20 proveloz-z40 NetworkManager[879]: <info>  [1572561500.4969] device (A4:9B:4F:63:E4:59): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 31 19:38:20 proveloz-z40 NetworkManager[879]: <info>  [1572561500.4987] device (20:32:6C:5F:85:F7): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 31 19:38:20 proveloz-z40 NetworkManager[879]: <info>  [1572561500.6373] agent-manager: req[0x55aac3db46a0, :1.60/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Oct 31 19:38:20 proveloz-z40 dbus-daemon[1314]: [session uid=1000 pid=1314] Activating service name='org.gnome.Nautilus' requested by ':1.25' (uid=1000 pid=1509 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct 31 19:38:20 proveloz-z40 dbus-daemon[1314]: [session uid=1000 pid=1314] Activating service name='org.freedesktop.FileManager1' requested by ':1.25' (uid=1000 pid=1509 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct 31 19:38:20 proveloz-z40 gnome-shell[1509]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.114/org/ayatana/NotificationItem/Slack1
+Oct 31 19:38:20 proveloz-z40 gnome-shell[1509]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.94/org/ayatana/NotificationItem/software_update_available
+Oct 31 19:38:20 proveloz-z40 dbus-daemon[1314]: [session uid=1000 pid=1314] Successfully activated service 'org.gnome.Nautilus'
+Oct 31 19:38:21 proveloz-z40 org.gnome.Nautilus[1314]: Failed to register: Unable to acquire bus name 'org.gnome.Nautilus'
+Oct 31 19:38:21 proveloz-z40 gnome-shell[1509]: [AppIndicatorSupport-FATAL] unable to update overlay icon
+Oct 31 19:38:21 proveloz-z40 gnome-shell[1509]: message repeated 3 times: [ [AppIndicatorSupport-FATAL] unable to update overlay icon]
+Oct 31 19:38:21 proveloz-z40 dbus-daemon[1314]: [session uid=1000 pid=1314] Successfully activated service 'org.freedesktop.FileManager1'
+Oct 31 19:38:22 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Oct 31 19:38:22 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Oct 31 19:38:22 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Oct 31 19:38:22 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Oct 31 19:38:22 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Oct 31 19:38:22 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Oct 31 19:38:22 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Oct 31 19:38:22 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Oct 31 19:38:22 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Oct 31 19:38:24 proveloz-z40 systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Oct 31 19:38:25 proveloz-z40 systemd[1]: systemd-rfkill.service: Succeeded.
+Oct 31 19:38:29 proveloz-z40 systemd[1]: apt-daily.service: Succeeded.
+Oct 31 19:38:29 proveloz-z40 systemd[1]: Started Daily apt download activities.
+Oct 31 19:38:29 proveloz-z40 systemd[1]: Starting Daily apt upgrade and clean activities...
+Oct 31 19:38:36 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x1c00003
+Oct 31 19:38:36 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x1c00003
+Oct 31 19:38:36 proveloz-z40 NetworkManager[879]: <info>  [1572561516.7945] keyfile: add connection /run/NetworkManager/system-connections/vasesp.nmconnection (e30bd01c-8c93-47fc-a248-ce606e418989,"vasesp")
+Oct 31 19:38:36 proveloz-z40 NetworkManager[879]: <info>  [1572561516.8030] device (wlp2s0): Activation: starting connection 'vasesp' (e30bd01c-8c93-47fc-a248-ce606e418989)
+Oct 31 19:38:36 proveloz-z40 NetworkManager[879]: <info>  [1572561516.8115] settings-connection[0x55aac3e2d990,e30bd01c-8c93-47fc-a248-ce606e418989]: write: successfully committed (keyfile: update /etc/NetworkManager/system-connections/vasesp.nmconnection (e30bd01c-8c93-47fc-a248-ce606e418989,"vasesp") and rename from "/run/NetworkManager/system-connections/vasesp.nmconnection")
+Oct 31 19:38:36 proveloz-z40 NetworkManager[879]: <info>  [1572561516.8177] audit: op="connection-add-activate" uuid="e30bd01c-8c93-47fc-a248-ce606e418989" name="vasesp" pid=1509 uid=1000 result="success"
+Oct 31 19:38:36 proveloz-z40 NetworkManager[879]: <info>  [1572561516.8392] device (wlp2s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 31 19:38:36 proveloz-z40 NetworkManager[879]: <info>  [1572561516.8533] manager: NetworkManager state is now CONNECTING
+Oct 31 19:38:36 proveloz-z40 NetworkManager[879]: <info>  [1572561516.8785] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 31 19:38:36 proveloz-z40 NetworkManager[879]: <info>  [1572561516.8828] device (wlp2s0): Activation: (wifi) access point 'vasesp' has security, but secrets are required.
+Oct 31 19:38:36 proveloz-z40 NetworkManager[879]: <info>  [1572561516.8833] device (wlp2s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Oct 31 19:38:36 proveloz-z40 NetworkManager[879]: <info>  [1572561516.8848] sup-iface[0x55aac3da1210,wlp2s0]: wps: type pbc start...
+Oct 31 19:38:36 proveloz-z40 NetworkManager[879]: <info>  [1572561516.9104] device (wlp2s0): supplicant interface state: ready -> scanning
+Oct 31 19:38:36 proveloz-z40 NetworkManager[879]: <info>  [1572561516.9110] device (p2p-dev-wlp2s0): supplicant management interface state: ready -> scanning
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.6142] settings-connection[0x55aac3e2d990,e30bd01c-8c93-47fc-a248-ce606e418989]: write: successfully committed (keyfile: update /etc/NetworkManager/system-connections/vasesp.nmconnection (e30bd01c-8c93-47fc-a248-ce606e418989,"vasesp"))
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.6145] device (wlp2s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.6157] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.6166] device (wlp2s0): Activation: (wifi) connection 'vasesp' has security, and secrets exist.  No new secrets needed.
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.6167] Config: added 'ssid' value 'vasesp'
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.6168] Config: added 'scan_ssid' value '1'
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.6169] Config: added 'bgscan' value 'simple:30:-80:86400'
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.6169] Config: added 'key_mgmt' value 'WPA-PSK'
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.6170] Config: added 'auth_alg' value 'OPEN'
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.6170] Config: added 'psk' value '<hidden>'
+Oct 31 19:38:47 proveloz-z40 wpa_supplicant[880]: wlp2s0: SME: Trying to authenticate with 78:29:ed:38:d2:b1 (SSID='vasesp' freq=2462 MHz)
+Oct 31 19:38:47 proveloz-z40 kernel: [12560.173050] wlp2s0: authenticate with 78:29:ed:38:d2:b1
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.6734] device (wlp2s0): supplicant interface state: scanning -> authenticating
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.6751] device (p2p-dev-wlp2s0): supplicant management interface state: scanning -> authenticating
+Oct 31 19:38:47 proveloz-z40 kernel: [12560.185766] wlp2s0: send auth to 78:29:ed:38:d2:b1 (try 1/3)
+Oct 31 19:38:47 proveloz-z40 kernel: [12560.188769] wlp2s0: authenticated
+Oct 31 19:38:47 proveloz-z40 wpa_supplicant[880]: wlp2s0: Trying to associate with 78:29:ed:38:d2:b1 (SSID='vasesp' freq=2462 MHz)
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.6857] device (wlp2s0): supplicant interface state: authenticating -> associating
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.6858] device (p2p-dev-wlp2s0): supplicant management interface state: authenticating -> associating
+Oct 31 19:38:47 proveloz-z40 kernel: [12560.196780] wlp2s0: associate with 78:29:ed:38:d2:b1 (try 1/3)
+Oct 31 19:38:47 proveloz-z40 wpa_supplicant[880]: wlp2s0: Associated with 78:29:ed:38:d2:b1
+Oct 31 19:38:47 proveloz-z40 wpa_supplicant[880]: wlp2s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Oct 31 19:38:47 proveloz-z40 kernel: [12560.201231] wlp2s0: RX AssocResp from 78:29:ed:38:d2:b1 (capab=0x1411 status=0 aid=1)
+Oct 31 19:38:47 proveloz-z40 kernel: [12560.201384] wlp2s0: associated
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.6940] device (wlp2s0): supplicant interface state: associating -> 4-way handshake
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.6940] device (p2p-dev-wlp2s0): supplicant management interface state: associating -> 4-way handshake
+Oct 31 19:38:47 proveloz-z40 wpa_supplicant[880]: wlp2s0: WPA: Key negotiation completed with 78:29:ed:38:d2:b1 [PTK=CCMP GTK=CCMP]
+Oct 31 19:38:47 proveloz-z40 wpa_supplicant[880]: wlp2s0: CTRL-EVENT-CONNECTED - Connection to 78:29:ed:38:d2:b1 completed [id=0 id_str=]
+Oct 31 19:38:47 proveloz-z40 kernel: [12560.214639] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.7119] device (wlp2s0): supplicant interface state: 4-way handshake -> completed
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.7120] device (wlp2s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "vasesp"
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.7120] device (p2p-dev-wlp2s0): supplicant management interface state: 4-way handshake -> completed
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.7142] device (wlp2s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.7154] dhcp4 (wlp2s0): activation: beginning transaction (timeout in 45 seconds)
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.7201] dhcp4 (wlp2s0): dhclient started with pid 10503
+Oct 31 19:38:47 proveloz-z40 avahi-daemon[893]: Joining mDNS multicast group on interface wlp2s0.IPv6 with address fe80::8025:cb5c:9708:bf5b.
+Oct 31 19:38:47 proveloz-z40 avahi-daemon[893]: New relevant interface wlp2s0.IPv6 for mDNS.
+Oct 31 19:38:47 proveloz-z40 avahi-daemon[893]: Registering new address record for fe80::8025:cb5c:9708:bf5b on wlp2s0.*.
+Oct 31 19:38:47 proveloz-z40 dhclient[10503]: DHCPDISCOVER on wlp2s0 to 255.255.255.255 port 67 interval 3 (xid=0x5fe08f29)
+Oct 31 19:38:47 proveloz-z40 dhclient[10503]: DHCPOFFER of 192.168.1.89 from 192.168.1.1
+Oct 31 19:38:47 proveloz-z40 dhclient[10503]: DHCPREQUEST for 192.168.1.89 on wlp2s0 to 255.255.255.255 port 67 (xid=0x298fe05f)
+Oct 31 19:38:47 proveloz-z40 dhclient[10503]: DHCPACK of 192.168.1.89 from 192.168.1.1 (xid=0x5fe08f29)
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.8079] dhcp4 (wlp2s0):   address 192.168.1.89
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.8080] dhcp4 (wlp2s0):   plen 24 (255.255.255.0)
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.8080] dhcp4 (wlp2s0):   gateway 192.168.1.1
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.8080] dhcp4 (wlp2s0):   lease time 28800
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.8081] dhcp4 (wlp2s0):   nameserver '200.28.4.129'
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.8081] dhcp4 (wlp2s0):   nameserver '200.28.4.130'
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.8081] dhcp4 (wlp2s0): state changed unknown -> bound
+Oct 31 19:38:47 proveloz-z40 avahi-daemon[893]: Joining mDNS multicast group on interface wlp2s0.IPv4 with address 192.168.1.89.
+Oct 31 19:38:47 proveloz-z40 avahi-daemon[893]: New relevant interface wlp2s0.IPv4 for mDNS.
+Oct 31 19:38:47 proveloz-z40 avahi-daemon[893]: Registering new address record for 192.168.1.89 on wlp2s0.IPv4.
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.8160] device (wlp2s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.8177] device (wlp2s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.8182] device (wlp2s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.8192] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 31 19:38:47 proveloz-z40 dhclient[10503]: bound to 192.168.1.89 -- renewal in 12167 seconds.
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.8362] policy: set 'vasesp' (wlp2s0) as default for IPv4 routing and DNS
+Oct 31 19:38:47 proveloz-z40 NetworkManager[879]: <info>  [1572561527.8374] device (wlp2s0): Activation: successful, device activated.
+Oct 31 19:38:47 proveloz-z40 dbus-daemon[872]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=879 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Oct 31 19:38:47 proveloz-z40 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 31 19:38:47 proveloz-z40 gsd-sharing[1760]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Oct 31 19:38:47 proveloz-z40 gsd-sharing[1760]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Oct 31 19:38:47 proveloz-z40 gsd-sharing[1760]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Oct 31 19:38:47 proveloz-z40 dbus-daemon[872]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 31 19:38:47 proveloz-z40 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 31 19:38:47 proveloz-z40 nm-dispatcher: req:1 'up' [wlp2s0]: new request (1 scripts)
+Oct 31 19:38:47 proveloz-z40 nm-dispatcher: req:1 'up' [wlp2s0]: start running ordered scripts...
+Oct 31 19:38:47 proveloz-z40 dbus-daemon[872]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.169' (uid=1000 pid=2413 comm="/usr/bin/gnome-software --gapplication-service " label="unconfined")
+Oct 31 19:38:47 proveloz-z40 systemd[1]: Starting Firmware update daemon...
+Oct 31 19:38:48 proveloz-z40 systemd-resolved[788]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Oct 31 19:38:48 proveloz-z40 systemd-resolved[788]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Oct 31 19:38:48 proveloz-z40 wpa_supplicant[880]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-39 noise=-93 txrate=57800
+Oct 31 19:38:48 proveloz-z40 dbus-daemon[872]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Oct 31 19:38:48 proveloz-z40 systemd[1]: Started Firmware update daemon.
+Oct 31 19:38:48 proveloz-z40 dbus-daemon[872]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.169' (uid=1000 pid=2413 comm="/usr/bin/gnome-software --gapplication-service " label="unconfined")
+Oct 31 19:38:48 proveloz-z40 systemd[1]: Starting PackageKit Daemon...
+Oct 31 19:38:48 proveloz-z40 PackageKit: daemon start
+Oct 31 19:38:48 proveloz-z40 dbus-daemon[872]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 31 19:38:48 proveloz-z40 systemd[1]: Started PackageKit Daemon.
+Oct 31 19:38:48 proveloz-z40 systemd[1]: fprintd.service: Succeeded.
+Oct 31 19:38:49 proveloz-z40 systemd-resolved[788]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Oct 31 19:38:49 proveloz-z40 systemd-resolved[788]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Oct 31 19:38:50 proveloz-z40 NetworkManager[879]: <info>  [1572561530.5717] dhcp6 (wlp2s0): activation: beginning transaction (timeout in 45 seconds)
+Oct 31 19:38:50 proveloz-z40 NetworkManager[879]: <info>  [1572561530.5741] dhcp6 (wlp2s0): dhclient started with pid 10803
+Oct 31 19:38:51 proveloz-z40 dhclient[10803]: XMT: Info-Request on wlp2s0, interval 970ms.
+Oct 31 19:38:52 proveloz-z40 dhclient[10803]: XMT: Info-Request on wlp2s0, interval 1890ms.
+Oct 31 19:38:52 proveloz-z40 whoopsie[1523]: [19:38:52] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/2
+Oct 31 19:38:52 proveloz-z40 whoopsie[1523]: [19:38:52] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/2
+Oct 31 19:38:52 proveloz-z40 whoopsie[1523]: [19:38:52] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/2
+Oct 31 19:38:52 proveloz-z40 whoopsie[1523]: [19:38:52] online
+Oct 31 19:38:54 proveloz-z40 dhclient[10803]: XMT: Info-Request on wlp2s0, interval 3730ms.
+Oct 31 19:38:57 proveloz-z40 systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Oct 31 19:38:57 proveloz-z40 systemd-resolved[788]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Oct 31 19:38:57 proveloz-z40 systemd-resolved[788]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Oct 31 19:38:58 proveloz-z40 dhclient[10803]: XMT: Info-Request on wlp2s0, interval 7140ms.
+Oct 31 19:39:00 proveloz-z40 systemd[1]: Starting Clean php session files...
+Oct 31 19:39:00 proveloz-z40 systemd[1]: phpsessionclean.service: Succeeded.
+Oct 31 19:39:00 proveloz-z40 systemd[1]: Started Clean php session files.
+Oct 31 19:39:00 proveloz-z40 gnome-shell[1509]: [AppIndicatorSupport-FATAL] unable to update icon
+Oct 31 19:39:01 proveloz-z40 gnome-shell[1509]: [AppIndicatorSupport-FATAL] unable to update icon
+Oct 31 19:39:01 proveloz-z40 gnome-shell[1509]: [AppIndicatorSupport-FATAL] unable to update overlay icon
+Oct 31 19:39:01 proveloz-z40 CRON[11142]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 31 19:39:05 proveloz-z40 dhclient[10803]: XMT: Info-Request on wlp2s0, interval 14180ms.
+Oct 31 19:39:09 proveloz-z40 PackageKit: refresh-cache transaction /697_daaebcec from uid 1000 finished with success after 20220ms
+Oct 31 19:39:14 proveloz-z40 PackageKit: refresh-cache transaction /698_deeeddcb from uid 1000 finished with success after 5443ms
+Oct 31 19:39:15 proveloz-z40 systemd[1]: Reloading.
+Oct 31 19:39:15 proveloz-z40 systemd[1]: /lib/systemd/system/spice-vdagentd.service:8: PIDFile= references path below legacy directory /var/run/, updating /var/run/spice-vdagentd/spice-vdagentd.pid → /run/spice-vdagentd/spice-vdagentd.pid; please update the unit file accordingly.
+Oct 31 19:39:16 proveloz-z40 systemd[1]: Stopping LSB: automatic crash report generation...
+Oct 31 19:39:16 proveloz-z40 apport[11657]:  * Stopping automatic crash report generation: apport
+Oct 31 19:39:16 proveloz-z40 apport[11657]:    ...done.
+Oct 31 19:39:16 proveloz-z40 systemd[1]: apport.service: Succeeded.
+Oct 31 19:39:16 proveloz-z40 systemd[1]: Stopped LSB: automatic crash report generation.
+Oct 31 19:39:16 proveloz-z40 systemd[1]: Reloading.
+Oct 31 19:39:16 proveloz-z40 systemd[1]: /lib/systemd/system/spice-vdagentd.service:8: PIDFile= references path below legacy directory /var/run/, updating /var/run/spice-vdagentd/spice-vdagentd.pid → /run/spice-vdagentd/spice-vdagentd.pid; please update the unit file accordingly.
+Oct 31 19:39:19 proveloz-z40 systemd[1]: Reloading.
+Oct 31 19:39:19 proveloz-z40 systemd[1]: /lib/systemd/system/spice-vdagentd.service:8: PIDFile= references path below legacy directory /var/run/, updating /var/run/spice-vdagentd/spice-vdagentd.pid → /run/spice-vdagentd/spice-vdagentd.pid; please update the unit file accordingly.
+Oct 31 19:39:19 proveloz-z40 dhclient[10803]: XMT: Info-Request on wlp2s0, interval 28790ms.
+Oct 31 19:39:19 proveloz-z40 systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Oct 31 19:39:19 proveloz-z40 systemd[1]: Condition check resulted in Unix socket for apport crash forwarding being skipped.
+Oct 31 19:39:19 proveloz-z40 systemd[1]: Reloading.
+Oct 31 19:39:19 proveloz-z40 systemd[1]: /lib/systemd/system/spice-vdagentd.service:8: PIDFile= references path below legacy directory /var/run/, updating /var/run/spice-vdagentd/spice-vdagentd.pid → /run/spice-vdagentd/spice-vdagentd.pid; please update the unit file accordingly.
+Oct 31 19:39:19 proveloz-z40 systemd[1]: Reloading.
+Oct 31 19:39:20 proveloz-z40 systemd[1]: /lib/systemd/system/spice-vdagentd.service:8: PIDFile= references path below legacy directory /var/run/, updating /var/run/spice-vdagentd/spice-vdagentd.pid → /run/spice-vdagentd/spice-vdagentd.pid; please update the unit file accordingly.
+Oct 31 19:39:20 proveloz-z40 systemd[1]: Starting LSB: automatic crash report generation...
+Oct 31 19:39:20 proveloz-z40 apport[12198]:  * Starting automatic crash report generation: apport
+Oct 31 19:39:20 proveloz-z40 apport[12198]:    ...done.
+Oct 31 19:39:20 proveloz-z40 systemd[1]: Started LSB: automatic crash report generation.
+Oct 31 19:39:20 proveloz-z40 systemd[1]: Reloading.
+Oct 31 19:39:20 proveloz-z40 systemd[1]: /lib/systemd/system/spice-vdagentd.service:8: PIDFile= references path below legacy directory /var/run/, updating /var/run/spice-vdagentd/spice-vdagentd.pid → /run/spice-vdagentd/spice-vdagentd.pid; please update the unit file accordingly.
+Oct 31 19:39:23 proveloz-z40 PackageKit: refresh-cache transaction /699_caeacbbe from uid 1000 finished with success after 8638ms
+Oct 31 19:39:24 proveloz-z40 wpa_supplicant[880]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-31 noise=-93 txrate=65000
+Oct 31 19:39:30 proveloz-z40 PackageKit: refresh-cache transaction /700_baccbdaa from uid 1000 finished with success after 6959ms
+Oct 31 19:39:32 proveloz-z40 gnome-shell[1509]: [AppIndicatorSupport-FATAL] unable to update overlay icon
+Oct 31 19:39:32 proveloz-z40 gnome-shell[1509]: [AppIndicatorSupport-FATAL] unable to update overlay icon
+Oct 31 19:39:35 proveloz-z40 NetworkManager[879]: <warn>  [1572561575.8921] dhcp6 (wlp2s0): request timed out
+Oct 31 19:39:35 proveloz-z40 NetworkManager[879]: <info>  [1572561575.8922] dhcp6 (wlp2s0): state changed unknown -> timeout
+Oct 31 19:39:35 proveloz-z40 NetworkManager[879]: <info>  [1572561575.8953] dhcp6 (wlp2s0): canceled DHCP transaction, DHCP client pid 10803
+Oct 31 19:39:35 proveloz-z40 NetworkManager[879]: <info>  [1572561575.8954] dhcp6 (wlp2s0): state changed timeout -> done
+Oct 31 19:39:40 proveloz-z40 snapd[897]: storehelpers.go:436: cannot refresh: snap has no updates available: "core", "core18", "gnome-3-28-1804", "gnome-calculator", "gnome-characters", "gnome-logs", "gnome-system-monitor", "gtk-common-themes", "netbeans", "slack", "vlc"
+Oct 31 19:40:02 proveloz-z40 systemd[1]: Reloading.
+Oct 31 19:40:02 proveloz-z40 systemd[1]: /lib/systemd/system/spice-vdagentd.service:8: PIDFile= references path below legacy directory /var/run/, updating /var/run/spice-vdagentd/spice-vdagentd.pid → /run/spice-vdagentd/spice-vdagentd.pid; please update the unit file accordingly.
+Oct 31 19:40:02 proveloz-z40 systemd[1]: Stopping crash report submission daemon...
+Oct 31 19:40:02 proveloz-z40 systemd[1]: whoopsie.service: Succeeded.
+Oct 31 19:40:02 proveloz-z40 systemd[1]: Stopped crash report submission daemon.
+Oct 31 19:40:03 proveloz-z40 systemd[1]: Reloading.
+Oct 31 19:40:03 proveloz-z40 systemd[1]: /lib/systemd/system/spice-vdagentd.service:8: PIDFile= references path below legacy directory /var/run/, updating /var/run/spice-vdagentd/spice-vdagentd.pid → /run/spice-vdagentd/spice-vdagentd.pid; please update the unit file accordingly.
+Oct 31 19:40:03 proveloz-z40 systemd[1]: Reloading.
+Oct 31 19:40:03 proveloz-z40 systemd[1]: /lib/systemd/system/spice-vdagentd.service:8: PIDFile= references path below legacy directory /var/run/, updating /var/run/spice-vdagentd/spice-vdagentd.pid → /run/spice-vdagentd/spice-vdagentd.pid; please update the unit file accordingly.
+Oct 31 19:40:03 proveloz-z40 systemd[1]: Started crash report submission daemon.
+Oct 31 19:40:04 proveloz-z40 whoopsie[14432]: [19:40:04] Using lock path: /var/lock/whoopsie/lock
+Oct 31 19:40:04 proveloz-z40 systemd[1]: Reloading.
+Oct 31 19:40:04 proveloz-z40 whoopsie[14432]: [19:40:04] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/2
+Oct 31 19:40:04 proveloz-z40 whoopsie[14432]: [19:40:04] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/2
+Oct 31 19:40:04 proveloz-z40 whoopsie[14432]: [19:40:04] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/2
+Oct 31 19:40:04 proveloz-z40 systemd[1]: /lib/systemd/system/spice-vdagentd.service:8: PIDFile= references path below legacy directory /var/run/, updating /var/run/spice-vdagentd/spice-vdagentd.pid → /run/spice-vdagentd/spice-vdagentd.pid; please update the unit file accordingly.
+Oct 31 19:40:14 proveloz-z40 gnome-software[2413]: failed to rescan: Failed to parse /usr/share/applications/apport-gtk.desktop file: cannot process file of type application/x-desktop
+Oct 31 19:40:15 proveloz-z40 gnome-software[2413]: failed to rescan: Failed to parse /usr/share/applications/bamf-2.index file: cannot process file of type text/plain
+Oct 31 19:40:15 proveloz-z40 wpa_supplicant[880]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-22 noise=-93 txrate=65000
+Oct 31 19:40:19 proveloz-z40 systemd[1]: apt-daily-upgrade.service: Succeeded.
+Oct 31 19:40:19 proveloz-z40 systemd[1]: Started Daily apt upgrade and clean activities.
+Oct 31 19:40:19 proveloz-z40 gnome-software[2413]: Only 0 apps for recent list, hiding
+Oct 31 19:40:20 proveloz-z40 gnome-software[2413]: g_path_get_basename: assertion 'file_name != NULL' failed
+Oct 31 19:40:20 proveloz-z40 gnome-software[2413]: g_regex_match_full: assertion 'string != NULL' failed
+Oct 31 19:40:20 proveloz-z40 gnome-software[2413]: g_path_get_basename: assertion 'file_name != NULL' failed
+Oct 31 19:40:20 proveloz-z40 gnome-software[2413]: g_regex_match_full: assertion 'string != NULL' failed
+Oct 31 19:40:20 proveloz-z40 PackageKit: resolve transaction /701_edbebbcd from uid 1000 finished with success after 826ms
+Oct 31 19:40:20 proveloz-z40 gnome-software[2413]: ignoring non-installed app GsApp: [0x7f01f812b040]#012kind:                desktop#012state:               available#012id:                  geogebra.desktop#012unique-id:           system/package/local/desktop/geogebra.desktop/*#012scope:               system#012bundle-kind:         package#012kudo-percentage:     0#012name:                GeoGebra#012pixbuf:              0x7f01e40e1d80#012icon-kind:           cached#012icon-pixbuf:         0x7f01e40e1d80#012icon-name:           geogebra_geogebra.png#012icon-prefix:         /var/lib/app-info/icons/ubuntu-disco-universe#012version:             4.2.60.0-30762#012summary:             Create interactive mathematical constructions and applets.#012description:         GeoGebra is a dynamic geometry program. You can do constructions with points, vectors, segments, lines, conic sections as well as functions and change them dynamically afterwards. On the other hand, equations and coordinates can be entered directly.#012#012Support for many geometric constructions is provided, as well as support for many calculus-based tools (derivatives, osculating circle, ...).#012#012GeoGebra files can be exported in many different formats, or as interactive applets for web pages.#012source-00:           geogebra#012source-id-00:        geogebra;4.2.60.0-30762;all;local#012url{homepage}:       http://www.geogebra.org/#012license:             unknown#012license-is-free:     no#012management-plugin:   packagekit#012origin:              local#012origin-appstream:    ubuntu-disco-universe#012rating:              83#012review-rating:       [0:0]#012review-rating:       [1:3]#012review-rating:       [2:0]#012review-rating:       [3:0]#012review-rating:       [4:3]#012review-rating:       [5:16]#012reviews:             0#012provides:            0#012install-date:        1#012size-installed:      unknowable#012size-download:       9,3 MB#012category:            Education#012category:            Math#012{appstream::source-file}: /usr/share/applications/geogebra.desktop#012{GnomeSoftware::Creator}: appstream
+Oct 31 19:40:20 proveloz-z40 gnome-software[2413]: ignoring non-installed app GsApp: [0x7f01f812b4e0]#012kind:                desktop#012state:               available#012quirk:               provenance#012id:                  nemo.desktop#012unique-id:           system/package/ubuntu-disco-universe/desktop/nemo.desktop/*#012scope:               system#012bundle-kind:         package#012kudos:               hi-dpi-icon#012kudo-percentage:     20#012name:                Archivos#012pixbuf:              0x7f01e41aa9e0#012icon-kind:           stock#012icon-name:           org.gnome.Nautilus#012icon-prefix:         /var/lib/app-info/icons/ubuntu-disco-universe#012icon-kind:           cached#012icon-name:           budgie-desktop-common_org.gnome.Nautilus.png#012icon-prefix:         /var/lib/app-info/icons/ubuntu-disco-universe#012icon-kind:           remote#012version:             0.11.7#012summary:             Acceder a los archivos y organizarlos#012description:         While this common budgie-desktop package can be installed manually, it is recommended that the binary packages budgie-desktop-minimal or budgie-desktop-environment be used to install working minimal or the recommended full budgie-desktop environment.#012#012This package provides common:   ubuntu and budgie-desktop gsettings overrides   make QT apps look like GTK+ apps   default icon-theme for GTK+ applications   Ubuntu Budgie plymouth branding#012source-00:           budgie-desktop-common#012source-01:           nemo#012source-id-00:        budgie-desktop-common;0.11.7;all;ubuntu-disco-universe#012source-id-01:        nemo;3.8.5-1build1;amd64;installed:ubuntu-disco-universe#012url{homepage}:       https://github.com/UbuntuBudgie#012license:             LicenseRef-free=https://www.ubuntu.com/about/about-ubuntu/licensing#012license-is-free:     yes#012management-plugin:   packagekit#012origin:              ubuntu-disco-universe#012origin-appstream:    ubuntu-disco-universe#012rating:              85#012review-rating:       [0:0]#012review-rating:       [1:2]#012review-rating:       [2:1]#012review-rating:       [3:0]#012review-rating:       [4:0]#012review-rating:       [5:14]#012reviews:             0#012provides:            0#012install-date:        1#012size-installed:      unknowable#012size-download:       4,7 MB#012category:            Utility#012category:            Core#012{appstream::source-file}: /usr/share/applications/nemo.desktop#012{GnomeSoftware::Creator}: appstream
+Oct 31 19:40:21 proveloz-z40 gnome-software[2413]: g_variant_new_variant: assertion 'value != NULL' failed
+Oct 31 19:40:21 proveloz-z40 gnome-software[2413]: g_variant_new_variant: assertion 'value != NULL' failed
+Oct 31 19:40:21 proveloz-z40 gnome-software[2413]: not GsPlugin error g-io-error-quark:35: Valor de la cadena inválido al convertir a GVariant
+Oct 31 19:40:21 proveloz-z40 gnome-software[2413]: g_variant_new_variant: assertion 'value != NULL' failed
+Oct 31 19:40:21 proveloz-z40 gnome-software[2413]: g_variant_new_variant: assertion 'value != NULL' failed
+Oct 31 19:40:21 proveloz-z40 gnome-software[2413]: not GsPlugin error g-io-error-quark:35: Valor de la cadena inválido al convertir a GVariant
+Oct 31 19:40:21 proveloz-z40 gnome-software[2413]: not handling error failed for action refine: Valor de la cadena inválido al convertir a GVariant
+Oct 31 19:40:21 proveloz-z40 gnome-software[2413]: g_variant_new_variant: assertion 'value != NULL' failed
+Oct 31 19:40:21 proveloz-z40 gnome-software[2413]: g_variant_new_variant: assertion 'value != NULL' failed
+Oct 31 19:40:21 proveloz-z40 gnome-software[2413]: not GsPlugin error g-io-error-quark:35: Valor de la cadena inválido al convertir a GVariant
+Oct 31 19:40:21 proveloz-z40 gnome-software[2413]: not handling error failed for action refine: Valor de la cadena inválido al convertir a GVariant
+Oct 31 19:40:21 proveloz-z40 gnome-software[2413]: g_variant_new_variant: assertion 'value != NULL' failed
+Oct 31 19:40:21 proveloz-z40 gnome-software[2413]: g_variant_new_variant: assertion 'value != NULL' failed
+Oct 31 19:40:21 proveloz-z40 gnome-software[2413]: not GsPlugin error g-io-error-quark:35: Valor de la cadena inválido al convertir a GVariant
+Oct 31 19:40:21 proveloz-z40 gnome-software[2413]: not handling error failed for action refine: Valor de la cadena inválido al convertir a GVariant
+Oct 31 19:41:10 proveloz-z40 snapd[897]: 2019/10/31 19:41:10 Unsolicited response received on idle HTTP channel starting with "HTTP/1.0 408 Request Time-out\r\nCache-Control: no-cache\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n<html><body><h1>408 Request Time-out</h1>\nYour browser didn't send a complete request in time.\n</body></html>\n"; err=<nil>
+Oct 31 19:41:21 proveloz-z40 wpa_supplicant[880]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-14 noise=-95 txrate=65000
+Oct 31 19:41:22 proveloz-z40 wpa_supplicant[880]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-17 noise=-95 txrate=65000
+Oct 31 19:41:47 proveloz-z40 wpa_supplicant[880]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=6 noise=-95 txrate=72200
+Oct 31 19:43:14 proveloz-z40 anacron[9192]: Job `cron.daily' started
+Oct 31 19:43:14 proveloz-z40 anacron[14930]: Updated timestamp for job `cron.daily' to 2019-10-31
+Oct 31 19:43:14 proveloz-z40 cracklib: no dictionary update necessary.
+Oct 31 19:43:19 proveloz-z40 anacron[9192]: Job `cron.daily' terminated
+Oct 31 19:43:19 proveloz-z40 anacron[9192]: Normal exit (1 job run)
+Oct 31 19:43:19 proveloz-z40 systemd[1]: anacron.service: Succeeded.
+Oct 31 19:43:25 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: (EE) event4  - ETPS/2 Elantech Touchpad: kernel bug: Touch jump detected and discarded.
+Oct 31 19:43:25 proveloz-z40 /usr/lib/gdm3/gdm-x-session[1200]: See https://wayland.freedesktop.org/libinput/doc/1.12.6/touchpad-jumping-cursors.html for details
+Oct 31 19:45:23 proveloz-z40 PackageKit: daemon quit
+Oct 31 19:45:23 proveloz-z40 systemd[1]: packagekit.service: Main process exited, code=killed, status=15/TERM
+Oct 31 19:45:23 proveloz-z40 systemd[1]: packagekit.service: Succeeded.
+Oct 31 19:48:13 proveloz-z40 wpa_supplicant[880]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=3 noise=-95 txrate=65000
+Oct 31 20:07:39 proveloz-z40 gnome-shell[1509]: Some code accessed the property 'discreteGpuAvailable' on the module 'appDisplay'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 31 20:07:41 proveloz-z40 org.gnome.Shell.desktop[1509]: # _g_io_module_get_default: Found default implementation gvfs (GDaemonVfs) for ‘gio-vfs’
+Oct 31 20:07:41 proveloz-z40 org.gnome.Shell.desktop[1509]: # _g_io_module_get_default: Found default implementation dconf (DConfSettingsBackend) for ‘gsettings-backend’
+Oct 31 20:07:41 proveloz-z40 org.gnome.Shell.desktop[1509]: # watch_fast: "/org/gnome/terminal/legacy/" (establishing: 0, active: 0)
+Oct 31 20:07:41 proveloz-z40 org.gnome.Shell.desktop[1509]: # unwatch_fast: "/org/gnome/terminal/legacy/" (active: 0, establishing: 1)
+Oct 31 20:07:41 proveloz-z40 org.gnome.Shell.desktop[1509]: # watch_established: "/org/gnome/terminal/legacy/" (establishing: 0)
+Oct 31 20:09:01 proveloz-z40 CRON[15611]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 31 20:09:01 proveloz-z40 systemd[1]: Starting Clean php session files...
+Oct 31 20:09:01 proveloz-z40 systemd[1]: phpsessionclean.service: Succeeded.
+Oct 31 20:09:01 proveloz-z40 systemd[1]: Started Clean php session files.
+Oct 31 20:12:54 proveloz-z40 systemd-timesyncd[789]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+Oct 31 20:15:06 proveloz-z40 gnome-shell[1509]: JS WARNING: [resource:///org/gnome/gjs/modules/signals.js 128]: Too many arguments to method Clutter.Actor.destroy: expected 0, got 1
+Oct 31 20:15:06 proveloz-z40 gnome-shell[1509]: JS WARNING: [resource:///org/gnome/gjs/modules/signals.js 128]: Too many arguments to method Clutter.Actor.destroy: expected 0, got 1
+Oct 31 20:15:09 proveloz-z40 dbus-daemon[872]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.60' (uid=1000 pid=1509 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct 31 20:15:09 proveloz-z40 systemd[1]: Starting Fingerprint Authentication Daemon...
+Oct 31 20:15:09 proveloz-z40 dbus-daemon[872]: [system] Successfully activated service 'net.reactivated.Fprint'
+Oct 31 20:15:09 proveloz-z40 systemd[1]: Started Fingerprint Authentication Daemon.
+Oct 31 20:15:11 proveloz-z40 NetworkManager[879]: <info>  [1572563711.9024] agent-manager: req[0x55aac3e50510, :1.60/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Oct 31 20:15:11 proveloz-z40 dbus-daemon[1314]: [session uid=1000 pid=1314] Activating service name='org.gnome.Nautilus' requested by ':1.25' (uid=1000 pid=1509 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct 31 20:15:11 proveloz-z40 dbus-daemon[1314]: [session uid=1000 pid=1314] Activating service name='org.freedesktop.FileManager1' requested by ':1.25' (uid=1000 pid=1509 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct 31 20:15:12 proveloz-z40 gnome-shell[1509]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.114/org/ayatana/NotificationItem/Slack1
+Oct 31 20:15:12 proveloz-z40 gnome-shell[1509]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.94/org/ayatana/NotificationItem/software_update_available
+Oct 31 20:15:12 proveloz-z40 dbus-daemon[1314]: [session uid=1000 pid=1314] Successfully activated service 'org.gnome.Nautilus'
+Oct 31 20:15:12 proveloz-z40 org.gnome.Nautilus[1314]: Failed to register: Unable to acquire bus name 'org.gnome.Nautilus'
+Oct 31 20:15:12 proveloz-z40 gnome-shell[1509]: [AppIndicatorSupport-FATAL] unable to update overlay icon
+Oct 31 20:15:12 proveloz-z40 gnome-shell[1509]: [AppIndicatorSupport-FATAL] unable to update overlay icon
+Oct 31 20:15:12 proveloz-z40 dbus-daemon[1314]: [session uid=1000 pid=1314] Successfully activated service 'org.freedesktop.FileManager1'
+Oct 31 20:15:12 proveloz-z40 gnome-shell[1509]: [AppIndicatorSupport-FATAL] unable to update overlay icon
+Oct 31 20:15:12 proveloz-z40 gnome-shell[1509]: [AppIndicatorSupport-FATAL] unable to update overlay icon
+Oct 31 20:15:13 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Oct 31 20:15:13 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Oct 31 20:15:13 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Oct 31 20:15:13 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Oct 31 20:15:13 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Oct 31 20:15:13 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Oct 31 20:15:13 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Oct 31 20:15:13 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Oct 31 20:15:13 proveloz-z40 org.gnome.Shell.desktop[1509]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Oct 31 20:15:39 proveloz-z40 systemd[1]: fprintd.service: Succeeded.
+Oct 31 20:17:01 proveloz-z40 CRON[15853]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 31 20:17:03 proveloz-z40 dbus-daemon[1314]: [session uid=1000 pid=1314] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.71' (uid=1000 pid=1838 comm="/usr/lib/tracker/tracker-miner-fs " label="unconfined")
+Oct 31 20:17:03 proveloz-z40 systemd[1159]: Starting Tracker metadata extractor...
+Oct 31 20:17:03 proveloz-z40 dbus-daemon[1314]: [session uid=1000 pid=1314] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Oct 31 20:17:03 proveloz-z40 systemd[1159]: Started Tracker metadata extractor.
+Oct 31 20:17:16 proveloz-z40 systemd[1159]: tracker-extract.service: Succeeded.
