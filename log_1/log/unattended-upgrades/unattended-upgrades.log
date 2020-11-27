@@ -1,0 +1,175 @@
+2019-10-01 12:44:49,077 INFO Initial blacklist : 
+2019-10-01 12:44:49,078 INFO Initial whitelist: 
+2019-10-01 12:44:49,078 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-01 12:44:49,079 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-01 12:45:00,067 INFO Initial blacklist : 
+2019-10-01 12:45:00,068 INFO Initial whitelist: 
+2019-10-01 12:45:00,068 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-01 12:45:00,069 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-01 12:45:07,709 INFO Paquetes que se actualizarán: e2fsprogs libcom-err2 libext2fs2 libss2
+2019-10-01 12:45:07,710 INFO Escribiendo el registro de dpkg en /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2019-10-01 12:45:57,545 INFO Se han instalado todas las actualizaciones
+2019-10-03 15:06:58,021 INFO Initial blacklist : 
+2019-10-03 15:06:58,022 INFO Initial whitelist: 
+2019-10-03 15:06:58,022 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-03 15:06:58,023 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-03 15:07:04,063 INFO Initial blacklist : 
+2019-10-03 15:07:04,064 INFO Initial whitelist: 
+2019-10-03 15:07:04,064 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-03 15:07:04,064 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-03 15:07:08,238 INFO No se encontraron paquetes que puedan actualizarse de forma desatendida y no hay pendiente ninguna desinstalación automática
+2019-10-04 14:09:14,858 INFO Initial blacklist : 
+2019-10-04 14:09:14,859 INFO Initial whitelist: 
+2019-10-04 14:09:14,860 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-04 14:09:14,860 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-04 14:09:22,891 INFO Initial blacklist : 
+2019-10-04 14:09:22,892 INFO Initial whitelist: 
+2019-10-04 14:09:22,892 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-04 14:09:22,893 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-04 14:09:29,760 INFO Paquetes que se actualizarán: tzdata
+2019-10-04 14:09:29,761 INFO Escribiendo el registro de dpkg en /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2019-10-04 14:09:36,228 INFO Se han instalado todas las actualizaciones
+2019-10-06 17:49:32,436 INFO Initial blacklist : 
+2019-10-06 17:49:32,437 INFO Initial whitelist: 
+2019-10-06 17:49:32,437 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-06 17:49:32,438 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-06 17:49:39,919 INFO Initial blacklist : 
+2019-10-06 17:49:39,920 INFO Initial whitelist: 
+2019-10-06 17:49:39,921 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-06 17:49:39,921 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-06 17:49:44,839 INFO No se encontraron paquetes que puedan actualizarse de forma desatendida y no hay pendiente ninguna desinstalación automática
+2019-10-07 10:03:17,181 INFO Initial blacklist : 
+2019-10-07 10:03:17,183 INFO Initial whitelist: 
+2019-10-07 10:03:17,184 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-07 10:03:17,184 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-07 10:03:24,791 ERROR La URI http://security.ubuntu.com/ubuntu/pool/main/l/linux/linux-modules-5.0.0-31-generic_5.0.0-31.33_amd64.deb falló al descargar, abortando
+2019-10-07 10:04:31,241 INFO Initial blacklist : 
+2019-10-07 10:04:31,241 INFO Initial whitelist: 
+2019-10-07 10:04:31,242 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-07 10:04:31,242 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-08 23:27:46,375 INFO Initial blacklist : 
+2019-10-08 23:27:46,376 INFO Initial whitelist: 
+2019-10-08 23:27:46,377 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-08 23:27:46,377 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-09 11:52:27,672 INFO Initial blacklist : 
+2019-10-09 11:52:27,672 INFO Initial whitelist: 
+2019-10-09 11:52:27,673 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-09 11:52:27,673 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-09 11:52:41,289 INFO Paquetes que se actualizarán: firefox firefox-locale-en firefox-locale-es linux-generic linux-headers-generic linux-image-generic linux-libc-dev linux-signed-generic thunderbird thunderbird-gnome-support thunderbird-locale-en thunderbird-locale-en-us thunderbird-locale-es
+2019-10-09 11:52:41,290 INFO Escribiendo el registro de dpkg en /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2019-10-09 11:52:41,806 INFO While building minimal partition: cache has not allowed changes
+2019-10-09 11:52:42,884 INFO While building minimal partition: cache has not allowed changes
+2019-10-09 11:52:44,021 INFO While building minimal partition: cache has not allowed changes
+2019-10-09 11:52:44,994 INFO While building minimal partition: cache has not allowed changes
+2019-10-09 11:52:45,749 INFO While building minimal partition: cache has not allowed changes
+2019-10-09 11:52:46,551 INFO While building minimal partition: cache has not allowed changes
+2019-10-09 11:52:47,321 INFO While building minimal partition: cache has not allowed changes
+2019-10-09 11:52:48,347 INFO While building minimal partition: cache has not allowed changes
+2019-10-09 11:52:49,128 INFO While building minimal partition: cache has not allowed changes
+2019-10-09 11:52:50,158 INFO While building minimal partition: cache has not allowed changes
+2019-10-09 11:52:51,311 INFO While building minimal partition: cache has not allowed changes
+2019-10-09 11:52:52,410 INFO While building minimal partition: cache has not allowed changes
+2019-10-09 11:52:53,638 INFO While building minimal partition: cache has not allowed changes
+2019-10-10 15:12:42,939 INFO Initial blacklist : 
+2019-10-10 15:12:42,942 INFO Initial whitelist: 
+2019-10-10 15:12:42,943 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-10 15:12:42,943 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-10 15:13:31,316 INFO Initial blacklist : 
+2019-10-10 15:13:31,317 INFO Initial whitelist: 
+2019-10-10 15:13:31,317 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-10 15:13:31,317 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-10 15:13:49,399 ERROR La URI http://security.ubuntu.com/ubuntu/pool/main/p/python3.7/libpython3.7_3.7.3-2ubuntu0.2_amd64.deb falló al descargar, abortando
+2019-10-11 10:47:05,738 INFO Initial blacklist : 
+2019-10-11 10:47:05,739 INFO Initial whitelist: 
+2019-10-11 10:47:05,739 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-11 10:47:05,740 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-11 10:47:26,160 ERROR GetArchives() falló: E:Can't find a source to download version '3.7.3-2ubuntu0.2' of 'libpython3.7:amd64', E:Can't find a source to download version '3.7.3-2ubuntu0.2' of 'python3.7:amd64', E:Can't find a source to download version '3.7.3-2ubuntu0.2' of 'libpython3.7-stdlib:amd64', E:Can't find a source to download version '3.7.3-2ubuntu0.2' of 'python3.7-minimal:amd64', E:Can't find a source to download version '3.7.3-2ubuntu0.2' of 'libpython3.7-minimal:amd64', E:Can't find a source to download version '2.7.16-2ubuntu0.2' of 'python2.7-dev:amd64', E:Can't find a source to download version '2.7.16-2ubuntu0.2' of 'libpython2.7-dev:amd64', E:Can't find a source to download version '2.7.16-2ubuntu0.2' of 'libpython2.7:amd64', E:Can't find a source to download version '2.7.16-2ubuntu0.2' of 'python2.7:amd64', E:Can't find a source to download version '2.7.16-2ubuntu0.2' of 'libpython2.7-stdlib:amd64', E:Can't find a source to download version '2.7.16-2ubuntu0.2' of 'python2.7-minimal:amd64', E:Can't find a source to download version '2.7.16-2ubuntu0.2' of 'libpython2.7-minimal:amd64', E:Can't find a source to download version '69.0.2+build1-0ubuntu0.19.04.1' of 'firefox:amd64', E:Can't find a source to download version '69.0.2+build1-0ubuntu0.19.04.1' of 'firefox-locale-en:amd64', E:Can't find a source to download version '69.0.2+build1-0ubuntu0.19.04.1' of 'firefox-locale-es:amd64', E:Can't find a source to download version '2.66.1-1ubuntu0.1' of 'libsoup2.4-1:amd64', E:Can't find a source to download version '2.66.1-1ubuntu0.1' of 'libsoup-gnome2.4-1:amd64', E:Can't find a source to download version '2.66.1-1ubuntu0.1' of 'gir1.2-soup-2.4:amd64', E:Can't find a source to download version '5.0.0-31.33' of 'linux-modules-5.0.0-31-generic:amd64', E:Can't find a source to download version '5.0.0-31.33' of 'linux-image-5.0.0-31-generic:amd64', E:Can't find a source to download version '5.0.0-31.33' of 'linux-modules-extra-5.0.0-31-generic:amd64', E:Can't find a source to download version '5.0.0.31.32' of 'linux-generic:amd64', E:Can't find a source to download version '5.0.0.31.32' of 'linux-image-generic:amd64', E:Can't find a source to download version '5.0.0-31.33' of 'linux-headers-5.0.0-31:amd64', E:Can't find a source to download version '5.0.0-31.33' of 'linux-headers-5.0.0-31-generic:amd64', E:Can't find a source to download version '5.0.0.31.32' of 'linux-headers-generic:amd64', E:Can't find a source to download version '5.0.0-31.33' of 'linux-libc-dev:amd64', E:Can't find a source to download version '5.0.0.31.32' of 'linux-signed-generic:amd64', E:Can't find a source to download version '1:60.9.0+build1-0ubuntu0.19.04.1' of 'thunderbird-locale-en:amd64', E:Can't find a source to download version '1:60.9.0+build1-0ubuntu0.19.04.1' of 'thunderbird-locale-es:amd64', E:Can't find a source to download version '1:60.9.0+build1-0ubuntu0.19.04.1' of 'thunderbird:amd64', E:Can't find a source to download version '1:60.9.0+build1-0ubuntu0.19.04.1' of 'thunderbird-gnome-support:amd64', E:Can't find a source to download version '1:60.9.0+build1-0ubuntu0.19.04.1' of 'thunderbird-locale-en-us:amd64'
+2019-10-11 10:47:26,818 ERROR La URI  falló al descargar, abortando
+2019-10-11 10:47:50,270 INFO Initial blacklist : 
+2019-10-11 10:47:50,271 INFO Initial whitelist: 
+2019-10-11 10:47:50,272 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-11 10:47:50,272 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-15 16:30:30,111 INFO Initial blacklist : 
+2019-10-15 16:30:30,112 INFO Initial whitelist: 
+2019-10-15 16:30:30,113 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-15 16:30:30,113 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-15 16:31:21,447 INFO Initial blacklist : 
+2019-10-15 16:31:21,447 INFO Initial whitelist: 
+2019-10-15 16:31:21,448 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-15 16:31:21,448 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-15 16:31:41,097 ERROR La URI http://security.ubuntu.com/ubuntu/pool/main/s/sudo/sudo_1.8.27-1ubuntu1.1_amd64.deb falló al descargar, abortando
+2019-10-16 13:34:21,220 INFO Initial blacklist : 
+2019-10-16 13:34:21,222 INFO Initial whitelist: 
+2019-10-16 13:34:21,222 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-16 13:34:21,223 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-16 13:34:54,755 INFO Initial blacklist : 
+2019-10-16 13:34:54,756 INFO Initial whitelist: 
+2019-10-16 13:34:54,757 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-16 13:34:54,757 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-16 13:35:20,700 INFO Paquetes que se actualizarán: aspell firefox firefox-locale-en firefox-locale-es gir1.2-soup-2.4 libaspell15 libpython2.7 libpython2.7-dev libpython2.7-minimal libpython2.7-stdlib libpython3.7 libpython3.7-minimal libpython3.7-stdlib libsoup-gnome2.4-1 libsoup2.4-1 linux-generic linux-headers-generic linux-image-generic linux-libc-dev linux-signed-generic python2.7 python2.7-dev python2.7-minimal python3.7 python3.7-minimal sudo thunderbird thunderbird-gnome-support thunderbird-locale-en thunderbird-locale-en-us thunderbird-locale-es
+2019-10-16 13:35:20,701 INFO Escribiendo el registro de dpkg en /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2019-10-16 13:39:15,566 INFO Se han instalado todas las actualizaciones
+2019-10-17 14:36:24,439 WARNING Could not figure out development release: Distribution data outdated. Please check for an update for distro-info-data. See /usr/share/doc/distro-info-data/README.Debian for details.
+2019-10-17 14:36:24,441 INFO Initial blacklist : 
+2019-10-17 14:36:24,442 INFO Initial whitelist: 
+2019-10-17 14:36:24,442 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-17 14:36:24,443 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-17 14:36:33,212 WARNING Could not figure out development release: Distribution data outdated. Please check for an update for distro-info-data. See /usr/share/doc/distro-info-data/README.Debian for details.
+2019-10-17 14:36:33,214 INFO Initial blacklist : 
+2019-10-17 14:36:33,214 INFO Initial whitelist: 
+2019-10-17 14:36:33,215 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-17 14:36:33,215 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-17 14:36:39,486 INFO Eliminando paquetes del núcleo no usados: linux-image-5.0.0-27-generic linux-headers-5.0.0-27 linux-modules-extra-5.0.0-27-generic linux-headers-5.0.0-27-generic linux-modules-5.0.0-27-generic
+2019-10-17 14:37:08,187 INFO Paquetes que se auto-eliminaron con éxito: linux-headers-5.0.0-27 linux-headers-5.0.0-27-generic linux-image-5.0.0-27-generic linux-modules-5.0.0-27-generic linux-modules-extra-5.0.0-27-generic
+2019-10-17 14:37:08,188 INFO Paquetes que se mantuvieron atrás: 
+2019-10-17 14:37:09,594 INFO Paquetes que se actualizarán: libtiff5
+2019-10-17 14:37:09,594 INFO Escribiendo el registro de dpkg en /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2019-10-17 14:37:23,364 INFO Se han instalado todas las actualizaciones
+2019-10-18 10:07:04,785 WARNING Could not figure out development release: Distribution data outdated. Please check for an update for distro-info-data. See /usr/share/doc/distro-info-data/README.Debian for details.
+2019-10-18 10:07:04,787 INFO Initial blacklist : 
+2019-10-18 10:07:04,788 INFO Initial whitelist: 
+2019-10-18 10:07:04,788 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-18 10:07:04,788 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-18 10:07:10,699 WARNING Could not figure out development release: Distribution data outdated. Please check for an update for distro-info-data. See /usr/share/doc/distro-info-data/README.Debian for details.
+2019-10-18 10:07:10,701 INFO Initial blacklist : 
+2019-10-18 10:07:10,702 INFO Initial whitelist: 
+2019-10-18 10:07:10,702 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-18 10:07:10,702 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-18 10:07:15,392 INFO No se encontraron paquetes que puedan actualizarse de forma desatendida y no hay pendiente ninguna desinstalación automática
+2019-10-25 21:51:47,062 INFO Initial blacklist : 
+2019-10-25 21:51:47,068 INFO Initial whitelist: 
+2019-10-25 21:51:47,068 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-25 21:51:47,069 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-28 23:26:00,942 INFO Initial blacklist : 
+2019-10-28 23:26:00,944 INFO Initial whitelist: 
+2019-10-28 23:26:00,944 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-28 23:26:00,944 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-29 10:00:01,674 INFO Initial blacklist : 
+2019-10-29 10:00:01,676 INFO Initial whitelist: 
+2019-10-29 10:00:01,676 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-29 10:00:01,677 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-30 09:25:35,070 INFO Initial blacklist : 
+2019-10-30 09:25:35,071 INFO Initial whitelist: 
+2019-10-30 09:25:35,072 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-30 09:25:35,073 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-30 09:25:46,244 INFO Initial blacklist : 
+2019-10-30 09:25:46,245 INFO Initial whitelist: 
+2019-10-30 09:25:46,245 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-30 09:25:46,245 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-30 09:25:56,538 INFO Eliminando paquetes del núcleo no usados: linux-headers-5.0.0-29-generic linux-modules-extra-5.0.0-29-generic linux-headers-5.0.0-29 linux-modules-5.0.0-29-generic linux-image-5.0.0-29-generic
+2019-10-30 09:26:39,452 INFO Paquetes que se auto-eliminaron con éxito: linux-headers-5.0.0-29 linux-headers-5.0.0-29-generic linux-image-5.0.0-29-generic linux-modules-5.0.0-29-generic linux-modules-extra-5.0.0-29-generic
+2019-10-30 09:26:39,453 INFO Paquetes que se mantuvieron atrás: 
+2019-10-30 09:26:40,286 INFO Paquetes que se actualizarán: firefox firefox-locale-en firefox-locale-es libapache2-mod-php7.2 php7.2-cli php7.2-common php7.2-fpm php7.2-json php7.2-mysql php7.2-opcache php7.2-readline
+2019-10-30 09:26:40,287 INFO Escribiendo el registro de dpkg en /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2019-10-30 09:27:42,096 INFO Se han instalado todas las actualizaciones
+2019-10-31 19:38:19,586 INFO Initial blacklist : 
+2019-10-31 19:38:19,587 INFO Initial whitelist: 
+2019-10-31 19:38:19,588 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-31 19:38:19,588 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-31 19:38:49,274 INFO Initial blacklist : 
+2019-10-31 19:38:49,275 INFO Initial whitelist: 
+2019-10-31 19:38:49,275 INFO Iniciando guión de actualizaciones desatendidas
+2019-10-31 19:38:49,276 INFO Fuentes permitidas: o=Ubuntu,a=disco, o=Ubuntu,a=disco-security, o=UbuntuESM,a=disco
+2019-10-31 19:39:09,684 INFO Paquetes que se actualizarán: apport apport-gtk file libarchive13 libidn2-0 libmagic-mgc libmagic1 libsmbclient libwbclient0 libwhoopsie0 python3-apport python3-problem-report samba-libs whoopsie
+2019-10-31 19:39:09,685 INFO Escribiendo el registro de dpkg en /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2019-10-31 19:40:18,724 INFO Se han instalado todas las actualizaciones
