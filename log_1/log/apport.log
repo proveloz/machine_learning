@@ -1,0 +1,1 @@
+ERROR: apport (pid 9423) Thu Oct 31 19:38:15 2019: host pid 1615 crashed in a separate mount namespace, ignoring
